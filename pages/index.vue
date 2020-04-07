@@ -1,5 +1,12 @@
 <template>
-  <body data-spy="scroll" data-target=".spy-navbar" data-offset="112" id="top">
+  <div id="wrap">
+    <!--[if lt IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p>
+    <![endif]-->
     <!-- Start - Seiten Header -->
     <nav class="header navbar navbar-fixed-top" role="navigation">
       <div class="container spy-navbar">
@@ -107,7 +114,7 @@
           <h1
             class="page-title editContent"
             style="color: rgb(255, 255, 255); margin-bottom: -200px; margin-top: 0px; font-size: 40px; background-color: rgb(0, 136, 189);"
-            src="~assets/content/images/2_1_stage_Anwendungen_DSC_7910_3.jpg"
+            src="content/images/2_1_stage_Anwendungen_DSC_7910_3.jpg"
           >
             Limpiador de alta presión<br />de agua para profesionales
           </h1>
@@ -127,7 +134,7 @@
       </div>
       <div
         class="section-header parallax"
-        style="background-image: url('~assets/content/images/2_1_stage_Anwendungen_DSC_7910_4.jpg')"
+        style="background-image: url('content/images/2_1_stage_Anwendungen_DSC_7910_4.jpg')"
       ></div>
     </section>
 
@@ -221,7 +228,7 @@
     </section>
     <!-- Ende - Section Anwendung -->
 
-          <!-- Test carousel -->
+    <!-- Test carousel -->
 
         <div class="bg-custom-dark container-fluid">
             <div id="produkt-carousel" class="carousel slide">
@@ -293,116 +300,9 @@
 
         <!-- End test carousel -->
 
-        <!-- Start - Section Produkte -->
-        <section id="produkte" class="container-fluid">
 
 
-            <div class="bg-custom-lighter container-fluid">
-                <div class="icon-maschine-gross container">
-                    <h2 class="editContent">Productos<br />Tecnología punta con procesamiento perfecto para resultados excelentes con presiones de hasta 3.000 bar.</h2>
-                    <p class="editContent">Los robustos grupos de presión máxima DYNAJET se desarrollan y fabrican en Alemania y se asocian con potencia alta, durabilidad, flexibilidad y rentabilidad. Déjese convencer por tiempos de preparación cortos, valores de consumo mínimos, fiabilidad extrema y seguridad. En función de la demanda, DYNAJET le suministra limpiadores de alta presión como carrito móvil con potentes motores de gasolina, diésel o eléctricos, como remolque compacto o como grupos fijos.</p>
-                    <p>La variedad de <a href="https://www.dyna-jet.com/hochdruckreiniger#b_start=0" target="_blank"><strong>productos DYNAJET </strong> </a>en combinación con accesorios adecuados le ofrece sistemas especiales para numerosas áreas de utilización:<br />
-                        <ul>
-                            <li>Superficies y suelos</li>
-                            <li>Techos y paredes</li>
-                            <li>Tubos, canales e intercambiadores de calor</li>
-                            <li>Recipientes, depósitos y mucho más</li>
-                        </ul>
-                    </p>
-                    <div class="row">
-                        <!--div class="col-xs-12 col-md-3"><img class="img-responsive" src="content/images/DYNAJET-500me-wasserhochdruckreiniger.png" alt="DYNAJET Wasserhochdruckreiniger 500me"></div-->
-                        <!--div class="col-xs-12 col-md-3 col-md-offset-2"><img class="img-responsive" src="content/images/DYNAJET-1000me-wasserhochdruckreiniger.png" alt="DYNAJET Wasserhochdruckreiniger 1000me"></div-->
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="section-header parallax" style="background-image: url('~assets/content/images/02_1_DYNAJET_Produkte_Uebersicht.jpg')"></div>
-
-
-
-
-        </section>
-        <!-- Ende - Section Produkte-->
-                <!-- Start - Section Zubehör -->
-        <section id="zubehoer" class="container-fluid">
-            <div class="container">
-                <h2 class="editContent">Accesorios originales DYNJAET</h2>
-                <p class="editContent">Ya sean toberas, sistemas de radiación de material sólido o equipamientos de protección, en DYNAJET encontrará todo lo que necesite para un trabajo perfecto con limpiadores de alta presión. La gama de productos incluye múltiples accesorios, los cuales también son adecuados para todos los fabricantes habituales. Dependiendo del área de utilización, usted puede optimizar selectivamente la eficiencia de trabajo y la profundidad de limpieza. Junto a los kits de accesorios, mangueras, lanzas, pistolas y ropa de protección de alta presión, DYNAJET también ofrece accesorios especiales para aplicaciones como sistemas de chorro de agua-arena o para la limpieza de suelos, techos, paredes, tubos o intercambiadores de calor.</p>
-                <p>Los accesorios originales DYNAJET satisfacen altas normas de calidad y se adaptan perfectamente a numerosas aplicaciones.</p>
-
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="~assets/content/images/03_2_DYNJAET_Zubehoer_Rotierende_Duese_500bar.jpg" alt="Rotierende Düse 500bar"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="~assets/content/images/Flechenreiniger_500bar.jpg" alt="Flechenreiniger 500bar"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="~assets/content/images/03_4_DYNJAET_Zubehoer_Weed-Killer_Unkrautvernichtung.jpg" alt="Unkrautvernichtung"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="~assets/content/images/03_8_DYNJAET_Zubehoer_Schutzhelm.jpg" alt="Schutzhelm"></div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="~assets/content/images/Hochdruckpistole_500bar_Web_1.jpg" alt="Hochdruckpistole 500bar"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="~assets/content/images/03_1_DYNJAET_Zubehoer_Spritzlanze_SL3000.jpg" alt="Spritzlanze SL3000"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="~assets/content/images/03_4_DYNJAET_Zubehoer_Schlauch_1_000bar.jpg" alt="Schlauch 1.000bar"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="~assets/content/images/03_6_DYNJAET_Zubehoer_Filterstation.jpg" alt="Filterstation"></div>
-
-                </div>
-            </div>
-        </section>
-        <!-- Ende - Section Zubehör -->
-                <!-- Start - Section Vorteile -->
-        <section id="vorteile" class="">
-
-            <div class="section-header parallax" style="background-image: url('~assets/content/images/04_DYNAJET_Qualitaetssicherung.jpg')"></div>
-            <!--div class="embed-responsive embed-responsive-16by9">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/5eKuMnpv-aQ" frameborder="0" allowfullscreen></iframe>
-      </div-->
-
-            <div class="bg-custom container-fluid">
-                <div class="icon-plus container">
-                    <h2 class="editContent">Ventajas de DYNAJET</h2>
-                    <ul class="fs-large editContent">
-                        <li>Tecnología potente</li>
-                        <li>Seguridad máxima</li>
-                        <li>Flexibilidad máxima</li>
-                        <li>Capacidad de carga absoluta</li>
-                    </ul>
-                </div>
-            </div>
-
-        </section>
-        <!-- Ende - Section Vorteile  -->
-
-                <section id="gesamtkatalog" class="bg-custom-default container-fluid">
-            <div class="container">
-                <p class="editContent">
-                    <h2>Catálogo nº 6 de DYNAJET</h2>
-                    <p>
-                        <a href="https://www.dynajet.de/info-center/datenblaetter-kataloge" target="_blank"><img class="img-responsive" style="float:left;
-margin-top: 0px; margin-bottom:0px; margin-left: 0px; margin-right: 20px" src="~assets/content/images/05_DYNAJET_Gesamtkatalog_Nummer_6.jpg" alt="Gesamtkatalog Nummer 6"></a>
-                    </p>
-                    <p>Aún más claro, en cuatro idiomas y con lista propia de máquinas y equipamientos – el nuevo catálogo general nº 6 de DYNAJET ofrece una vista general de la actual gama de productos e informa sobre la última tecnología de DYNAJET.</p>
-
-                    <p>Aquí puede descargar el actual catálogo DYNAJET:</p>
-                    <p><a href="https://www.dyna-jet.com/info-center/datasheets-catalogues" target="_blank">Catálogo general, edición nº 6 ></a></p>
-
-                    <p><a href="#kontakt">Contacte con nosotros para obtener una versión impresa del catálogo DYNAJET ></a></p>
-                    <!--mark>Damit sparen Sie von Anfang an Zeit und Geld, da nur einwandfrei gereinigte Verschalungen gute und wirtschaftliche Ergebnisse sichern.</mark-->
-            </div>
-        </section>
-
-          <!-- Start - Section Service & Kontakt -->
-        <section id="kontakt" class="bg-custom container-fluid">
-            <div class="container">
-
-                <h2>Servicio técnico y contacto</h2>
-                <h4>¡Estamos a su disposición!</h4>
-
-                <p>Contacte con nosotros ahora para una oferta o cita de demostración gratuita. ¿Tiene alguna pregunta sobre el producto, necesita ayuda para el manejo del aparato o desea solicitar nuestro servicio de reparación DYNAJET? Envíenos un e-mail – nos alegramos de su mensaje:</p>
-
-            </div>
-        </section>
-        <!-- Ende - Section Kontakt -->
-
-  </body>
+  </div>
 </template>
 
 <script>
@@ -415,6 +315,4 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
