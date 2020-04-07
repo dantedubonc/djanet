@@ -23,6 +23,9 @@ export default {
       id: 'top'
     }
   },
+  router: {
+    middleware: 'i18n'
+  },
   /*
    ** Customize the progress-bar color
    */
@@ -38,7 +41,10 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ['~/plugins/i18n.js'],
+  generate: {
+    routes: ['/', '/es', '/en']
+  },
   /*
    ** Nuxt.js dev-modules
    */
