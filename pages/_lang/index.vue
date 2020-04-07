@@ -30,18 +30,26 @@
           class="nav navbar-nav navbar-right collapse navbar-collapse"
           id="main-top-nav"
         >
-          <li class="link-internal"><a href="#anwendung">{{$t('internalLinks.anwendung')}}</a></li>
-          <li class="link-internal"><a href="#produkte">{{$t('internalLinks.produkte')}}</a></li>
-          <li class="link-internal"><a href="#zubehoer">{{$t('internalLinks.zubehoer')}}</a></li>
-          <li class="link-internal"><a href="#vorteile">{{$t('internalLinks.vorteile')}}</a></li>
           <li class="link-internal">
-            <a href="#kontakt">{{$t('internalLinks.kontakt')}}</a>
+            <a href="#anwendung">{{ $t('internalLinks.anwendung') }}</a>
+          </li>
+          <li class="link-internal">
+            <a href="#produkte">{{ $t('internalLinks.produkte') }}</a>
+          </li>
+          <li class="link-internal">
+            <a href="#zubehoer">{{ $t('internalLinks.zubehoer') }}</a>
+          </li>
+          <li class="link-internal">
+            <a href="#vorteile">{{ $t('internalLinks.vorteile') }}</a>
+          </li>
+          <li class="link-internal">
+            <a href="#kontakt">{{ $t('internalLinks.kontakt') }}</a>
           </li>
           <li class="link-external">
             <a
               target="_blank"
               href="https://www.dyna-jet.com/welcome?set_language=en"
-              >{{$t('externalLinks.dynajetSite')}}</a
+              >{{ $t('externalLinks.dynajetSite') }}</a
             >
           </li>
         </ul>
@@ -52,8 +60,11 @@
     <div id="side-nav" class="spy-navbar affix" data-spy="affix">
       <ul class="nav dot-nav">
         <li>
-          <a title="zur Anwendung" class="link-dot text-hide" href="#anwendung"
-            >Aplicaciones</a
+          <a
+            title="zur Anwendung"
+            class="link-dot text-hide"
+            href="#anwendung"
+            >{{ $t('internalLinks.anwendung') }}</a
           >
         </li>
         <li>
@@ -61,20 +72,20 @@
             title="zu den Produkten"
             class="link-dot text-hide"
             href="#produkte"
-            >Productos</a
+            >{{ $t('internalLinks.produkte') }}</a
           >
         </li>
         <li>
-          <a title="zum Zubehör" class="link-dot text-hide" href="#zubehoer"
-            >Accesorios</a
-          >
+          <a title="zum Zubehör" class="link-dot text-hide" href="#zubehoer">{{
+            $t('internalLinks.zubehoer')
+          }}</a>
         </li>
         <li>
           <a
             title="zu den Vorteilen"
             class="link-dot text-hide"
             href="#vorteile"
-            >Ventajas</a
+            >{{ $t('internalLinks.vorteile') }}</a
           >
         </li>
       </ul>
@@ -84,7 +95,7 @@
             title="Kontakt aufnehmen"
             class="link-mail text-hide icon-mail"
             href="#kontakt"
-            >Contacto</a
+            >{{ $t('internalLinks.kontakt') }}</a
           >
         </li>
         <li class="active">
@@ -116,7 +127,9 @@
             style="color: rgb(255, 255, 255); margin-bottom: -200px; margin-top: 0px; font-size: 40px; background-color: rgb(0, 136, 189);"
             src="content/images/2_1_stage_Anwendungen_DSC_7910_3.jpg"
           >
-            Limpiador de alta presión<br />de agua para profesionales
+            {{ $t('Anwendung.pageTitle1') }}<br />{{
+              $t('Anwendung.pageTitle2')
+            }}
           </h1>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-6">
@@ -143,37 +156,28 @@
       <div class="bg-custom container-fluid">
         <div class="container">
           <p class="kicker h1 editContent">
-            Los productos DYNAJET se utilizan para limpieza y saneamiento en
-            todos los ramos —
+            {{ $t('Anwendung.pageTitle3') }}
           </p>
           <h2 class="nobg-icon-stop-uhr editContent">
             <br />
-            de forma rápida, eficiente y económica.
+            {{ $t('Anwendung.pageTitle4') }}
           </h2>
         </div>
       </div>
       <div class="container">
-        <h2 class="editContent">Ramos y aplicaciones</h2>
+        <h2 class="editContent">{{$t('Anwendung.pageTitle5')}}</h2>
         <p class="editContent">
-          Los limpiadores innovadores de alta presión de DYNAJET ofrecen
-          soluciones sofisticadas técnicamente para casi todos los ramos, y sus
-          aplicaciones se extienden desde la eliminación de chicle hasta el
-          saneamiento de hormigón, pasando por la limpieza de máquinas de
-          construcción, cumpliendo con las máximas expectativas de rentabilidad,
-          eficiencia y compatibilidad medioambiental. Configuraciones
-          específicas, un rango de funcionamiento de 300 a 3000 bar y múltiples
-          accesorios ofrecen adicionalmente la máxima flexibilidad y fiabilidad.
+         {{$t('Anwendung.content1')}}
         </p>
         <p>
-          DYNAJET ofrece sobre todo soluciones especiales para los ramos
-          siguientes:
+           {{$t('Anwendung.branches')}}
         </p>
 
         <p>
           <a
             target="_blank"
             href="https://www.dyna-jet.com/sector-specific-solutions/construction"
-            >Construcción ></a
+            >{{$t('externalLinks.construction')}} ></a
           >
         </p>
 
@@ -181,7 +185,7 @@
           <a
             target="_blank"
             href="https://www.dyna-jet.com/sector-specific-solutions/renovation"
-            >Saneamiento ></a
+            >{{$t('externalLinks.renovation')}} ></a
           >
         </p>
 
@@ -189,7 +193,7 @@
           <a
             target="_blank"
             href="https://www.dyna-jet.com/sector-specific-solutions/service-providers"
-            >Prestadores de servicios ></a
+            >{{$t('externalLinks.serviceProviders')}} ></a
           >
         </p>
 
@@ -197,7 +201,7 @@
           <a
             target="_blank"
             href="https://www.dyna-jet.com/sector-specific-solutions/local-authorities"
-            >Municipios ></a
+            >{{$t('externalLinks.localAuthorities')}} ></a
           >
         </p>
 
@@ -205,7 +209,7 @@
           <a
             target="_blank"
             href="https://www.dyna-jet.com/sector-specific-solutions/industry"
-            >Industria ></a
+            >{{$t('externalLinks.industry')}} ></a
           >
         </p>
 
@@ -213,7 +217,7 @@
           <a
             target="_blank"
             href="https://www.dyna-jet.com/sector-specific-solutions/shipyards-and-offshore"
-            >Astilleros e industria offshore ></a
+            >{{$t('externalLinks.shipyards')}} ></a
           >
         </p>
 
@@ -221,7 +225,7 @@
           <a
             target="_blank"
             href="https://www.dyna-jet.com/sector-specific-solutions/agriculture-and-forestry"
-            >Agricultura y silvicultura ></a
+            >{{$t('externalLinks.agriculture')}} ></a
           >
         </p>
       </div>
@@ -255,7 +259,7 @@
               alt="Schalungsreinigung Bild 2"
             />
             <div class="carousel-caption">
-              Limpieza de máquinas agrícolas y máquinas de construcción
+              {{$t('carousel.1')}}
             </div>
           </div>
 
@@ -264,7 +268,7 @@
               src="~assets/images/uploads/01_2_DYNAJET_Anwendungen_Bau_Sanierung_Reinigung-von-Schalungen.jpg"
               alt="Schalungsreinigung Bild 2"
             />
-            <div class="carousel-caption">Limpieza de encofrado</div>
+            <div class="carousel-caption">{{$t('carousel.2')}}</div>
           </div>
 
           <div class="item">
@@ -272,7 +276,7 @@
               src="~assets/images/uploads/01_3_DYNAJET_Anwendungen_Kommunen_Entfernung-von-Graffitis.jpg"
               alt="Schalungsreinigung Bild 2"
             />
-            <div class="carousel-caption">Eliminación de graffitis</div>
+            <div class="carousel-caption">{{$t('carousel.3')}}</div>
           </div>
 
           <div class="item">
@@ -281,7 +285,7 @@
               alt="Schalungsreinigung Bild 2"
             />
             <div class="carousel-caption">
-              Limpieza de intercambiadores de calor
+             {{$t('carousel.4')}}
             </div>
           </div>
 
@@ -291,7 +295,7 @@
               alt="Schalungsreinigung Bild 2"
             />
             <div class="carousel-caption">
-              Limpieza de máquinas agrícolas y máquinas de construcción
+             {{$t('carousel.5')}}
             </div>
           </div>
 
@@ -300,7 +304,7 @@
               src="~assets/images/uploads/01_6_DYNAJET_Anwendungen_Werften_und_Offshore_Schiffsreinigung.jpg"
               alt="Schalungsreinigung Bild 2"
             />
-            <div class="carousel-caption">Limpieza de barcos</div>
+            <div class="carousel-caption">{{$t('carousel.6')}}</div>
           </div>
 
           <div class="item">
@@ -308,7 +312,7 @@
               src="~assets/images/uploads/001_DYNAJET_Header_800th_Betonsanierung.jpg"
               alt="Betonsanierung"
             />
-            <div class="carousel-caption">Saneamiento de hormigón</div>
+            <div class="carousel-caption">{{$t('carousel.7')}}</div>
           </div>
         </div>
         <!-- Controls --><a
@@ -320,7 +324,7 @@
             class="glyphicon glyphicon-chevron-left"
             aria-hidden="true"
           ></span>
-          <span class="sr-only">Zurückblättern</span></a
+          <span class="sr-only">{{$t('carousel.left')}}</span></a
         >
         <a
           class="right carousel-control"
@@ -331,7 +335,7 @@
             class="glyphicon glyphicon-chevron-right"
             aria-hidden="true"
           ></span>
-          <span class="sr-only">Vorblättern</span></a
+          <span class="sr-only">{{$t('carousel.right')}}</span></a
         >
       </div>
     </div>
@@ -343,33 +347,24 @@
       <div class="bg-custom-lighter container-fluid">
         <div class="icon-maschine-gross container">
           <h2 class="editContent">
-            Productos<br />Tecnología punta con procesamiento perfecto para
-            resultados excelentes con presiones de hasta 3.000 bar.
+            {{$t('produkte.title1')}}<br /> {{$t('produkte.title1_2')}}
           </h2>
           <p class="editContent">
-            Los robustos grupos de presión máxima DYNAJET se desarrollan y
-            fabrican en Alemania y se asocian con potencia alta, durabilidad,
-            flexibilidad y rentabilidad. Déjese convencer por tiempos de
-            preparación cortos, valores de consumo mínimos, fiabilidad extrema y
-            seguridad. En función de la demanda, DYNAJET le suministra
-            limpiadores de alta presión como carrito móvil con potentes motores
-            de gasolina, diésel o eléctricos, como remolque compacto o como
-            grupos fijos.
+          {{$t('produkte.content1')}}
           </p>
           <p>
-            La variedad de
+           {{$t('produkte.content2_1')}}
             <a
               href="https://www.dyna-jet.com/hochdruckreiniger#b_start=0"
               target="_blank"
-              ><strong>productos DYNAJET </strong> </a
-            >en combinación con accesorios adecuados le ofrece sistemas
-            especiales para numerosas áreas de utilización:<br />
+              ><strong>p{{$t('produkte.content2_2')}} </strong> </a
+            >{{$t('produkte.content2_3')}}<br />
           </p>
           <ul>
-            <li>Superficies y suelos</li>
-            <li>Techos y paredes</li>
-            <li>Tubos, canales e intercambiadores de calor</li>
-            <li>Recipientes, depósitos y mucho más</li>
+            <li>{{$t('produkte.land')}}</li>
+            <li>{{$t('produkte.wall')}}</li>
+            <li>{{$t('produkte.heat')}}</li>
+            <li>{{$t('produkte.more')}}</li>
           </ul>
         </div>
       </div>

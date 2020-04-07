@@ -5,8 +5,54 @@
     "zubehoer": "Accesorios",
     "vorteile": "Ventajas",
     "kontakt": "Servicio técnico y contacto"
+
+
   },
   "externalLinks": {
-    "dynajetSite": "Sitio web de DYNAJET"
+    "dynajetSite": "Sitio web de DYNAJET",
+    "construction": "Construcción",
+    "renovation": "Saneamiento",
+    "serviceProviders": "Prestadores de servicios",
+    "localAuthorities": "Municipios",
+    "industry": "Industria",
+    "shipyards": "Astilleros e industria offshore",
+    "agriculture": "Agricultura y silvicultura"
+  },
+  "Anwendung":{
+    "pageTitle1": "Limpiador de alta presión",
+    "pageTitle2": "de agua para profesionales",
+    "pageTitle3": "Los productos DYNAJET se utilizan para limpieza y saneamiento en todos los ramos —",
+    "pageTitle4": "de forma rápida, eficiente y económica.",
+    "pageTitle5": "Ramos y aplicaciones",
+    "content1": "Los limpiadores innovadores de alta presión de DYNAJET ofrecen soluciones sofisticadas técnicamente para casi todos los ramos, y sus aplicaciones se extienden desde la eliminación de chicle hasta el saneamiento de hormigón, pasando por la limpieza de máquinas de construcción, cumpliendo con las máximas expectativas de rentabilidad, eficiencia y compatibilidad medioambiental. Configuraciones específicas, un rango de funcionamiento de 300 a 3000 bar y múltiples accesorios ofrecen adicionalmente la máxima flexibilidad y fiabilidad.",
+    "branches": "DYNAJET ofrece sobre todo soluciones especiales para los ramos siguientes:"
+
+  },
+  "carousel":{
+    "1":  "Limpieza de máquinas agrícolas y máquinas de construcción",
+    "2": "Limpieza de encofrado",
+    "3": "Eliminación de graffitis",
+    "4": "Limpieza de intercambiadores de calor",
+    "5":  "Limpieza de máquinas agrícolas y máquinas de construcción",
+    "6": "Limpieza de barcos",
+    "7": "Saneamiento de hormigón",
+    "left": "Zurückblättern",
+    "right": "Vorblättern"
+
+  },
+
+  "produkte":{
+    "title1": "Productos",
+    "title1_2": "Tecnología punta con procesamiento perfecto para resultados excelentes con presiones de hasta 3.000 bar.",
+    "content1": " Los robustos grupos de presión máxima DYNAJET se desarrollan y fabrican en Alemania y se asocian con potencia alta, durabilidad, flexibilidad y rentabilidad. Déjese convencer por tiempos de preparación cortos, valores de consumo mínimos, fiabilidad extrema y seguridad. En función de la demanda, DYNAJET le suministra limpiadores de alta presión como carrito móvil con potentes motores de gasolina, diésel o eléctricos, como remolque compacto o como grupos fijos.",
+    "content2_1": "La variedad de",
+    "content2_2": "productos DYNAJET",
+    "content2_3": "en combinación con accesorios adecuados le ofrece sistemas especiales para numerosas áreas de utilización:",
+    "land": "Superficies y suelos",
+    "wall" : "Techos y paredes",
+    "heat" : "Tubos, canales e intercambiadores de calor",
+    "more" : "Recipientes, depósitos y mucho más"
+
   }
+
 }
