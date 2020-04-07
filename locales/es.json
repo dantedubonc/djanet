@@ -53,6 +53,31 @@
     "heat" : "Tubos, canales e intercambiadores de calor",
     "more" : "Recipientes, depósitos y mucho más"
 
-  }
+  },
+  "zubehoer":{
+    "title1": "Accesorios originales DYNJAET",
+    "title2": " Ya sean toberas, sistemas de radiación de material sólido o equipamientos de protección, en DYNAJET encontrará todo lo que necesite para un trabajo perfecto con limpiadores de alta presión. La gama de productos incluye múltiples accesorios, los cuales también son adecuados para todos los fabricantes habituales. Dependiendo del área de utilización, usted puede optimizar selectivamente la eficiencia de trabajo y la profundidad de limpieza. Junto a los kits de accesorios, mangueras, lanzas, pistolas y ropa de protección de alta presión, DYNAJET también ofrece accesorios especiales para aplicaciones como sistemas de chorro de agua-arena o para la limpieza de suelos, techos, paredes, tubos o intercambiadores de calor.",
+    "title3":" Los accesorios originales DYNAJET satisfacen altas normas de calidad y se adaptan perfectamente a numerosas aplicaciones."
+    },
+    "Vorteile":{
+      "title1": "Ventajas de DYNAJET",
+      "ventaja1": "Seguridad máxima",
+      "ventaja2": "Tecnología potente",
+      "ventaja3": "Flexibilidad máxima",
+      "ventaja4": "Capacidad de carga absoluta"
+    },
+    "gesamtkatalog": {
+      "title": "Catálogo nº 6 de DYNAJET",
+      "content":  "Aún más claro, en cuatro idiomas y con lista propia de máquinas y equipamientos – el nuevo catálogo general nº 6 de DYNAJET ofrece una vista general de la actual gama de productos e informa sobre la última tecnología de DYNAJET.",
+      "content2": "Aquí puede descargar el actual catálogo DYNAJET:",
+      "linkCatalog" : "Catálogo general, edición nº 6 >",
+      "linkContact": "Contacte con nosotros para obtener una versión impresa del catálogo DYNAJET >"
+
+    },
+    "kontakt": {
+      "title1": "Servicio técnico y contacto",
+      "title2": "¡Estamos a su disposición!",
+      "content": " Contacte con nosotros ahora para una oferta o cita de demostración gratuita. ¿Tiene alguna pregunta sobre el producto, necesita ayuda para el manejo del aparato o desea solicitar nuestro servicio de reparación DYNAJET? Envíenos un e-mail – nos alegramos de su mensaje:"
+    }
 
 }

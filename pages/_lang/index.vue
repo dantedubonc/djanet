@@ -378,23 +378,12 @@
     <!-- Start - Section Zubehör -->
     <section id="zubehoer" class="container-fluid">
       <div class="container">
-        <h2 class="editContent">Accesorios originales DYNJAET</h2>
+        <h2 class="editContent">{{$t('zubehoer.title1')}}</h2>
         <p class="editContent">
-          Ya sean toberas, sistemas de radiación de material sólido o
-          equipamientos de protección, en DYNAJET encontrará todo lo que
-          necesite para un trabajo perfecto con limpiadores de alta presión. La
-          gama de productos incluye múltiples accesorios, los cuales también son
-          adecuados para todos los fabricantes habituales. Dependiendo del área
-          de utilización, usted puede optimizar selectivamente la eficiencia de
-          trabajo y la profundidad de limpieza. Junto a los kits de accesorios,
-          mangueras, lanzas, pistolas y ropa de protección de alta presión,
-          DYNAJET también ofrece accesorios especiales para aplicaciones como
-          sistemas de chorro de agua-arena o para la limpieza de suelos, techos,
-          paredes, tubos o intercambiadores de calor.
+        {{$t('zubehoer.title2')}}
         </p>
         <p>
-          Los accesorios originales DYNAJET satisfacen altas normas de calidad y
-          se adaptan perfectamente a numerosas aplicaciones.
+         {{$t('zubehoer.title3')}}
         </p>
 
         <div class="row">
@@ -473,12 +462,12 @@
 
       <div class="bg-custom container-fluid">
         <div class="icon-plus container">
-          <h2 class="editContent">Ventajas de DYNAJET</h2>
+          <h2 class="editContent">{{$t('Vorteile.title1')}}</h2>
           <ul class="fs-large editContent">
-            <li>Tecnología potente</li>
-            <li>Seguridad máxima</li>
-            <li>Flexibilidad máxima</li>
-            <li>Capacidad de carga absoluta</li>
+            <li>{{$t('Vorteile.ventaja1')}}</li>
+            <li>{{$t('Vorteile.ventaja2')}}</li>
+            <li>{{$t('Vorteile.ventaja3')}}</li>
+            <li>{{$t('Vorteile.ventaja4')}}</li>
           </ul>
         </div>
       </div>
@@ -488,7 +477,7 @@
     <section id="gesamtkatalog" class="bg-custom-default container-fluid">
       <div class="container">
         <p class="editContent"></p>
-        <h2>Catálogo nº 6 de DYNAJET</h2>
+        <h2>{{$t('gesamtkatalog.title')}}</h2>
         <p>
           <a
             href="https://www.dynajet.de/info-center/datenblaetter-kataloge"
@@ -502,25 +491,21 @@ margin-top: 0px; margin-bottom:0px; margin-left: 0px; margin-right: 20px"
           /></a>
         </p>
         <p>
-          Aún más claro, en cuatro idiomas y con lista propia de máquinas y
-          equipamientos – el nuevo catálogo general nº 6 de DYNAJET ofrece una
-          vista general de la actual gama de productos e informa sobre la última
-          tecnología de DYNAJET.
+          {{$t('gesamtkatalog.content')}}
         </p>
 
-        <p>Aquí puede descargar el actual catálogo DYNAJET:</p>
+        <p>{{$t('gesamtkatalog.content2')}}</p>
         <p>
           <a
             href="https://www.dyna-jet.com/info-center/datasheets-catalogues"
             target="_blank"
-            >Catálogo general, edición nº 6 ></a
+            >{{$t('gesamtkatalog.linkCatalog')}}</a
           >
         </p>
 
         <p>
           <a href="#kontakt"
-            >Contacte con nosotros para obtener una versión impresa del catálogo
-            DYNAJET ></a
+            >{{$t('gesamtkatalog.linkContact')}}</a
           >
         </p>
         <!--mark>Damit sparen Sie von Anfang an Zeit und Geld, da nur einwandfrei gereinigte Verschalungen gute und wirtschaftliche Ergebnisse sichern.</mark-->
@@ -529,14 +514,11 @@ margin-top: 0px; margin-bottom:0px; margin-left: 0px; margin-right: 20px"
     <!-- Start - Section Service & Kontakt -->
     <section id="kontakt" class="bg-custom container-fluid">
       <div class="container">
-        <h2>Servicio técnico y contacto</h2>
-        <h4>¡Estamos a su disposición!</h4>
+        <h2>{{$t('kontakt.title1')}}</h2>
+        <h4>{{$t('kontakt.title2')}}</h4>
 
         <p>
-          Contacte con nosotros ahora para una oferta o cita de demostración
-          gratuita. ¿Tiene alguna pregunta sobre el producto, necesita ayuda
-          para el manejo del aparato o desea solicitar nuestro servicio de
-          reparación DYNAJET? Envíenos un e-mail – nos alegramos de su mensaje:
+         {{$t('kontakt.content')}}
         </p>
       </div>
     </section>
