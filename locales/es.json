@@ -138,5 +138,15 @@
     "contact5": "Facebook",
     "contact6": "YouTube"
 
+  },
+  "form":{
+    "Country": "País",
+    "Enterprise": "Empresa",
+    "Name": "Nombre",
+    "Surname": "Apellido",
+    "City": "Ciudad",
+    "Email": "E-mail",
+    "Phone": "Teléfono",
+    "Question": "Para consultas de servicio técnico"
   }
 }
