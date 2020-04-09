@@ -147,6 +147,7 @@
     "City": "Ciudad",
     "Email": "E-mail",
     "Phone": "Teléfono",
-    "Question": "Para consultas de servicio técnico"
+    "Question": "Para consultas de servicio técnico",
+    "SubmitButton": "Enviar"
   }
 }

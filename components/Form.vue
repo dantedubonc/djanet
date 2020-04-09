@@ -1,150 +1,111 @@
 <template>
-  <form id="contact-form" class="form-horizontal">
+  <b-form @submit.stop.prevent="onSubmit" id="form" class="form-horizontal">
     <div class="col-xs-12 col-md-6">
-      <div class="form-group">
-        <label for="company" class="col-sm-3 control-label"
-          >{{$t('form.Enterprise')}}<sup class="text-req"> * </sup></label
+     
+      <b-form-group id="input-group-enterprise" >
+        <label for="enterprise" class="col-sm-3 control-label"
+          >{{ $t('form.Enterprise') }}<sup class="text-req"> * </sup></label
         >
-        <div class="col-sm-9" data-children-count="1">
-          <input
-            id="company"
-            name="company"
-            type="text"
-            value=""
-            required="required"
-            class="form-control"
-            data-kwimpalastatus="alive"
-            data-kwimpalaid="1586376103791-0"
-          />
-        </div>
-      </div>
+        <b-form-input
+          id="enterprise"
+          class="col-sm-9"
+          v-model="$v.form.Enterprise.$model"
+          :state="validateState('Enterprise')"
+        ></b-form-input>
+      </b-form-group>
 
-      <div class="form-group">
-        <label for="firstname" class="col-sm-3 control-label"
-          >{{$t('form.Name')}}<sup class="text-req"> * </sup></label
+      <b-form-group id="input-group-name">
+        <label for="name" class="col-sm-3 control-label"
+          >{{ $t('form.Name') }}<sup class="text-req"> * </sup></label
         >
-        <div class="col-sm-9" data-children-count="1">
-          <input
-            id="firstname"
-            name="firstname"
-            type="text"
-            value=""
-            required="required"
-            class="form-control"
-            data-kwimpalastatus="alive"
-            data-kwimpalaid="1586376103791-1"
-          />
-        </div>
-      </div>
+        <b-form-input
+          id="name"
+           class="col-sm-9"
+          v-model="$v.form.Name.$model"
+          :state="validateState('Name')"
+        ></b-form-input>
+      </b-form-group>
 
-      <div class="form-group">
-        <label for="lastname" class="col-sm-3 control-label"
-          >{{$t('form.Surname')}}<sup class="text-req"> * </sup></label
+      <b-form-group id="input-group-Surname" >
+        <label for="surname" class="col-sm-3 control-label"
+          >{{ $t('form.Surname') }}<sup class="text-req"> * </sup></label
         >
-        <div class="col-sm-9" data-children-count="1">
-          <input
-            id="lastname"
-            name="lastname"
-            type="text"
-            value=""
-            required="required"
-            class="form-control"
-            data-kwimpalastatus="alive"
-            data-kwimpalaid="1586376103791-2"
-          />
-        </div>
-      </div>
+        <b-form-input
+          id="surname"
+           class="col-sm-9"
+          v-model="$v.form.Surname.$model"
+          :state="validateState('Surname')"
+        ></b-form-input>
+      </b-form-group>
 
-      <div class="form-group">
+      <b-form-group id="input-group-city" >
         <label for="city" class="col-sm-3 control-label"
-          >{{$t('form.City')}}<sup class="text-req"> * </sup></label
+          >{{ $t('form.City') }}<sup class="text-req"> * </sup></label
         >
-        <div class="col-sm-9" data-children-count="1">
-          <input
-            id="city"
-            name="city"
-            type="text"
-            value=""
-            required="required"
-            class="form-control"
-            data-kwimpalastatus="alive"
-            data-kwimpalaid="1586376103791-3"
-          />
-        </div>
-      </div>
+        <b-form-input
+          id="city"
+           class="col-sm-9"
+          v-model="$v.form.City.$model"
+          :state="validateState('City')"
+        ></b-form-input>
+      </b-form-group>
 
-      <div class="form-group">
+      <b-form-group id="input-group-country" >
         <label for="country" class="col-sm-3 control-label"
-          >{{$t('form.Country')}}<sup class="text-req"> * </sup></label
+          >{{ $t('form.Country') }}<sup class="text-req"> * </sup></label
         >
-        <div class="col-sm-9" data-children-count="1">
-          <input
-            id="country"
-            name="country"
-            type="text"
-            value=""
-            required="required"
-            class="form-control"
-            data-kwimpalastatus="alive"
-            data-kwimpalaid="1586376103791-4"
-          />
-        </div>
-      </div>
+        <b-form-input
+         class="col-sm-9"
+          id="country"
+          v-model="$v.form.Country.$model"
+          :state="validateState('Country')"
+        ></b-form-input>
+      </b-form-group>
 
-      <div class="form-group">
-        <label for="user-email" class="col-sm-3 control-label"
-          >{{$t('form.Email')}}<sup class="text-req"> * </sup></label
+      <b-form-group id="input-group-email">
+        <label for="email" class="col-sm-3 control-label"
+          >{{ $t('form.Email') }}<sup class="text-req"> * </sup></label
         >
-        <div class="col-sm-9" data-children-count="1">
-          <input
-            id="user-email"
-            name="user-email"
-            type="text"
-            value=""
-            required="required"
-            class="form-control"
-            data-kwimpalastatus="alive"
-            data-kwimpalaid="1586376103791-5"
-          />
-        </div>
-      </div>
+        <b-form-input
+         class="col-sm-9"
+          id="email"
+          v-model="$v.form.Email.$model"
+          :state="validateState('Email')"
+        ></b-form-input>
+      </b-form-group>
 
-      <div class="form-group">
+      <b-form-group id="input-group-phone" >
         <label for="phone" class="col-sm-3 control-label"
-          >{{$t('form.Phone')}}<sup class="text-req"> * </sup></label
+          >{{ $t('form.Phone') }}<sup class="text-req"> * </sup></label
         >
-        <div class="col-sm-9" data-children-count="1">
-          <input
-            id="phone"
-            name="phone"
-            type="text"
-            value=""
-            required="required"
-            class="form-control"
-            data-kwimpalastatus="alive"
-            data-kwimpalaid="1586376103791-6"
-          />
-        </div>
-      </div>
+        <b-form-input
+         class="col-sm-9"
+          id="phone"
+          v-model="$v.form.Phone.$model"
+          :state="validateState('Phone')"
+        ></b-form-input>
+      </b-form-group>
     </div>
 
     <div class="col-xs-12 col-md-6">
-      <div class="form-group" data-children-count="1">
-        <textarea
-          id="message"
-          name="message"
+      <b-form-group id="input-group-question" class="col-sm-12">
+        <b-form-textarea
+          id="question"
+          name="question"
           :placeholder="$t('form.Question')"
-          rows="3"
-          required="required"
-          class="form-control"
-        ></textarea>
-      </div>
+          v-model="$v.form.Question.$model"
+             :state="validateState('Question')"
+        ></b-form-textarea>
+      </b-form-group>
+
+      <b-button type="submit" variant="primary">{{$t('form.SubmitButton')}}</b-button>
     </div>
-  </form>
+    
+  </b-form>
 </template>
 <script>
 import { validationMixin } from 'vuelidate'
-import { required, email } from 'vuelidate/lib/validators'
+import { required, email, minLength } from 'vuelidate/lib/validators'
 
 export default {
   mixins: [validationMixin],
@@ -158,7 +119,55 @@ export default {
         Country: '',
         Email: '',
         Phone: '',
-        Cuestion: ''
+        Question: ''
+      }
+    }
+  },
+  validations: {
+    form: {
+      Name: {
+        required,
+        minLength: minLength(1)
+      },
+      Surname: {
+        required,
+        minLength: minLength(1)
+      },
+      Enterprise: {
+        required,
+        minLength: minLength(1)
+      },
+      City: {
+        required,
+        minLength: minLength(1)
+      },
+      Country: {
+        required
+      },
+      Email: {
+        required,
+        email
+      },
+      Phone: {
+        required,
+        minLength: minLength(1)
+      },
+      Question: {
+        required,
+        minLength: minLength(1)
+      }
+    }
+  },
+  methods: {
+    validateState(name) {
+      const { $dirty, $error } = this.$v.form[name]
+      return $dirty ? !$error : null
+    },
+
+    async onSubmit() {
+      this.$v.form.$touch()
+      if (this.$v.form.$anyError) {
+        return
       }
     }
   }
