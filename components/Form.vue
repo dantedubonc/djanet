@@ -59,6 +59,7 @@
           v-model="$v.form.Country.$model"
           :country="$v.form.Country.$model"
           countryName
+          topCountry="ES"
           disablePlaceholder
           :usei18n="false"
           :state="validateState('Country')"
