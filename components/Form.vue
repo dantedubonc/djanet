@@ -173,6 +173,7 @@ export default {
     },
 
     async onSubmit() {
+      console.log('putossss')
       this.$v.form.$touch()
       if (this.$v.form.$anyError) {
         return
@@ -180,6 +181,14 @@ export default {
 
       try {
         const token = await this.$recaptcha.execute('login')
+
+        const formData = {
+          ...this.form,
+          recaptchaToken: token
+        }
+
+        console.log(process.env.API)
+        await this.$axios.$post(process.env.API, formData)
         console.log(token)
       } catch (error) {
         console.log('Login error:', error)
