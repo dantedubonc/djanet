@@ -165,19 +165,19 @@
         </div>
       </div>
       <div class="container">
-        <h2 class="editContent">{{$t('Anwendung.pageTitle5')}}</h2>
+        <h2 class="editContent">{{ $t('Anwendung.pageTitle5') }}</h2>
         <p class="editContent">
-         {{$t('Anwendung.content1')}}
+          {{ $t('Anwendung.content1') }}
         </p>
         <p>
-           {{$t('Anwendung.branches')}}
+          {{ $t('Anwendung.branches') }}
         </p>
 
         <p>
           <a
             target="_blank"
             href="https://www.dyna-jet.com/sector-specific-solutions/construction"
-            >{{$t('externalLinks.construction')}} ></a
+            >{{ $t('externalLinks.construction') }} ></a
           >
         </p>
 
@@ -185,7 +185,7 @@
           <a
             target="_blank"
             href="https://www.dyna-jet.com/sector-specific-solutions/renovation"
-            >{{$t('externalLinks.renovation')}} ></a
+            >{{ $t('externalLinks.renovation') }} ></a
           >
         </p>
 
@@ -193,7 +193,7 @@
           <a
             target="_blank"
             href="https://www.dyna-jet.com/sector-specific-solutions/service-providers"
-            >{{$t('externalLinks.serviceProviders')}} ></a
+            >{{ $t('externalLinks.serviceProviders') }} ></a
           >
         </p>
 
@@ -201,7 +201,7 @@
           <a
             target="_blank"
             href="https://www.dyna-jet.com/sector-specific-solutions/local-authorities"
-            >{{$t('externalLinks.localAuthorities')}} ></a
+            >{{ $t('externalLinks.localAuthorities') }} ></a
           >
         </p>
 
@@ -209,7 +209,7 @@
           <a
             target="_blank"
             href="https://www.dyna-jet.com/sector-specific-solutions/industry"
-            >{{$t('externalLinks.industry')}} ></a
+            >{{ $t('externalLinks.industry') }} ></a
           >
         </p>
 
@@ -217,7 +217,7 @@
           <a
             target="_blank"
             href="https://www.dyna-jet.com/sector-specific-solutions/shipyards-and-offshore"
-            >{{$t('externalLinks.shipyards')}} ></a
+            >{{ $t('externalLinks.shipyards') }} ></a
           >
         </p>
 
@@ -225,7 +225,7 @@
           <a
             target="_blank"
             href="https://www.dyna-jet.com/sector-specific-solutions/agriculture-and-forestry"
-            >{{$t('externalLinks.agriculture')}} ></a
+            >{{ $t('externalLinks.agriculture') }} ></a
           >
         </p>
       </div>
@@ -259,7 +259,7 @@
               alt="Schalungsreinigung Bild 2"
             />
             <div class="carousel-caption">
-              {{$t('carousel.1')}}
+              {{ $t('carousel.1') }}
             </div>
           </div>
 
@@ -268,7 +268,7 @@
               src="~assets/images/uploads/01_2_DYNAJET_Anwendungen_Bau_Sanierung_Reinigung-von-Schalungen.jpg"
               alt="Schalungsreinigung Bild 2"
             />
-            <div class="carousel-caption">{{$t('carousel.2')}}</div>
+            <div class="carousel-caption">{{ $t('carousel.2') }}</div>
           </div>
 
           <div class="item">
@@ -276,7 +276,7 @@
               src="~assets/images/uploads/01_3_DYNAJET_Anwendungen_Kommunen_Entfernung-von-Graffitis.jpg"
               alt="Schalungsreinigung Bild 2"
             />
-            <div class="carousel-caption">{{$t('carousel.3')}}</div>
+            <div class="carousel-caption">{{ $t('carousel.3') }}</div>
           </div>
 
           <div class="item">
@@ -285,7 +285,7 @@
               alt="Schalungsreinigung Bild 2"
             />
             <div class="carousel-caption">
-             {{$t('carousel.4')}}
+              {{ $t('carousel.4') }}
             </div>
           </div>
 
@@ -295,7 +295,7 @@
               alt="Schalungsreinigung Bild 2"
             />
             <div class="carousel-caption">
-             {{$t('carousel.5')}}
+              {{ $t('carousel.5') }}
             </div>
           </div>
 
@@ -304,7 +304,7 @@
               src="~assets/images/uploads/01_6_DYNAJET_Anwendungen_Werften_und_Offshore_Schiffsreinigung.jpg"
               alt="Schalungsreinigung Bild 2"
             />
-            <div class="carousel-caption">{{$t('carousel.6')}}</div>
+            <div class="carousel-caption">{{ $t('carousel.6') }}</div>
           </div>
 
           <div class="item">
@@ -312,7 +312,7 @@
               src="~assets/images/uploads/001_DYNAJET_Header_800th_Betonsanierung.jpg"
               alt="Betonsanierung"
             />
-            <div class="carousel-caption">{{$t('carousel.7')}}</div>
+            <div class="carousel-caption">{{ $t('carousel.7') }}</div>
           </div>
         </div>
         <!-- Controls --><a
@@ -324,7 +324,7 @@
             class="glyphicon glyphicon-chevron-left"
             aria-hidden="true"
           ></span>
-          <span class="sr-only">{{$t('carousel.left')}}</span></a
+          <span class="sr-only">{{ $t('carousel.left') }}</span></a
         >
         <a
           class="right carousel-control"
@@ -335,7 +335,7 @@
             class="glyphicon glyphicon-chevron-right"
             aria-hidden="true"
           ></span>
-          <span class="sr-only">{{$t('carousel.right')}}</span></a
+          <span class="sr-only">{{ $t('carousel.right') }}</span></a
         >
       </div>
     </div>
@@ -347,24 +347,25 @@
       <div class="bg-custom-lighter container-fluid">
         <div class="icon-maschine-gross container">
           <h2 class="editContent">
-            {{$t('produkte.title1')}}<br /> {{$t('produkte.title1_2')}}
+            {{ $t('produkte.title1') }}<br />
+            {{ $t('produkte.title1_2') }}
           </h2>
           <p class="editContent">
-          {{$t('produkte.content1')}}
+            {{ $t('produkte.content1') }}
           </p>
           <p>
-           {{$t('produkte.content2_1')}}
+            {{ $t('produkte.content2_1') }}
             <a
               href="https://www.dyna-jet.com/hochdruckreiniger#b_start=0"
               target="_blank"
-              ><strong>p{{$t('produkte.content2_2')}} </strong> </a
-            >{{$t('produkte.content2_3')}}<br />
+              ><strong>p{{ $t('produkte.content2_2') }} </strong> </a
+            >{{ $t('produkte.content2_3') }}<br />
           </p>
           <ul>
-            <li>{{$t('produkte.land')}}</li>
-            <li>{{$t('produkte.wall')}}</li>
-            <li>{{$t('produkte.heat')}}</li>
-            <li>{{$t('produkte.more')}}</li>
+            <li>{{ $t('produkte.land') }}</li>
+            <li>{{ $t('produkte.wall') }}</li>
+            <li>{{ $t('produkte.heat') }}</li>
+            <li>{{ $t('produkte.more') }}</li>
           </ul>
         </div>
       </div>
@@ -378,12 +379,12 @@
     <!-- Start - Section Zubehör -->
     <section id="zubehoer" class="container-fluid">
       <div class="container">
-        <h2 class="editContent">{{$t('zubehoer.title1')}}</h2>
+        <h2 class="editContent">{{ $t('zubehoer.title1') }}</h2>
         <p class="editContent">
-        {{$t('zubehoer.title2')}}
+          {{ $t('zubehoer.title2') }}
         </p>
         <p>
-         {{$t('zubehoer.title3')}}
+          {{ $t('zubehoer.title3') }}
         </p>
 
         <div class="row">
@@ -462,12 +463,12 @@
 
       <div class="bg-custom container-fluid">
         <div class="icon-plus container">
-          <h2 class="editContent">{{$t('Vorteile.title1')}}</h2>
+          <h2 class="editContent">{{ $t('Vorteile.title1') }}</h2>
           <ul class="fs-large editContent">
-            <li>{{$t('Vorteile.ventaja1')}}</li>
-            <li>{{$t('Vorteile.ventaja2')}}</li>
-            <li>{{$t('Vorteile.ventaja3')}}</li>
-            <li>{{$t('Vorteile.ventaja4')}}</li>
+            <li>{{ $t('Vorteile.ventaja1') }}</li>
+            <li>{{ $t('Vorteile.ventaja2') }}</li>
+            <li>{{ $t('Vorteile.ventaja3') }}</li>
+            <li>{{ $t('Vorteile.ventaja4') }}</li>
           </ul>
         </div>
       </div>
@@ -477,7 +478,7 @@
     <section id="gesamtkatalog" class="bg-custom-default container-fluid">
       <div class="container">
         <p class="editContent"></p>
-        <h2>{{$t('gesamtkatalog.title')}}</h2>
+        <h2>{{ $t('gesamtkatalog.title') }}</h2>
         <p>
           <a
             href="https://www.dynajet.de/info-center/datenblaetter-kataloge"
@@ -491,22 +492,20 @@ margin-top: 0px; margin-bottom:0px; margin-left: 0px; margin-right: 20px"
           /></a>
         </p>
         <p>
-          {{$t('gesamtkatalog.content')}}
+          {{ $t('gesamtkatalog.content') }}
         </p>
 
-        <p>{{$t('gesamtkatalog.content2')}}</p>
+        <p>{{ $t('gesamtkatalog.content2') }}</p>
         <p>
           <a
             href="https://www.dyna-jet.com/info-center/datasheets-catalogues"
             target="_blank"
-            >{{$t('gesamtkatalog.linkCatalog')}}</a
+            >{{ $t('gesamtkatalog.linkCatalog') }}</a
           >
         </p>
 
         <p>
-          <a href="#kontakt"
-            >{{$t('gesamtkatalog.linkContact')}}</a
-          >
+          <a href="#kontakt">{{ $t('gesamtkatalog.linkContact') }}</a>
         </p>
         <!--mark>Damit sparen Sie von Anfang an Zeit und Geld, da nur einwandfrei gereinigte Verschalungen gute und wirtschaftliche Ergebnisse sichern.</mark-->
       </div>
@@ -514,24 +513,26 @@ margin-top: 0px; margin-bottom:0px; margin-left: 0px; margin-right: 20px"
     <!-- Start - Section Service & Kontakt -->
     <section id="kontakt" class="bg-custom container-fluid">
       <div class="container">
-        <h2>{{$t('kontakt.title1')}}</h2>
-        <h4>{{$t('kontakt.title2')}}</h4>
+        <h2>{{ $t('kontakt.title1') }}</h2>
+        <h4>{{ $t('kontakt.title2') }}</h4>
 
         <p>
-         {{$t('kontakt.content')}}
+          {{ $t('kontakt.content') }}
         </p>
+        <Form/>
       </div>
+     
     </section>
     <!-- Ende - Section Kontakt -->
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Form from '~/components/Form.vue'
 
 export default {
   components: {
-    Logo
+    Form
   }
 }
 </script>

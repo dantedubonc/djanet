@@ -41,7 +41,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/i18n.js'],
+  plugins: ['~/plugins/i18n.js', '~/plugins/country.js'],
   generate: {
     routes: ['/', '/es', '/en']
   },
@@ -53,11 +53,20 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
+    'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    '@nuxtjs/recaptcha'
+    
   ],
+  recaptcha: {
+    /* reCAPTCHA options */
+    hideBadge: true,
+    siteKey: '6Lftg-YUAAAAAAUkCJcDmrvw2hYS2iKk_N6s3S-Z',
+    version: 3
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
