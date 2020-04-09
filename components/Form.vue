@@ -60,7 +60,7 @@
           :country="$v.form.Country.$model"
           countryName
           disablePlaceholder
-          usei18n=false
+          :usei18n="false"
           :state="validateState('Country')"
         />
       </b-form-group>
@@ -163,6 +163,9 @@ export default {
       }
     }
   },
+  async mounted() {
+    await this.$recaptcha.init()
+  },
   methods: {
     validateState(name) {
       const { $dirty, $error } = this.$v.form[name]
@@ -173,6 +176,13 @@ export default {
       this.$v.form.$touch()
       if (this.$v.form.$anyError) {
         return
+      }
+
+      try {
+        const token = await this.$recaptcha.execute('login')
+        console.log(token)
+      } catch (error) {
+        console.log('Login error:', error)
       }
     }
   }
