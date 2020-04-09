@@ -41,7 +41,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/i18n.js'],
+  plugins: ['~/plugins/i18n.js', '~/plugins/country.js'],
   generate: {
     routes: ['/', '/es', '/en']
   },
