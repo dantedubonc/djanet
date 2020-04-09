@@ -190,6 +190,7 @@ export default {
         console.log(process.env.API)
         await this.$axios.$post(process.env.API, formData)
         console.log(token)
+        console.log(this.$i18n.locale)
       } catch (error) {
         console.log('Login error:', error)
       }
