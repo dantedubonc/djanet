@@ -41,7 +41,11 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/i18n.js', '~/plugins/country.js'],
+  plugins: [
+    '~/plugins/i18n.js',
+    '~/plugins/country.js',
+    { src: '~/plugins/ga/ga.js', mode: 'client' }
+  ],
   generate: {
     routes: ['/', '/es', '/en', '/ru']
   },
@@ -59,7 +63,6 @@ export default {
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
     '@nuxtjs/recaptcha'
-    
   ],
   recaptcha: {
     /* reCAPTCHA options */
