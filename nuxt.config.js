@@ -43,7 +43,7 @@ export default {
    */
   plugins: ['~/plugins/i18n.js', '~/plugins/country.js'],
   generate: {
-    routes: ['/', '/es', '/en']
+    routes: ['/', '/es', '/en', '/ru']
   },
   /*
    ** Nuxt.js dev-modules
