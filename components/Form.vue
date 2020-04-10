@@ -174,7 +174,7 @@ export default {
     },
 
     async onSubmit() {
-      console.log('putossss')
+    
       this.$v.form.$touch()
       if (this.$v.form.$anyError) {
         return
@@ -185,7 +185,8 @@ export default {
 
         const formData = {
           ...this.form,
-          recaptchaToken: token
+          recaptchaToken: token,
+          Locale: this.$i18n.locale.toUpperCase()
         }
 
         console.log(process.env.API)
