@@ -53,15 +53,11 @@
         <label for="country" class="col-sm-3 control-label"
           >{{ $t('form.Country') }}<sup class="text-req"> * </sup></label
         >
-        <country-select
+        <b-form-select
           id="country"
           class="col-sm-9 form-control"
           v-model="$v.form.Country.$model"
-          :country="$v.form.Country.$model"
-          countryName
-          topCountry="ES"
-          disablePlaceholder
-          :usei18n="false"
+          :options="countries"
           :state="validateState('Country')"
         />
       </b-form-group>
@@ -128,6 +124,19 @@ export default {
       }
     }
   },
+  computed: {
+    countries: function() {
+      const localeCountries = Object.values(
+        this.$countries.getNames(this.$i18n.locale)
+      )
+      return localeCountries.map(country => {
+        return {
+          value: country,
+          text: country
+        }
+      })
+    }
+  },
   validations: {
     form: {
       Name: {
@@ -174,7 +183,6 @@ export default {
     },
 
     async onSubmit() {
-    
       this.$v.form.$touch()
       if (this.$v.form.$anyError) {
         return
