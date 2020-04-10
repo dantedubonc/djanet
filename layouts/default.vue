@@ -15,6 +15,23 @@ import Footer from '../components/Footer'
 export default {
   components: {
     Footer
+  },
+  mounted() {
+    console.log('mounted')
+    console.log(this.$t('Head.title'))
+  },
+  head() {
+    return {
+      title: this.$t('Head.title'),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$t('Head.description')
+        },
+        { hid: 'keywords', name: 'keywords', content: this.$t('Head.keywords') }
+      ]
+    }
   }
 }
 </script>
