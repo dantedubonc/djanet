@@ -212,18 +212,31 @@ export default {
           recaptchaToken: token,
           Locale: this.$i18n.locale.toUpperCase()
         }
-
-        console.log(process.env.API)
         this.sendingData = true
         await this.$axios.$post(process.env.API, formData)
         this.sendingData = false
-        console.log(token)
-        console.log(this.$i18n.locale)
-
         this.$bvModal.show('confirmModal')
+        this.resetForm()
       } catch (error) {
         console.log('Login error:', error)
       }
+    },
+
+    resetForm() {
+      this.form = {
+        Name: '',
+        Surname: '',
+        Enterprise: '',
+        City: '',
+        Country: '',
+        Email: '',
+        Phone: '',
+        Question: ''
+      }
+
+       this.$nextTick(() => {
+        this.$v.$reset()
+      })
     }
   }
 }
