@@ -221,6 +221,7 @@ export default {
         this.resetForm()
       } catch (error) {
         console.log('Login error:', error)
+        this.sendingData = false
       }
     },
 
