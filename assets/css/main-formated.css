@@ -7686,3 +7686,24 @@ blockquote:nth-child(even):after {
 .fs-large {
     font-size: 18px
 }
+
+#confirmModal {
+    opacity: 1;
+   
+}
+
+#confirmModal  .modal-content{
+    margin-top: 150px;
+   
+}
+
+#confirmModal  .modal-header{
+    padding: 10px;
+   
+}
+
+
+#confirmModal  .modal-header .close{
+    margin-top: -10px;
+   
+}

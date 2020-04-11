@@ -156,5 +156,10 @@
     "keywords": "DYNAJET",
     "description": "Los productos DYNAJET se utilizan para limpieza y saneamiento en todos los ramos — de forma rápida, eficiente y económica. "
 
+  },
+  "Modal": {
+    "ConfirmationMessageTitle" : "¡Muchas gracias! Su mensaje ha sido enviado.",
+    "ConfirmationMessageContent" : "Procesaremos su consulta y nos pondremos en contacto con usted lo antes posible."
   }
+
 }

@@ -1,0 +1,35 @@
+#overlay {
+  background: #ffffff;
+  color: #666666;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 5000;
+  top: 0;
+  left: 0;
+  float: left;
+  text-align: center;
+  padding-top: 25%;
+  opacity: 0.8;
+}
+.modal .modal-content .modal-header {
+  background-color: #0071ad;  
+}
+
+.modal .modal-content .modal-body .modal-icon {
+  width: 100px;
+  margin-bottom: 10px;
+ 
+}
+
+.modal .modal-content .modal-body .text-description {
+  text-align: center;
+  font-weight: 500;
+}
+
+.modal .modal-content .modal-body .card-description {
+  text-align: center;
+  opacity: 0.6;
+  font-weight: 400;
+}
+
