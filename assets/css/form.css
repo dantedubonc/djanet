@@ -33,3 +33,20 @@
   font-weight: 400;
 }
 
+.submitButton {
+    color: white !important;
+    border-radius: 4px;
+    background-color: #006393;
+}
+
+.errorLabel {
+    padding: 7px;
+    background: red;
+    opacity: 0.7;
+    color: white !important;
+    font-weight: 800;
+    border: 1px solid white;
+    margin-top: 5px;
+    border-radius: 2px;
+    width: 95%;
+}

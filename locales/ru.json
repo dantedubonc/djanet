@@ -148,7 +148,8 @@
     "Phone": "Телефон",
     "Question": "При запросах на предоставление сервисных услуг просьба указать серийный номер Вашего аппарата",
     "SubmitButton": "Отправить",
-    "TopCountry": "SP"
+    "TopCountry": "SP",
+    "error": "Please fill the required red marked fields"
   },
 
   "Head": {

@@ -104,11 +104,13 @@
             v-model="$v.form.Question.$model"
             :state="validateState('Question')"
           ></b-form-textarea>
-        </b-form-group>
-
-        <b-button type="submit" variant="primary">{{
+         
+         
+        </b-form-group>        
+        <b-button class="submitButton" type="submit" variant="primary">{{
           $t('form.SubmitButton')
         }}</b-button>
+        <p v-if="$v.form.$anyError" class="errorLabel">{{$t('form.error')}} </p>
       </div>
     </b-form>
   </div>
@@ -234,7 +236,7 @@ export default {
         Question: ''
       }
 
-       this.$nextTick(() => {
+      this.$nextTick(() => {
         this.$v.$reset()
       })
     }
