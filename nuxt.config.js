@@ -36,7 +36,8 @@ export default {
   css: [
     '~assets/css/main.css',
     '~assets/css/main-formated.css',
-    '~assets/css/main-ohne-bootstrap.css'
+    '~assets/css/main-ohne-bootstrap.css',
+    '~assets/css/form.css'
   ],
   /*
    ** Plugins to load before mounting the App
@@ -44,7 +45,8 @@ export default {
   plugins: [
     '~/plugins/i18n.js',
     '~/plugins/country.js',
-    { src: '~/plugins/ga/ga.js', mode: 'client' }
+    { src: '~/plugins/ga/ga.js', mode: 'client' }, 
+    '~plugins/vue-js-modal.js'
   ],
   generate: {
     routes: ['/', '/es', '/en', '/ru']

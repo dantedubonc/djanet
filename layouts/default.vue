@@ -16,10 +16,6 @@ export default {
   components: {
     Footer
   },
-  mounted() {
-    console.log('mounted')
-    console.log(this.$t('Head.title'))
-  },
   head() {
     return {
       title: this.$t('Head.title'),

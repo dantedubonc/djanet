@@ -1,0 +1,52 @@
+#overlay {
+  background: #ffffff;
+  color: #666666;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 5000;
+  top: 0;
+  left: 0;
+  float: left;
+  text-align: center;
+  padding-top: 25%;
+  opacity: 0.8;
+}
+.modal .modal-content .modal-header {
+  background-color: #0071ad;  
+}
+
+.modal .modal-content .modal-body .modal-icon {
+  width: 100px;
+  margin-bottom: 10px;
+ 
+}
+
+.modal .modal-content .modal-body .text-description {
+  text-align: center;
+  font-weight: 500;
+}
+
+.modal .modal-content .modal-body .card-description {
+  text-align: center;
+  opacity: 0.6;
+  font-weight: 400;
+}
+
+.submitButton {
+    color: white !important;
+    border-radius: 4px;
+    background-color: #006393;
+}
+
+.errorLabel {
+    padding: 7px;
+    background: red;
+    opacity: 0.7;
+    color: white !important;
+    font-weight: 800;
+    border: 1px solid white;
+    margin-top: 5px;
+    border-radius: 2px;
+    width: 95%;
+}
