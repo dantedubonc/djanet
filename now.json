@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "name": "djanetfrontend",
+  "build": {
+    "env": {
+        "API": "@api"
+      }
+  },
+  "builds": [
+    {
+      "src": "nuxt.config.js",
+      "use": "@nuxtjs/now-builder",
+      
+      "config": {}
+    }
+  ],
+  "env": {
+    "API": "@api"
+  }
+}

@@ -215,7 +215,9 @@ export default {
           Locale: this.$i18n.locale.toUpperCase()
         }
         this.sendingData = true
-        await this.$axios.$post(process.env.API, formData)
+
+        console.log(process.env.API)
+        await this.$axios.$post('https://djanetbackend.now.sh', formData)
         this.sendingData = false
         this.$bvModal.show('confirmModal')
         this.resetForm()
