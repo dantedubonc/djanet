@@ -215,6 +215,8 @@ export default {
           Locale: this.$i18n.locale.toUpperCase()
         }
         this.sendingData = true
+
+        console.log(process.env.API)
         await this.$axios.$post(process.env.API, formData)
         this.sendingData = false
         this.$bvModal.show('confirmModal')

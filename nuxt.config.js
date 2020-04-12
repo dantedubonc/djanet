@@ -24,7 +24,7 @@ export default {
     }
   },
   router: {
-    middleware: 'i18n'
+   middleware: 'i18n'
   },
   /*
    ** Customize the progress-bar color
@@ -42,15 +42,16 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [
+  plugins: [   
     '~/plugins/i18n.js',
     '~/plugins/country.js',
-    { src: '~/plugins/ga/ga.js', mode: 'client' }, 
+    { src: '~/plugins/ga/ga.js', mode: 'client' },
     '~plugins/vue-js-modal.js'
   ],
   generate: {
     routes: ['/', '/es', '/en', '/ru']
   },
+
   /*
    ** Nuxt.js dev-modules
    */
@@ -59,6 +60,30 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
+    // [
+    //   'nuxt-i18n',
+    //   {
+    //     locales: [         
+    //       {
+    //         code: 'es',
+    //         domain: 'es.mydomain.com'
+    //       },
+    //       {
+    //         code: 'ru',
+    //         domain: 'ru.mydomain.com'
+    //       }
+    //     ],
+    //     defaultLocale: 'es',
+    //     vueI18n: {
+    //       fallbackLocale: 'es',
+    //       messages: {
+    //         es: require('./locales/es.json'),
+    //         ru: require('./locales/ru.json')
+    //       }
+    //     },
+    //     differentDomains: true
+    //   }
+    // ],
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
@@ -76,10 +101,14 @@ export default {
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
-  axios: {},
+  axios: {
+    proxyHeaders: false,
+    credentials: false
+  },
   /*
    ** Build configuration
    */
+
   build: {
     /*
      ** You can extend webpack config here
