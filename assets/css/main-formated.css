@@ -1884,7 +1884,7 @@ pre code {
 
 @media (min-width: 992px) {
     .container {
-        width: 970px
+        width: 1050px;
     }
 }
 
@@ -7710,4 +7710,9 @@ blockquote:nth-child(even):after {
 }
 .container.spy-navbar {
     display: block;
+}
+@media(min-width:992px){
+    .container.spy-navbar{
+        max-width: 1050px;
+    }
 }
