@@ -1,3 +1,5 @@
+const path = require("path");
+
 export default {
   mode: 'universal',
   /*
@@ -23,9 +25,9 @@ export default {
       id: 'top'
     }
   },
-  router: {
-   middleware: 'i18n'
-  },
+  // router: {
+  //  middleware: 'i18n'
+  // },
   /*
    ** Customize the progress-bar color
    */
@@ -42,15 +44,15 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [   
-    '~/plugins/i18n.js',
+  plugins: [
+    // '~/plugins/i18n.js',
     '~/plugins/country.js',
     { src: '~/plugins/ga/ga.js', mode: 'client' },
     '~plugins/vue-js-modal.js'
   ],
-  generate: {
-    routes: ['/', '/es', '/en', '/ru']
-  },
+  // generate: {
+  //   routes: ['/', '/es', '/en', '/ru']
+  // },
 
   /*
    ** Nuxt.js dev-modules
@@ -60,30 +62,7 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    // [
-    //   'nuxt-i18n',
-    //   {
-    //     locales: [         
-    //       {
-    //         code: 'es',
-    //         domain: 'es.mydomain.com'
-    //       },
-    //       {
-    //         code: 'ru',
-    //         domain: 'ru.mydomain.com'
-    //       }
-    //     ],
-    //     defaultLocale: 'es',
-    //     vueI18n: {
-    //       fallbackLocale: 'es',
-    //       messages: {
-    //         es: require('./locales/es.json'),
-    //         ru: require('./locales/ru.json')
-    //       }
-    //     },
-    //     differentDomains: true
-    //   }
-    // ],
+    ['nuxt-i18n'],
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
@@ -104,6 +83,33 @@ export default {
   axios: {
     proxyHeaders: false,
     credentials: false
+  },
+  i18n: {
+    seo: true,
+    locales: [
+      {
+        code: 'ru',
+        iso: 'ru',
+        name: 'Ruso'
+        //  domain: 'ru.mydomain.com'
+      },
+      {
+        code: 'es',
+        iso: 'es-ES',
+        name: 'Español'
+        // domain: 'es.mydomain.com'
+      }
+    ],
+    defaultLocale: 'es',
+    // differentDomains: true,
+
+    vueI18n: {
+      fallbackLocale: 'es',
+      messages: {
+        es: require(path.join(__dirname, './locales/es.json')),
+        ru: require(path.join(__dirname, './locales/ru.json')),
+      }
+    }
   },
   /*
    ** Build configuration
