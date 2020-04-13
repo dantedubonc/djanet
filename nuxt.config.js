@@ -1,5 +1,3 @@
-import es from './locales/es.json'
-import ru from './locales/ru.json'
 export default {
   mode: 'universal',
   /*
@@ -105,7 +103,10 @@ export default {
 
     vueI18n: {
       fallbackLocale: 'es',
-      messages: { ru, es }
+      messages: {
+        es: require('./locales/es.json'),
+        ru: require('./locales/ru.json')
+      }
     }
   },
   /*
