@@ -1,3 +1,5 @@
+const path = require("path");
+
 export default {
   mode: 'universal',
   /*
@@ -104,8 +106,8 @@ export default {
     vueI18n: {
       fallbackLocale: 'es',
       messages: {
-        es: require('./locales/es.json'),
-        ru: require('./locales/ru.json')
+        es: require(path.join(__dirname, './locales/es.json')),
+        ru: require(path.join(__dirname, './locales/ru.json')),
       }
     }
   },
