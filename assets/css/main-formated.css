@@ -1890,7 +1890,8 @@ pre code {
 
 @media (min-width: 1200px) {
     .container {
-        width: 1170px
+        width: 1170px;
+        display: block;
     }
 }
 
@@ -7706,4 +7707,7 @@ blockquote:nth-child(even):after {
 #confirmModal  .modal-header .close{
     margin-top: -10px;
    
+}
+.container.spy-navbar {
+    display: block;
 }
