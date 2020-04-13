@@ -1,4 +1,5 @@
-import  I18N  from './config/I18N'
+import es from './locales/es.json'
+import ru from './locales/ru.json'
 export default {
   mode: 'universal',
   /*
@@ -43,7 +44,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [   
+  plugins: [
     // '~/plugins/i18n.js',
     '~/plugins/country.js',
     { src: '~/plugins/ga/ga.js', mode: 'client' },
@@ -61,8 +62,7 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-   
-    ['nuxt-i18n',I18N ],
+    ['nuxt-i18n'],
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
@@ -83,6 +83,30 @@ export default {
   axios: {
     proxyHeaders: false,
     credentials: false
+  },
+  i18n: {
+    seo: true,
+    locales: [
+      {
+        code: 'ru',
+        iso: 'ru',
+        name: 'Ruso'
+        //  domain: 'ru.mydomain.com'
+      },
+      {
+        code: 'es',
+        iso: 'es-ES',
+        name: 'Español'
+        // domain: 'es.mydomain.com'
+      }
+    ],
+    defaultLocale: 'es',
+    // differentDomains: true,
+
+    vueI18n: {
+      fallbackLocale: 'es',
+      messages: { ru, es }
+    }
   },
   /*
    ** Build configuration
