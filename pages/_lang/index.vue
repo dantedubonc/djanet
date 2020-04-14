@@ -359,7 +359,7 @@
             <a
               href="https://www.dyna-jet.com/hochdruckreiniger#b_start=0"
               target="_blank"
-              ><strong>p{{ $t('produkte.content2_2') }} </strong> </a
+              ><strong>{{ $t('produkte.content2_2') }} </strong> </a
             >{{ $t('produkte.content2_3') }}<br />
           </p>
           <ul>
