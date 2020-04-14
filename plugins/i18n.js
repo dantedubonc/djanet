@@ -12,7 +12,8 @@ export default ({ app, store }) => {
     messages: {
      
       es: require('~/locales/es.json'),
-      ru: require('~/locales/ru.json')
+      ru: require('~/locales/ru.json'),
+      nl: require('~/locales/nl.json'),
     }
   })
 

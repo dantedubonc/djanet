@@ -49,7 +49,7 @@ export default {
     '~plugins/vue-js-modal.js'
   ],
   generate: {
-    routes: ['/', '/es', '/en', '/ru']
+    routes: ['/', '/es', '/en', '/ru','/nl']
   },
 
   /*
