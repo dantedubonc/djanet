@@ -216,7 +216,7 @@ export default {
         }
         this.sendingData = true
 
-        await this.$axios.$post('https://djanetbackend.dantedubon.now.sh/', formData)
+        await this.$axios.$post('https://djanetbackend.now.sh/', formData)
         this.sendingData = false
         this.$bvModal.show('confirmModal')
         this.resetForm()

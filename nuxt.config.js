@@ -1,5 +1,10 @@
+
 export default {
   mode: 'universal',
+  env: {
+   
+    buildLocale: process.env.LOCALE || 'es'
+  },
   /*
    ** Headers of the page
    */
