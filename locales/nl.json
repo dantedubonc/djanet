@@ -1,0 +1,166 @@
+{
+  "internalLinks": {
+    "anwendung": "Toepassingen",
+    "produkte": "Producten",
+    "zubehoer": "Toebehoren",
+    "vorteile": "Voordelen",
+    "kontakt": "Service en contact"
+  },
+  "externalLinks": {
+    "dynajetSite": "DYNAJET-website",
+    "construction": "Bouw",
+    "renovation": "Renovatie",
+    "serviceProviders": "Diensten",
+    "localAuthorities": "Gemeente",
+    "industry": "Industrie",
+    "shipyards": "Scheepvaart en offshore",
+    "agriculture": "Land- en Bosbouw"
+  },
+  "Anwendung": {
+    "pageTitle1": "Hogedrukreinigers",
+    "pageTitle2": "voor professionals",
+    "pageTitle3": "Reinigen en renoveren met DYNAJET",
+    "pageTitle4": "snel, efficiënt en zuinig.",
+    "pageTitle5": "Branches en toepassingen",
+    "content1": "Van kauwgumverwijdering en bouwmachinereiniging tot aan betonrenovatie: de innovatieve hogedrukreinigers van DYNAJET bieden technisch uitgekiende oplossingen voor vrijwel alle branches. Daarbij voldoen ze aan de hoogste verwachtingen op het gebied van zuinigheid, efficiëntie en milieuvriendelijkheid. Op de toepassing toegesneden configuraties, een capaciteitsspectrum van 300 tot 3000 bar en veelzijdige toebehoren bieden bovendien maximale flexibiliteit en betrouwbaarheid.",
+    "branches": "DYNAJET biedt speciale oplossingen voor de branches:"
+  },
+  "carousel": {
+    "1": "Landbouw- en bouwmachines reinigen",
+    "2": "Bekistingen reinigen",
+    "3": "Graffiti verwijderen",
+    "4": "Warmtewisselaarreiniging",
+    "5": "Landbouw- en bouwmachines reinigen",
+    "6": "Scheepsreiniging",
+    "7": "Betonrenovatie",
+    "left": "Zurückblättern",
+    "right": "Vorblättern"
+  },
+
+  "produkte": {
+    "title1": "Producten",
+    "title1_2": "Perfect afgewerkte toptechnologie voor voortreffelijke resultaten tot 3000 bar.",
+    "content1": " Deze in Duitsland ontwikkelde en geproduceerde hogedrukreinigers van DYNAJET staan garant voor duurzaamheid, flexibiliteit, kracht en zuinigheid. Door de korte opstarttijden altijd direct inzetbaar. DYNAJET hogedrukdreinigers zijn voorzien de nieuwste technologieën waardoor u profiteert van het extreme betrouwbaarheid en veiligheid en het laagste verbruik. De DYNAJET-hogedrukreinigers zijn leverbaar als mobiele trolleys met sterke benzine-, diesel- of elektrische motor, als compacte trailers of als stationaire installaties.",
+    "content2_1": "Dankzij de veelzijdigheid van de",
+    "content2_2": "DYNAJET-producten",
+    "content2_3": "in combinatie met bijpassende toebehoren zijn specialistische systemen mogelijk voor talrijke toepassingen:",
+    "land": "Oppervlakken en vloeren",
+    "wall": "Daken en muren",
+    "heat": "Pijpen, kanalen en warmtewisselaars",
+    "more": "Containers, tanks en nog veel meer"
+  },
+  "zubehoer": {
+    "title1": "Originele toebehoren van DYNAJET",
+    "title2": " Van nozzles, straalsystemen, vloerreinigers tot weedkillers. Ongeacht de toepassing vindt u bij DYNAJET alles wat u nodig heeft om in combinatie met uw hogedrukreiniger het maximale reinigingsresultaat te bereiken. DYNAJET biedt een assortiment met vele toebehoren die met alle gangbare merken kunnen worden gebruikt.",
+    "title3": " Naast toebehorensets, slangen, lansen, pistolen en hogedruk-veiligheidskleding biedt DYNAJET ook speciale toebehoren voor toepassingen zoals water-zandstralen of de reiniging van vloeren, daken, muren, pijpen en warmtewisselaars."
+  },
+  "Vorteile": {
+    "title1": "Voordelen van DYNAJET",
+    "ventaja1": "Krachtige technologie",
+    "ventaja2": "Hoogste veiligheid",
+    "ventaja3": "Maximale flexibiliteit",
+    "ventaja4": "Absolute belastbaarheid"
+  },
+  "gesamtkatalog": {
+    "title": "De DYNAJET-catalogus nr. 6",
+    "content": "Nog overzichtelijker, in vier talen en met eigen machine- en toebehorenlijst – de nieuwe complete catalogus van DYNAJET nr. 6 geeft u een uitgebreid overzicht van het actuele productassortiment en informatie over de nieuwste DYNAJET-technologie.",
+    "content2": "Hier kunt u de actuele DYNAJET-catalogus downloaden:",
+    "linkCatalog": "Complete catalogus uitgave nr. 6",
+    "linkContact": "Neem contact met ons op voor een gedrukt exemplaar van de DYNAJET-catalogus"
+  },
+  "kontakt": {
+    "title1": "Service en contact",
+    "title2": "Wij zijn u graag van dienst!",
+    "content": "Neem nu contact met ons op voor een offerte of een gratis presentatie. Heeft u vragen over het product, heeft u hulp nodig bij het bedienen van het apparaat of wilt u gebruik maken van onze DYNAJET-reparatieservice? Schrijf ons een e-mail – wij zijn u graag van dienst:"
+  },
+  "footer": {
+    "title": "DYNAJET GmbH",
+    "address1": "Wilhelm-Maybach-Straße 2",
+    "address2": "72622 Nürtingen",
+    "address3": "Duitsland",
+    "tel": "Tel: +49-7022-304-1130",
+    "fax": "Fax: +49-7022-304-1150",
+    "link1": "DYNAJET-website",
+    "link2": "DYNAJET-service",
+    "link3": "Werken bij DYNAJET",
+    "applicationTitle": "Toepassingen",
+    "application1": "Kauwgom verwijderen",
+    "application2": "Graffiti verwijderen",
+    "application3": "Stations en parkeergarages reinigen",
+    "application4": "Betonrenovatie",
+    "application5": "Betonreiniging",
+    "application6": "Bekistingen reinigen",
+    "application7": "Bouwmachines reinigen",
+    "application8": "Gevelrenovatie",
+    "application9": "Ontlakken",
+    "application10": "Vatenreiniging",
+    "application11": "Tankreiniging",
+    "application12": "Containerreiniging",
+    "application13": "Bomen ontschorsen",
+    "application14": "Onkruidverdelging",
+    "branchesTitle": "Oplossingen voor branches",
+    "branch1":"Bouw",
+    "branch2":"Renovatie",
+    "branch3":"Diensten",
+    "branch4":"Gemeente",
+    "branch5":"Scheepvaart en offshore",
+    "branch6":"Landbouw",
+    "branch7":"Bosbouw",
+    "cleanersTitle": "Hogedrukreinigersß",
+    "cleaner1": "Hogedrukreiniger zoeken",
+    "cleaner2": "Geschikte hogedrukreinigers",
+    "cleaner3": "Catalogus",
+    "accessoriesTitle": "Toebehoren",
+    "accessory1": "Toebehoren vinden",
+    "accessory2": "Toebehorensets",
+    "accessory3": "Hogedruknozzles",
+    "accessory4": "Lansbuizen",
+    "accessory5": "Hogedrukpistolen",
+    "accessory6": "Pistolas de alta presión",
+    "accessory7": "Hogedruk-veiligheidskleding",
+    "accessory8": "Hogedrukslangen",
+    "knowledgeTitle": "Hogedrukslangen",
+    "knowledge1": "Films over toepassingen",
+    "knowledge2": "Beschrijvingen van toepassingen",
+    "knowledge3": "Tips van experts",
+    "knowledge4": "Vraag onze experts",
+    "dynaJetTitle": "DYNAJET",
+    "dynaJet1":"Bedrijf",
+    "dynaJet2":"Routebeschrijving",
+    "dynaJet3":"Managementteam",
+    "dynaJet4":"Vacatures",
+    "dynaJet5":"Loopbaan",
+    "contactTitle":"Contact en disclaimer",
+    "contact1": "Contact",
+    "contact2": "Colofon",
+    "contact3": "AV",
+    "contact4": "Privacybeleid",
+    "contact5": "Facebook",
+    "contact6": "YouTube"
+
+  },
+  "form":{
+    "Country": "Land",
+    "Enterprise": "Bedrijf",
+    "Name": "Voornaam",
+    "Surname": "Naam",
+    "City": "Plaats",
+    "Email": "E-mail",
+    "Phone": "Telefoon",
+    "Question": "Bij service-aanvragen a.u.b. ook het serienummer van uw machine vermelden.",
+    "SubmitButton": "Versturen",
+    "TopCountry": "SP",
+    "error" : "Rellenar el campo obligatorio"
+  },
+  "Head":{
+    "title": "Los productos DYNAJET se utilizan para limpieza y saneamiento en todos los ramos — de forma rápida, eficiente y económica. ",
+    "keywords": "DYNAJET",
+    "description": "Los productos DYNAJET se utilizan para limpieza y saneamiento en todos los ramos — de forma rápida, eficiente y económica. "
+
+  },
+  "Modal": {
+    "ConfirmationMessageTitle" : "Heel hartelijk bedankt! Uw bericht is verzonden.",
+    "ConfirmationMessageContent" : "We zullen uw aanvraag verwerken en zo snel mogelijk contact met u opnemen."
+  }
+
+}
