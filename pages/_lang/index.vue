@@ -125,7 +125,7 @@
           <h1
             class="page-title editContent"
             style="color: rgb(255, 255, 255); margin-bottom: -200px; margin-top: 0px; font-size: 40px; background-color: rgb(0, 136, 189);"
-            src="content/images/2_1_stage_Anwendungen_DSC_7910_3.jpg"
+            src="~assets/images/content/2_1_stage_Anwendungen_DSC_7910_3.jpg"
           >
             {{ $t('Anwendung.pageTitle1') }}<br />{{
               $t('Anwendung.pageTitle2')
@@ -147,7 +147,8 @@
       </div>
       <div
         class="section-header parallax"
-        style="background-image: url('content/images/2_1_stage_Anwendungen_DSC_7910_4.jpg')"
+        
+    
       ></div>
     </section>
 
@@ -358,7 +359,7 @@
             <a
               href="https://www.dyna-jet.com/hochdruckreiniger#b_start=0"
               target="_blank"
-              ><strong>p{{ $t('produkte.content2_2') }} </strong> </a
+              ><strong>{{ $t('produkte.content2_2') }} </strong> </a
             >{{ $t('produkte.content2_3') }}<br />
           </p>
           <ul>
@@ -371,7 +372,7 @@
       </div>
       <div
         class="section-header parallax"
-        style="background-image: url('content/images/02_1_DYNAJET_Produkte_Uebersicht.jpg')"
+     
       ></div>
     </section>
     <!-- Ende - Section Produkte-->
@@ -391,28 +392,28 @@
           <div class="col-xs-12 col-sm-6 col-md-3">
             <img
               class="img-responsive"
-              src="content/images/03_2_DYNJAET_Zubehoer_Rotierende_Duese_500bar.jpg"
+              src="~assets/images/03_2_DYNJAET_Zubehoer_Rotierende_Duese_500bar.jpg"
               alt="Rotierende Düse 500bar"
             />
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3">
             <img
               class="img-responsive"
-              src="content/images/Flechenreiniger_500bar.jpg"
+              src="~assets/images/Flechenreiniger_500bar.jpg"
               alt="Flechenreiniger 500bar"
             />
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3">
             <img
               class="img-responsive"
-              src="content/images/03_4_DYNJAET_Zubehoer_Weed-Killer_Unkrautvernichtung.jpg"
+              src="~assets/images/03_4_DYNJAET_Zubehoer_Weed-Killer_Unkrautvernichtung.jpg"
               alt="Unkrautvernichtung"
             />
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3">
             <img
               class="img-responsive"
-              src="content/images/03_8_DYNJAET_Zubehoer_Schutzhelm.jpg"
+              src="~assets/images/03_8_DYNJAET_Zubehoer_Schutzhelm.jpg"
               alt="Schutzhelm"
             />
           </div>
@@ -422,28 +423,28 @@
           <div class="col-xs-12 col-sm-6 col-md-3">
             <img
               class="img-responsive"
-              src="content/images/Hochdruckpistole_500bar_Web_1.jpg"
+              src="~assets/images/Hochdruckpistole_500bar_Web_1.jpg"
               alt="Hochdruckpistole 500bar"
             />
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3">
             <img
               class="img-responsive"
-              src="content/images/03_1_DYNJAET_Zubehoer_Spritzlanze_SL3000.jpg"
+              src="~assets/images/03_1_DYNJAET_Zubehoer_Spritzlanze_SL3000.jpg"
               alt="Spritzlanze SL3000"
             />
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3">
             <img
               class="img-responsive"
-              src="content/images/03_4_DYNJAET_Zubehoer_Schlauch_1_000bar.jpg"
+              src="~assets/images/03_4_DYNJAET_Zubehoer_Schlauch_1_000bar.jpg"
               alt="Schlauch 1.000bar"
             />
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3">
             <img
               class="img-responsive"
-              src="content/images/03_6_DYNJAET_Zubehoer_Filterstation.jpg"
+              src="~assets/images/03_6_DYNJAET_Zubehoer_Filterstation.jpg"
               alt="Filterstation"
             />
           </div>
@@ -455,7 +456,7 @@
     <section id="vorteile" class="">
       <div
         class="section-header parallax"
-        style="background-image: url('content/images/04_DYNAJET_Qualitaetssicherung.jpg')"
+       
       ></div>
       <!--div class="embed-responsive embed-responsive-16by9">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/5eKuMnpv-aQ" frameborder="0" allowfullscreen></iframe>
@@ -487,7 +488,7 @@
               class="img-responsive"
               style="float:left;
 margin-top: 0px; margin-bottom:0px; margin-left: 0px; margin-right: 20px"
-              src="content/images/05_DYNAJET_Gesamtkatalog_Nummer_6.jpg"
+              src="~assets/images/05_DYNAJET_Gesamtkatalog_Nummer_6.jpg"
               alt="Gesamtkatalog Nummer 6"
           /></a>
         </p>
