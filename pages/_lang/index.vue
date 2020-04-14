@@ -148,7 +148,7 @@
       <div
         class="section-header parallax"
         
-        style="background-image: url('~/assets/images/2_1_stage_Anwendungen_DSC_7910_4.jpg')"
+    
       ></div>
     </section>
 
@@ -372,7 +372,7 @@
       </div>
       <div
         class="section-header parallax"
-        style="background-image: url('content/images/02_1_DYNAJET_Produkte_Uebersicht.jpg')"
+     
       ></div>
     </section>
     <!-- Ende - Section Produkte-->
@@ -456,7 +456,7 @@
     <section id="vorteile" class="">
       <div
         class="section-header parallax"
-        style="background-image: url('~assets/images/04_DYNAJET_Qualitaetssicherung.jpg')"
+       
       ></div>
       <!--div class="embed-responsive embed-responsive-16by9">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/5eKuMnpv-aQ" frameborder="0" allowfullscreen></iframe>

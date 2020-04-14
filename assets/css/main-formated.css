@@ -7716,3 +7716,15 @@ blockquote:nth-child(even):after {
         max-width: 1050px;
     }
 }
+
+#vorteile .section-header {
+    background-image: url("~assets/images/04_DYNAJET_Qualitaetssicherung.jpg");
+}
+
+#produkte .section-header {
+    background-image: url("~assets/images/02_1_DYNAJET_Produkte_Uebersicht.jpg");
+}
+
+#start .section-header {
+    background-image: url("~assets/images/2_1_stage_Anwendungen_DSC_7910_4.jpg");
+}
