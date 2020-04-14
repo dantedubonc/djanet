@@ -8,7 +8,10 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "generate:ru": "cross-env LOCALE=ru yarn generate",
+    "generate:es": "cross-env LOCALE=es yarn generate",
+    "generate:nl": "cross-env LOCALE=nl yarn generate"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
@@ -25,6 +28,7 @@
     "vuelidate": "^0.7.5"
   },
   "devDependencies": {
+    "cross-env": "^7.0.2",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-prettier": "^3.0.1",
     "prettier": "^1.16.4"

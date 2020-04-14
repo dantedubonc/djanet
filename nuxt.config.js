@@ -1,5 +1,11 @@
+import es from './locales/es.json'
+import ru from './locales/ru.json'
+import nl from './locales/nl.json'
 export default {
   mode: 'universal',
+  env: {
+    buildLocale: process.env.LOCALE || 'es'
+  },
   /*
    ** Headers of the page
    */
@@ -23,9 +29,9 @@ export default {
       id: 'top'
     }
   },
-  router: {
-   middleware: 'i18n'
-  },
+  // router: {
+  //  middleware: 'i18n'
+  // },
   /*
    ** Customize the progress-bar color
    */
@@ -42,15 +48,15 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [   
-    '~/plugins/i18n.js',
+  plugins: [
+    // '~/plugins/i18n.js',
     '~/plugins/country.js',
     { src: '~/plugins/ga/ga.js', mode: 'client' },
     '~plugins/vue-js-modal.js'
   ],
-  generate: {
-    routes: ['/', '/es', '/en', '/ru','/nl']
-  },
+  // generate: {
+  //   routes: ['/', '/es', '/en', '/ru','/nl']
+  // },
 
   /*
    ** Nuxt.js dev-modules
@@ -63,7 +69,7 @@ export default {
     // [
     //   'nuxt-i18n',
     //   {
-    //     locales: [         
+    //     locales: [
     //       {
     //         code: 'es',
     //         domain: 'es.mydomain.com'
@@ -84,6 +90,7 @@ export default {
     //     differentDomains: true
     //   }
     // ],
+    'nuxt-i18n',
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
@@ -96,6 +103,35 @@ export default {
     hideBadge: true,
     siteKey: '6Lftg-YUAAAAAAUkCJcDmrvw2hYS2iKk_N6s3S-Z',
     version: 3
+  },
+  i18n: {
+    seo: true,
+    locales: [
+      {
+        code: 'es',
+        iso: 'es-ES',
+        isCatchallLocale: process.env.LOCALE == 'es'
+      },
+      {
+        code: 'ru',
+        iso: 'ru-RU',
+        isCatchallLocale: process.env.LOCALE == 'ru'
+      },
+      {
+        code: 'nl',
+        iso: 'nl-NL',
+        isCatchallLocale: process.env.LOCALE == 'nl'
+      }
+    ],
+    defaultLocale: process.env.LOCALE || 'es',
+    vueI18n: {
+  
+      messages: {
+        ru,
+        es,
+        nl
+      }
+    }
   },
   /*
    ** Axios module configuration
