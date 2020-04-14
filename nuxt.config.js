@@ -125,7 +125,7 @@ export default {
     ],
     defaultLocale: process.env.LOCALE || 'es',
     vueI18n: {
-      fallbackLocale: process.env.LOCALE || 'es',
+  
       messages: {
         ru,
         es,
