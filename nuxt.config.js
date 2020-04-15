@@ -1,10 +1,11 @@
 import es from './locales/es.json'
 import ru from './locales/ru.json'
 import nl from './locales/nl.json'
+
 export default {
   mode: 'universal',
   env: {
-    buildLocale: process.env.LOCALE || 'es'
+    buildLocale: 'es'
   },
   /*
    ** Headers of the page
@@ -29,9 +30,9 @@ export default {
       id: 'top'
     }
   },
-  // router: {
-  //  middleware: 'i18n'
-  // },
+  router: {
+   middleware: 'i18n'
+  },
   /*
    ** Customize the progress-bar color
    */
@@ -49,7 +50,7 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    // '~/plugins/i18n.js',
+    
     '~/plugins/country.js',
     { src: '~/plugins/ga/ga.js', mode: 'client' },
     '~plugins/vue-js-modal.js'
@@ -66,30 +67,7 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    // [
-    //   'nuxt-i18n',
-    //   {
-    //     locales: [
-    //       {
-    //         code: 'es',
-    //         domain: 'es.mydomain.com'
-    //       },
-    //       {
-    //         code: 'ru',
-    //         domain: 'ru.mydomain.com'
-    //       }
-    //     ],
-    //     defaultLocale: 'es',
-    //     vueI18n: {
-    //       fallbackLocale: 'es',
-    //       messages: {
-    //         es: require('./locales/es.json'),
-    //         ru: require('./locales/ru.json')
-    //       }
-    //     },
-    //     differentDomains: true
-    //   }
-    // ],
+    
     'nuxt-i18n',
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
@@ -107,23 +85,24 @@ export default {
   i18n: {
     seo: true,
     locales: [
-      {
+      // {
+      //   code: 'ru',
+      //   iso: 'ru-RU',
+     
+      // },
+       {
         code: 'es',
         iso: 'es-ES',
-        isCatchallLocale: process.env.LOCALE == 'es'
+       
       },
-      {
-        code: 'ru',
-        iso: 'ru-RU',
-        isCatchallLocale: process.env.LOCALE == 'ru'
-      },
-      {
-        code: 'nl',
-        iso: 'nl-NL',
-        isCatchallLocale: process.env.LOCALE == 'nl'
-      }
+    
+      // {
+      //   code: 'nl',
+      //   iso: 'nl-NL',
+       
+      // }
     ],
-    defaultLocale: process.env.LOCALE || 'es',
+    defaultLocale: 'es',
     vueI18n: {
   
       messages: {

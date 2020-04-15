@@ -1,6 +1,7 @@
 import UA from './UA'
 export default ({ app }) => {
-  const locale = app.i18n.locale
+  const locale = 'nl' 
+
   /*
    ** Only run on client-side and only in production mode
    */
