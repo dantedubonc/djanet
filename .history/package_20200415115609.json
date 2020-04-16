@@ -11,9 +11,7 @@
     "generate": "nuxt generate",
     "generate:ru": "cross-env LOCALE=ru yarn generate",
     "generate:es": "cross-env LOCALE=es yarn generate",
-    "generate:nl": "cross-env LOCALE=nl yarn generate",
-    "generate:zh": "cross-env LOCALE=zh yarn generate",
-    "generate:sv": "cross-env LOCALE=sv yarn generate"
+    "generate:nl": "cross-env LOCALE=nl yarn generate"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",

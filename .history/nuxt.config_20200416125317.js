@@ -7,7 +7,7 @@ import sv from './locales/sv.json'
 export default {
   mode: 'universal',
   env: {
-    buildLocale: 'sv'
+    buildLocale: 'zh'
   },
   /*
    ** Headers of the page
@@ -104,17 +104,17 @@ export default {
 
       // },
 
-      // {
-      //   code: 'zh',
-      //   iso: 'zh-CN',
-
-      // },
       {
-        code: 'sv',
-        iso: 'sv'
-      }
+        code: 'zh',
+        iso: 'zh-CN',
+
+      },
+      // {
+      //   code: 'sv',
+      //   iso: 'sv'
+      // }
     ],
-    defaultLocale: 'sv',
+    defaultLocale: 'zh',
     vueI18n: {
 
       messages: {

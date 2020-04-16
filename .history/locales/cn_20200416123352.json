@@ -1,0 +1,170 @@
+{
+    "internalLinks": {
+      "anwendung": "应用",
+      "produkte": "产品",
+      "zubehoer": "附件",
+      "vorteile": "优势",
+      "kontakt": "联系方式"
+    },
+    "externalLinks": {
+      "dynajetSite": "特力能官方 网站",
+      "construction": "建筑工程",
+      "renovation": "水泥表面处理",
+      "serviceProviders": "专业服务工程公司",
+      "localAuthorities": "市政部门，如水务局、道路交通",
+      "industry": "基础工业",
+      "shipyards": "造船修船",
+      "agriculture": "农业机械与林业"
+    },
+    "Anwendung": {
+      "pageTitle1": "超高压水射流产品",
+      "pageTitle2": "",
+      "pageTitle3": "借助特力能科技，众多行业的超高压清洗将更加省钱、",
+      "pageTitle4": "省时、省力与高效。",
+      "pageTitle5": "行业与专业应用",
+      "content1": "从基础设备的高效清洗到水泥建筑表面的快速切开，从军舰、飞机的专业养护到、石油行业罐体内外的污垢清除...... 特力能300-3000公斤的德国高压水射流科技及丰富多样的专业附件配合，将使工业领域更多行业的高压冲洗工作更加专业、高效、环保、安全、灵活与节能......！ 这就是来自德国精工特力能向全球的承诺。",
+      "branches": "特力能工业领域重点用户群体︰"
+    },
+    "carousel": {
+      "1": "农业与建筑建筑工程设备高效清洗",
+      "2": "各种尺寸、形状模板的专业清洗",
+      "3": "涂鸦的去除",
+      "4": "工业相关领域换热器的专业冲洗",
+      "5": "清洗的农业和工程机械",
+      "6": "造船/修船船体表面高压冲洗",
+      "7": "水泥表面处理。",
+      "left": "Zurückblättern",
+      "right": "Vorblättern"
+    },
+  
+    "produkte": {
+      "title1": "产品",
+      "title1_2": "在正确的使用条件下，特力能高压3000公斤的水射流顶级科技创造着令人震撼的冲洗效果。",
+      "content1": " 军队、舰船、飞机、装甲/坦克......的特殊清洗
+      城市市政所属的道路下水管道、行车标识的疏通与修更
+      汽车烤漆车间地面网板的高压冲洗
+      水泥建筑表面的切开与修复工程",
+      "content2_1": "",
+      "content2_2": "DYNAJET 的产品配套结合， ",
+      "content2_3": "特殊系统的许多应用程序的多样性提供了︰",
+      "land": "被冲洗物体各自多尺寸、形状的内外壁",
+      "wall": "表面与地面，顶面与墙壁",
+      "heat": "特殊尺寸、形状的管道、沟槽，如换热器",
+      "more": "各种容器、罐体及工业领域更多专业行业的特殊冲洗需求"
+    },
+    "zubehoer": {
+      "title1": "特力能原厂制造的专业附件",
+      "title2": "不论是德国优质材料形成的超高压水射流结构，还是安全可靠的工作防护设备，特力能通过对产品制造的精益求精与前卫设计，实现着主要机型与专业附件的完美结合。用于各种用途的长寿命耐磨喷嘴、特殊材料的耐高压水管、金属延长杆、喷枪、喷砂附件、地面专业防护装置......",
+      "title3": "特力能来自德国的精工产品，不仅拥有顶级品质，也向全球用户提供更多专业、高效的解决方案。"
+    },
+    "Vorteile": {
+      "title1": "特力能的自信与特点",
+      "ventaja1": "全球顶级科技",
+      "ventaja2": "顶级工作安全等级",
+      "ventaja3": "丰富系列选择灵活",
+      "ventaja4": "更耐用、更长寿命、适应更严酷的工作环境"
+    },
+    "gesamtkatalog": {
+      "title": "特力能产品目录",
+      "content": "由 四种语言完成的产品资料使您对产品与使用信息获得更全面与准确的了解，而特力能所拥有的产品范围, 先进的科技设计及准确分类也在您选择正确方案时更加简便与清晰。",
+      "content2": "您也可下载特力能产品目录",
+      "linkCatalog": "特力能完整电子版产品目录 >",
+      "linkContact": "联系我们索取打印版产品目录 >"
+    },
+    "kontakt": {
+      "title1": "联系我们",
+      "title2": "我们期待通告邮件与您联系:",
+      "content": ""
+    },
+    "footer": {
+      "title": "DYNAJET GmbH",
+      "address1": " 威廉-迈巴赫-大街 2",
+      "address2": "72622 Nürtingen",
+      "address3": "德国",
+      "tel": "电话: +49-7022-304-1130",
+      "fax": "传真: +49-7022-304-1150",
+      "link1": "特力能网站",
+      "link2": "DYNAJET Service",
+      "link3": "",
+      "applicationTitle": "应用",
+      "application1": "城政口香糖高效清除",
+      "application2": "城政涂鸦高效清除",
+      "application3": "火车站、停车场冲洗",
+      "application4": "水泥的切开与修复",
+      "application5": "混凝土高效清洗",
+      "application6": "模板顽圾的清除",
+      "application7": "施工设备的强力冲洗",
+      "application8": "外墙翻新",
+      "application9": "除漆专业冲洗",
+      "application10": "容器、 罐体的高效清洗",
+      "application11": "树木的高效剥皮",
+      "application12": "",
+      "application13": "",
+      "application14": "",
+      "branchesTitle": "行业解决方案",
+      "branch1":"建筑工程",
+      "branch2":"表面物体冲洗与修复",
+      "branch3":"专业工程服务商",
+      "branch4":"市政、水务、交通",
+      "branch5":"造船与船舶",
+      "branch6":"农业/林业机械",
+      "branch7":"",
+      "cleanersTitle": "超高压水枪",
+      "cleaner1": "搜索高压水射流产品",
+      "cleaner2": "搜索二手高压水射流产品",
+      "cleaner3": "产品目录",
+      "accessoriesTitle": "附件",
+      "accessory1": "寻找附件",
+      "accessory2": "附件套装",
+      "accessory3": "高压喷嘴",
+      "accessory4": "耐高压延长管",
+      "accessory5": "高压水枪",
+      "accessory6": "高压水枪防护服",
+      "accessory7": "高压水枪耐高压水管",
+      "accessory8": "",
+      "knowledgeTitle": "专业科技与技术",
+      "knowledge1": "使用影视",
+      "knowledge2": "使用文字说明",
+      "knowledge3": "专家友情提示",
+      "knowledge4": "专家热线咨询",
+      "dynaJetTitle": "DYNAJET",
+      "dynaJet1":"公司简介",
+      "dynaJet2":"进入",
+      "dynaJet3":"管理团队",
+      "dynaJet4":"人力资源/职岗需求",
+      "dynaJet5":"联系我们",
+      "contactTitle":"联系方式与合作",
+      "contact1": "联系我们",
+      "contact2": "Legal notes",
+      "contact3": "一般条款和条件",
+      "contact4": "保密条款与声明",
+      "contact5": "Facebook",
+      "contact6": "YouTube"
+  
+    },
+    "form":{
+      "Country": "国家 ",
+      "Enterprise": "公司 ",
+      "Name": "联系人姓名 ",
+      "Surname": "名称 ",
+      "City": "城市 ",
+      "Email": "电子邮件 ",
+      "Phone": "电话",
+      "Question": "技术咨询",
+      "SubmitButton": "特力能总部",
+      "TopCountry": "SP",
+      "error" : "填写必填项"
+    },
+    "Head":{
+      "title": "借助特力能科技，众多行业的超高压清洗将更加省钱、省时、省力与高效。",
+      "keywords": "DYNAJET",
+      "description": "借助特力能科技，众多行业的超高压清洗将更加省钱、省时、省力与高效。"
+  
+    },
+    "Modal": {
+      "ConfirmationMessageTitle" : "非常感谢！ 您的信息已发送。",
+      "ConfirmationMessageContent" : "我们将处理您的询问并尽快与您联系。"
+    }
+  
+  }
+  

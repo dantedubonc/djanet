@@ -1,13 +1,11 @@
 import es from './locales/es.json'
 import ru from './locales/ru.json'
 import nl from './locales/nl.json'
-import zh from './locales/zh.json'
-import sv from './locales/sv.json'
 
 export default {
   mode: 'universal',
   env: {
-    buildLocale: 'sv'
+    buildLocale: 'es'
   },
   /*
    ** Headers of the page
@@ -52,7 +50,7 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-
+    
     '~/plugins/country.js',
     { src: '~/plugins/ga/ga.js', mode: 'client' },
     '~plugins/vue-js-modal.js'
@@ -69,7 +67,7 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-
+    
     'nuxt-i18n',
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
@@ -90,39 +88,27 @@ export default {
       // {
       //   code: 'ru',
       //   iso: 'ru-RU',
-
+     
       // },
-      //  {
-      //   code: 'es',
-      //   iso: 'es-ES',
-
-      // },
-
+       {
+        code: 'es',
+        iso: 'es-ES',
+       
+      },
+    
       // {
       //   code: 'nl',
       //   iso: 'nl-NL',
-
-      // },
-
-      // {
-      //   code: 'zh',
-      //   iso: 'zh-CN',
-
-      // },
-      {
-        code: 'sv',
-        iso: 'sv'
-      }
+       
+      // }
     ],
-    defaultLocale: 'sv',
+    defaultLocale: 'es',
     vueI18n: {
-
+  
       messages: {
         ru,
         es,
-        nl,
-        zh,
-        sv
+        nl
       }
     }
   },

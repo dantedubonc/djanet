@@ -1,13 +1,11 @@
 import es from './locales/es.json'
 import ru from './locales/ru.json'
 import nl from './locales/nl.json'
-import zh from './locales/zh.json'
-import sv from './locales/sv.json'
 
 export default {
   mode: 'universal',
   env: {
-    buildLocale: 'sv'
+    buildLocale: 'es'
   },
   /*
    ** Headers of the page
@@ -92,37 +90,39 @@ export default {
       //   iso: 'ru-RU',
 
       // },
-      //  {
-      //   code: 'es',
-      //   iso: 'es-ES',
+       {
+        code: 'es',
+        iso: 'es-ES',
 
-      // },
+      },
 
       // {
       //   code: 'nl',
       //   iso: 'nl-NL',
 
       // },
+      {
+        code: 'es',
+        iso: 'es-ES',
 
-      // {
-      //   code: 'zh',
-      //   iso: 'zh-CN',
+      },
+      {
+        code: 'zh',
+        iso: 'zh-CN',
 
-      // },
+      },
       {
         code: 'sv',
         iso: 'sv'
       }
     ],
-    defaultLocale: 'sv',
+    defaultLocale: 'es',
     vueI18n: {
 
       messages: {
         ru,
         es,
-        nl,
-        zh,
-        sv
+        nl
       }
     }
   },
