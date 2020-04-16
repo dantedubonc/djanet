@@ -1,0 +1,166 @@
+{
+  "internalLinks": {
+    "anwendung": "Anvendelse",
+    "produkte": "Produkter",
+    "zubehoer": "Tilbehør",
+    "vorteile": "Fordele",
+    "kontakt": "Service og kontakt"
+  },
+  "externalLinks": {
+    "dynajetSite": "DYNAJET Hjemmeside",
+    "construction": "Byggeindustrien",
+    "renovation": "Renovering",
+    "serviceProviders": "Skadeservice",
+    "localAuthorities": "Kommuner",
+    "industry": "Industrien",
+    "shipyards": "Værfte og offshore",
+    "agriculture": "Land- og skovbrug"
+  },
+  "Anwendung": {
+    "pageTitle1": "Højtryksrensere",
+    "pageTitle2": "for professionelle",
+    "pageTitle3": "Med DYNAJET kan alle brancher rengøre og renovere –",
+    "pageTitle4": "Hurtigt, effektivt og rentabelt",
+    "pageTitle5": "Branchen og anvendelser",
+    "content1": "De innovative højtryksrensere fra DYNAJET tilbyder stort set alle brancher avancerede tekniske løsninger – lige fra fjernelse af tyggegummi, afrensning af entreprenør maskiner til betonsanering. DYNAJET opfylder alle forventninger om rentabilitet, effektivitet og miljømæssig bæredygtighed. I trykintervallet 300-3000 bar og med diverse tilbehør tilbyder DYNAJET den maksimale fleksibilitet og pålidelighed..",
+    "branches": "DYNAJET tilbyder især specialløsninger til følgende brancher"
+  },
+  "carousel": {
+    "1": "Afrensning af bygge- og entreprenørmaskiner",
+    "2": "Rengøring af stilladser",
+    "3": "Fjernelse af graffiti",
+    "4": "Afrensning af varmeveksler",
+    "5": "Afrensning af bygge- og entreprenørmaskiner",
+    "6": "Skibsafrensning",
+    "7": "Betonrenovering",
+    "left": "Zurückblättern",
+    "right": "Vorblättern"
+  },
+
+  "produkte": {
+    "title1": "Produkter",
+    "title1_2": "Banebrydende teknologi perfekt produceret til optimale resultater optil 3000 bar.",
+    "content1": " DYNAJET’s robuste højtryksrensere er udviklet og produceret i Tyskland.Holdbarhed, fleksibilitet og rentabilitet. Bliv overbevist via en hurtig opstartstid, lavt brændstofforbrug, ekstrem pålidelighed og høj sikkerhed. Afhængig af dine behov, kan du enten få DYNAJET’s højtryksrensere som mobile trolleyer med benzin, diesel eller elektriske motorer, eller som kompakte trailer eller stationære enheder.",
+    "content2_1": "De mange",
+    "content2_2": "DYNAJET produkter",
+    "content2_3": "i kombination med passende tilbehør tilbyder dig specialsystemer for talrige anvendelsesområder:",
+    "land": "Overflader og gulve",
+    "wall": "Tage og vægge",
+    "heat": "Rør, kanaler og varmevekslere",
+    "more": "Beholdere, tanke og meget mere"
+  },
+  "zubehoer": {
+    "title1": "DYNAJET Originaltilbehør",
+    "title2": " Om det er dyser,  sandstrålesystemer eller sikkerhedsudstyr, kan du hos DYNAJET finde alt hvad du behøver for at kunne arbejde uden bekymringer.  Udvalget omfatter en række tilbehør, som passer sammen med andre almindelige producenters udstyr. Afhængigt af behovet, kan du optimere arbejdseffektiviteten og rengøringsdybden.Udover tilbehørssæt, HT-slanger, dyserør, pistoler og sikkerhedsudstyr tilbyder DYNAJET også specialtilbehør til vand-sand-blæsning eller til rengøring af gulve, tage, vægge, rør eller varmevekslere.",
+    "title3": " DYNAJET Originaltilbehør opfylder høje kvalitetskrav og er perfekt afstemt for talrige anvendelser."
+  },
+  "Vorteile": {
+    "title1": "Fordele ved DYNAJET",
+    "ventaja1": "Kraftfuld teknologi",
+    "ventaja2": "Høj sikkerhed",
+    "ventaja3": "Maximal flexibilitet",
+    "ventaja4": "Optimal kvalitet"
+  },
+  "gesamtkatalog": {
+    "title": "DYNAJET Katalog Nr. 6",
+    "content": "Mere overskuelig – på fire sprog und med udførlige maskin- og udstyrslister. Det nye DYNAJET Katalog Nr. 6 tilbyder et enestående overblik over det aktuelle produktsortiment og informerer om den nyeste DYNAJET-teknologi.",
+    "content2": "Her kan du downloade det nyeste DYNAJET katalog:",
+    "linkCatalog": "DYNAJET Katalog Nr. 6 >",
+    "linkContact": "Kontakt os hvis du ønsker et trykt eksemplar of DYNAJET’s katalog >"
+  },
+  "kontakt": {
+    "title1": "Service og Kontakt",
+    "title2": "Vi er der for dig!",
+    "content": " Kontakt os for et uforpligtende tilbud eller en fremvisning.Har du spørgsmål til et produkt, mangler du hjælp til anvendelsen af en maskine eller skal du have kontakt med vores serviceafdeling?  Send os en E-mail – vi ser frem til at høre fra dig:"
+  },
+  "footer": {
+    "title": "DYNAJET GmbH",
+    "address1": "Wilhelm-Maybach-Straße 2",
+    "address2": "72622 Nürtingen",
+    "address3": "Alemania",
+    "tel": "Tel: +49-7022-304-1130",
+    "fax": "Fax: +49-7022-304-1150",
+    "link1": "DYNAJET Hjemmeside",
+    "link2": "Danske forhandler af DYNAJET",
+    "link3": "DYNAJET Karriere",
+    "applicationTitle": "Anveldelser",
+    "application1": "Fjernelse af tyggegummi",
+    "application2": "Fjernelse af graffiti",
+    "application3": "Rengøring af banegårde og parkeringshuse",
+    "application4": "Betonsanering",
+    "application5": "Fjernelse af beton",
+    "application6": "Rengøring af stilladser",
+    "application7": "Afrensning af entreprenørmaskiner",
+    "application8": "Facadeafrensning",
+    "application9": "Overfladeafrensning",
+    "application10": "Rensning beholdere",
+    "application11": "Rensning af tanke",
+    "application12": "Rensning af containere",
+    "application13": "Afbarkning af træstammer",
+    "application14": "Ukrudtsbekæmpelse",
+    "branchesTitle": "Brancheløsninger",
+    "branch1":"Byggeindustrien",
+    "branch2":"Renovering",
+    "branch3":"Skadeservice",
+    "branch4":"Kommuner",
+    "branch5":"Værfte og offshore",
+    "branch6":"Landbrug",
+    "branch7":"Skovbrug",
+    "cleanersTitle": "Højtryksrensere",
+    "cleaner1": "Søg efter højtryksrenser",
+    "cleaner2": "Brugte højtryksrensere",
+    "cleaner3": "Katalog",
+    "accessoriesTitle": "Tilbehør",
+    "accessory1": "Find tilbehør",
+    "accessory2": "Tilbehørskit",
+    "accessory3": "Højtryksdyser",
+    "accessory4": "Dyserør",
+    "accessory5": "Højtrykspistoler",
+    "accessory6": "Sikkerhedsudstyr",
+    "accessory7": "Højtryksslange",
+    "accessory8": "Mangueras de alta presión",
+    "knowledgeTitle": "CKnow-how og erfaring",
+    "knowledge1": "Anvendelsesfilm",
+    "knowledge2": "Anvendelsesbeskrivelser",
+    "knowledge3": "Expert tips",
+    "knowledge4": "Spørg vores experter",
+    "dynaJetTitle": "DYNAJET",
+    "dynaJet1":"Virksomheden",
+    "dynaJet2":"Kørselsanvisning",
+    "dynaJet3":"Ledelsen",
+    "dynaJet4":"Ledige jobs",
+    "dynaJet5":"Karriere",
+    "contactTitle":"Kontakt og retningslinjer",
+    "contact1": "Kontakt",
+    "contact2": "Kontakter",
+    "contact3": "Betingelser",
+    "contact4": "Databeskyttelseserklæring",
+    "contact5": "Facebook",
+    "contact6": "YouTube"
+
+  },
+  "form":{
+    "Country": "Land",
+    "Enterprise": "Firmanavn",
+    "Name": "Efternavn",
+    "Surname": "Fornavn",
+    "City": "By",
+    "Email": "E-mail",
+    "Phone": "Telefon",
+    "Question": "Oplys venligst maskinnummeret på din maskine ved servicespørgsmål",
+    "SubmitButton": "Send",
+    "TopCountry": "SP",
+    "error" : "Rellenar el campo obligatorio"
+  },
+  "Head":{
+    "title": "Los productos DYNAJET se utilizan para limpieza y saneamiento en todos los ramos — de forma rápida, eficiente y económica. ",
+    "keywords": "DYNAJET",
+    "description": "Los productos DYNAJET se utilizan para limpieza y saneamiento en todos los ramos — de forma rápida, eficiente y económica. "
+
+  },
+  "Modal": {
+    "ConfirmationMessageTitle" : "¡Muchas gracias! Su mensaje ha sido enviado.",
+    "ConfirmationMessageContent" : "Procesaremos su consulta y nos pondremos en contacto con usted lo antes posible."
+  }
+
+}

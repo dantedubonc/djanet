@@ -1,6 +1,7 @@
 import es from './locales/es.json'
 import ru from './locales/ru.json'
 import nl from './locales/nl.json'
+import da from './locales/da.json'
 
 export default {
   mode: 'universal',
@@ -95,6 +96,11 @@ export default {
         iso: 'es-ES',
        
       },
+      {
+        code: 'da',
+        iso: 'da-DK',
+       
+      }
     
       // {
       //   code: 'nl',
@@ -108,7 +114,8 @@ export default {
       messages: {
         ru,
         es,
-        nl
+        nl, 
+        da
       }
     }
   },
