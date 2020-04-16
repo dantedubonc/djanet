@@ -1,0 +1,167 @@
+{
+    "internalLinks": {
+      "anwendung": "Tillämpningar",
+      "produkte": "Produkter",
+      "zubehoer": "Tillbehör",
+      "vorteile": "Fördelar",
+      "kontakt": "Service & Kontakt"
+    },
+    "externalLinks": {
+      "dynajetSite": "DYNAJET Website",
+      "construction": "Bygge",
+      "renovation": "Sanering",
+      "serviceProviders": "Serviceföretag",
+      "localAuthorities": "Kommuner",
+      "industry": "Industri",
+      "shipyards": "Varv och offshore",
+      "agriculture": "Jord- och skogsbruk"
+    },
+    "Anwendung": {
+      "pageTitle1": "Högtryckstvättar",
+      "pageTitle2": "för yrkesmässigt bruk",
+      "pageTitle3": "Rengöring och sanering med DYNAJET i alla branscher —",
+      "pageTitle4": "snabbt, effektivt och ekonomiskt.",
+      "pageTitle5": "Branscher och tillämpningar",
+      "content1": "Från borttagning av tuggummi via rengöring av byggmaskiner till betongsanering erbjuder de innovativa högtryckstvättarna från DYNAJET tekniskt genomtänkta lösningar för nästan alla branscher. Därvid uppfyller de allra högsta krav när det gäller lönsamhet, effektivitet och miljöprestanda. Riktig konfiguration, tryck mellan 300 och 3000 bar och rikligt tillbehör medger dessutom maximal anpassningsförmåga och tillförlitlighet.",
+      "branches": "Speciellt för följande branscher erbjuder DYNAJET speciallösningar: "
+    },
+    "carousel": {
+      "1": "Limpieza de máquinas agrícolas y máquinas de construcción",
+      "2": "Rengöring av gjutformar",
+      "3": "Borttagning av graffiti",
+      "4": "Rengöring av värmeväxlare",
+      "5": "Rengöring av lantbruks- och byggmaskiner",
+      "6": "Skeppsrengöring",
+      "7": "Betongsanering",
+      "left": "Zurückblättern",
+      "right": "Vorblättern"
+    },
+  
+    "produkte": {
+      "title1": "Produkter",
+      "title1_2": "Toppteknik med perfekt bearbetning för utmärkta resultat upp till 3.000 bar.",
+      "content1": "Utvecklade och tillverkade i Tyskland står de robusta DYNAJET högtryckstvättarna för effektivitet, hållbarhet, flexibilitet och lönsamhet. Övertyga dig själv om korta riggningstider, låg förbrukning, extrem tillförlitlighet och säkerhet. Allt efter bebov erhåller du DYNAJET högtryckstvättar som mobil trolley med effektiva och starka bensin-, diesel- eller elmotoren, som kompakt trailer eller också som stationära aggregat.",
+      "content2_1": "De många",
+      "content2_2": "DYNAJET produkterna",
+      "content2_3": "tillsammans med passande tillbehör erbjuder specialsystem för många användningsområden:",
+      "land": "Ytor och golv",
+      "wall": "Tak och väggar",
+      "heat": "Rör, kanaler och värmeväxlare",
+      "more": "Behållare, tankar och mycket mer"
+    },
+    "zubehoer": {
+      "title1": "DYNAJET originaltillbehör",
+      "title2": "Vare sig det gäller munstycken, strålsystem med fasta ämnen eller skyddsutrutning, hos DYNAJET hittar du allt du behöver för ett störningsfritt arbete med högtryckstvättar. Sortimentet omfattar en mängd olika tillbehör som även lämpar sig för alla vanliga tillverkare. Beroende på arbetsområde maximerar du abetets effektivitet och rengöringens djup. Förutom tillbehörssets, slangar, lanser, pistoler och högtrycksskyddsklädsel erbjuder DYNAJET även specialtillbehör för vatten-sandblästring eller rengöring av golv, tak, väggar, rör eller värmeväxlare.",
+      "title3": "DYNAJET originaltillbehör uppfyller högsta kvalitetskrav och är perfekt avstämda för många tillämpningar."
+    },
+    "Vorteile": {
+      "title1": "DYNAJET´s fördelar",
+      "ventaja1": "Effektiv teknik",
+      "ventaja2": "Hög säkerhet",
+      "ventaja3": "Maximal flexibilitet",
+      "ventaja4": "Absolut belastningsförmåga"
+    },
+    "gesamtkatalog": {
+      "title": "DYNAJET Katalog nr. 6",
+      "content": "Ännu överskådligare, på fyra språk och med egen maskin- och utrustningslista – den nya DYNAJET katalogen nr. 6 medger en omfattande överblick över det aktuella produktsortimentet och informerar om den nyaste DYNAJET-teknologin.",
+      "content2": "Här kan du nerladda den aktuella DYNAJET-katalogen:",
+      "linkCatalog": "Katalog nr. 6 >",
+      "linkContact": "Kontakta oss om du vill ha en tryckt DYNAJET-katalog >"
+    },
+    "kontakt": {
+      "title1": "Vi är alltid där för dig!",
+      "title2": "¡Estamos a su disposición!",
+      "content": "Kontaktia oss nu för ett anbud eller en gratis demonstration. Har du frågor rörande produkten, behöver du hjälp vid envändningen av maskinerna eller behöver du vår DYNAJET-reparationsservice? Skicka ett mejl – det gläder oss:"
+    },
+    "footer": {
+      "title": "DYNAJET GmbH",
+      "address1": "Wilhelm-Maybach-Straße 2",
+      "address2": "72622 Nürtingen",
+      "address3": "Deutschland",
+      "tel": "Tel: +49-7022-304-1130",
+      "fax": "Fax: +49-7022-304-1150",
+      "link1": "DYNAJET Website",
+      "link2": "DYNAJET Service",
+      "link3": "DYNAJET Karriär",
+      "applicationTitle": "Tillämpningar",
+      "application1": "Borttagning av tuggummi",
+      "application2": "Borttagning av graffiti",
+      "application3": "Rengöring av stationer och parkeringshu",
+      "application4": "Betongsanering",
+      "application5": "Betongutjämning",
+      "application6": "Formrengöring",
+      "application7": "Rengöring av byggmaskiner",
+      "application8": "Fassadsanering",
+      "application9": "Avlackering",
+      "application10": "Behållarrengöring",
+      "application11": "Tankrengöring",
+      "application12": "Containerrengöring",
+      "application13": "Trädavbarkning",
+      "application14": "Ogräsbekämpning",
+      "branchesTitle": "Branschlösningar",
+      "branch1":"Bygge",
+      "branch2":"Sanering",
+      "branch3":"Serviceföretag",
+      "branch4":"Kommuner",
+      "branch5":"Varv och offshore",
+      "branch6":"Lantbruk",
+      "branch7":"Skogsbruk",
+      "cleanersTitle": "Högtryckstvättar",
+      "cleaner1": "Söka högtryckstvättar",
+      "cleaner2": "Begagnade högtryckstvättar",
+      "cleaner3": "Katalog",
+      "accessoriesTitle": "Tillbehör",
+      "accessory1": "Söka tillbehör",
+      "accessory2": "Tillbehörsets",
+      "accessory3": "Toberas de alta presión",
+      "accessory4": "Högtrycksmunstycken",
+      "accessory5": "Lansrör",
+      "accessory6": "Högtryckspistoler",
+      "accessory7": "Högtrycksskyddsklädsel",
+      "accessory8": "Högtrycksslangar",
+      "knowledgeTitle": "Know-how och erfarenheter",
+      "knowledge1": "Demonstrationsfilmer",
+      "knowledge2": "Användningsrapporter",
+      "knowledge3": "Experttips",
+      "knowledge4": "Fråga våra experter",
+      "dynaJetTitle": "DYNAJET",
+      "dynaJet1":"Företag",
+      "dynaJet2":"Transport",
+      "dynaJet3":"Management team",
+      "dynaJet4":"Lediga tjänster",
+      "dynaJet5":"Karriär",
+      "contactTitle":"Kontakt & Rättsliga bestämmelser",
+      "contact1": "Kontakt",
+      "contact2": "Impressum",
+      "contact3": "Allmänna affärsvillkor",
+      "contact4": "Dataskyddsförklaring",
+      "contact5": "Facebook",
+      "contact6": "YouTube"
+  
+    },
+    "form":{
+      "Country": "Land",
+      "Enterprise": "Företag",
+      "Name": "Förnamn",
+      "Surname": "Efternamn",
+      "City": "Ort",
+      "Email": "E-post",
+      "Phone": "Telefon",
+      "Question": "Ange din maskins serienummer vid servicefrågor.",
+      "SubmitButton": "Sänd",
+      "TopCountry": "SP",
+      "error" : "Fyll i önskat fält"
+    },
+    "Head":{
+      "title": "Rengöring och sanering med DYNAJET i alla branscher — snabbt, effektivt och ekonomiskt. ",
+      "keywords": "DYNAJET, DYNAJET Hogedrukreinigers, DYNAJET water hogedrukreinigers, DYNAJET Nederland, DYNAJET Holland, reinigen, renoveren, onkruid, Onkruidverdelging",
+      "description": "Rengöring och sanering med DYNAJET i alla branscher — snabbt, effektivt och ekonomiskt."
+  
+    },
+    "Modal": {
+      "ConfirmationMessageTitle" : "Tack så mycket! Ditt meddelande har skickats.",
+      "ConfirmationMessageContent" : "Vi kommer att behandla din förfrågan och kontakta dig så snart som möjligt."
+    }
+  
+  }
+  
