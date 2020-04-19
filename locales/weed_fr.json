@@ -27,7 +27,7 @@
     "content1": " Visionnez notre film, vous verrez avec quelle facilité la remorque d’eau chaude",
     "link": "DYNAJET 350th",
     "content2": "et le",
-    "link2":"désherbeur DUV 500",
+    "link2": "désherbeur DUV 500",
     "content3": "permettent de lutter contre les mauvaises herbes :"
   },
 
@@ -37,21 +37,19 @@
     "content1": "Kit de base désherbeur DYNAJET",
     "content2_1": " DYNAJET 350th : nettoyeur universel et mobile haute pression à eau froide et chaude jusqu’à 350 bar, comprend un tuyau à haute pression de 50 m garantissant un grand périmètre d’action",
     "content2_2": "DYNAJET DUV 500: désherbeur à deux roues pour faciliter le travail et limiter les efforts",
-    "content2_4":"Plus d’informations sur la remorque d’eau chaude DYNAJET 350th",
+    "content2_4": "Plus d’informations sur la remorque d’eau chaude DYNAJET 350th",
     "content2_3": "Demandez maintenant votre offre sans engagement !"
-
   },
   "produkte_bilder": {
     "title1": "Kit premium DYNAJET pour les communes",
     "title2": "DYNAJET 350th et le désherbeur DYNAJET superpuissant – l’équipement de choc pour tous les travaux de nettoyage dans les communes.",
-    "option1":"DYNAJET 350th : nettoyeur universel et mobile haute pression à eau froide et chaude jusqu’à 350 bar, comprend un tuyau à haute pression de 50 m garantissant un grand périmètre d’action",
-    "option2":"DYNAJET DUV 500 : désherbeur à deux roues pour faciliter le travail et limiter les efforts",
+    "option1": "DYNAJET 350th : nettoyeur universel et mobile haute pression à eau froide et chaude jusqu’à 350 bar, comprend un tuyau à haute pression de 50 m garantissant un grand périmètre d’action",
+    "option2": "DYNAJET DUV 500 : désherbeur à deux roues pour faciliter le travail et limiter les efforts",
     "option3": "DFS 350 : nettoyage rapide et efficace de surfaces importantes",
-    "option4":"Buse spéciale chewing-gums : élimination rapide des chewing-gums",
+    "option4": "Buse spéciale chewing-gums : élimination rapide des chewing-gums",
     "option5": "Lance de projection double : nettoyage et rinçage des surfaces en un seul passage",
-    "content1":"Demandez maintenant votre offre sans engagement !",
+    "content1": "Demandez maintenant votre offre sans engagement !",
     "content2": "Plus d’informations sur la remorque d’eau chaude DYNAJET 350th"
-
   },
 
   "Vorteile": {
@@ -62,6 +60,24 @@
     "ventaja4": "Nettoyage autonome sans arrivée d’eau grâce à un grand réservoir d’eau intégré",
     "ventaja5": "Champs d’application variés avec un seul nettoyeur haute pression DYNAJET"
   },
+
+  "carousel": {
+    "option1": "Éliminer les mauvaises herbes avec DYNAJET 350th et DYNAJET DUV 500",
+    "option2": "DYNAJET l’équipement de choc pour tous les travaux de nettoyage des communes",
+    "option3": " DYNAJET DUV 500 désherbeur superpuissant",
+    "option4": "Élimination des chewing-gums avec la buse spéciale DYNAJET",
+    "option5": "DYNAJET pour les communes : éliminer rapidement les chewing-gums"
+  },
+  "anwendungen": {
+    "title": "Autres applications",
+    "content":"Mobiles, prêts à l’emploi et extrêmement fiables – les nettoyeurs haute pression et accessoires DYNAJET vous offre une solution parfaitement adaptée à des usages divers :",
+    "option1":"Élimination de chewing-gums",
+    "option2": "Élimination de graffitis",
+    "option3": "Nettoyage de monuments, fontaines et cimetières",
+    "option4": " Nettoyage de stations d’épuration, canalisations et machines communales",
+    "option5": "Nettoyage de zones piétonnières, centres commerciaux, restaurants fast-food et piscines municipales",
+    "option6": "Nettoyage de gares, arrêts de bus, parkings à étages et façades"
+  },
   "gesamtkatalog": {
     "title": "Catálogo nº 6 de DYNAJET",
     "content": "Aún más claro, en cuatro idiomas y con lista propia de máquinas y equipamientos – el nuevo catálogo general nº 6 de DYNAJET ofrece una vista general de la actual gama de productos e informa sobre la última tecnología de DYNAJET.",
@@ -70,9 +86,9 @@
     "linkContact": "Contacte con nosotros para obtener una versión impresa del catálogo DYNAJET >"
   },
   "kontakt": {
-    "title1": "Servicio técnico y contacto",
-    "title2": "¡Estamos a su disposición!",
-    "content": " Contacte con nosotros ahora para una oferta o cita de demostración gratuita. ¿Tiene alguna pregunta sobre el producto, necesita ayuda para el manejo del aparato o desea solicitar nuestro servicio de reparación DYNAJET? Envíenos un e-mail – nos alegramos de su mensaje:"
+    "title1": "Service & Contact",
+    "title2": "Nous sommes à votre écoute !",
+    "content": "Demandez-nous dès aujourd’hui un devis ou une démonstration gratuite. Vous avez des questions sur un produit, avez besoin d’assistance pour l’utilisation d’un appareil ou souhaitez faire appel à notre service de réparation DYNAJET ? Envoyez-nous un e-mail – nous serons ravis de vous aider :"
   },
   "footer": {
     "title": "DYNAJET GmbH",
@@ -100,13 +116,13 @@
     "application13": "Descortezado de árboles",
     "application14": "Eliminación de malas hierbas",
     "branchesTitle": "Soluciones de ramos",
-    "branch1":"Construcción",
-    "branch2":"Saneamiento",
-    "branch3":"Prestadores de servicios",
-    "branch4":"Municipios",
-    "branch5":"Astilleros e industria offshore",
-    "branch6":"Agricultura",
-    "branch7":"Silvicultura",
+    "branch1": "Construcción",
+    "branch2": "Saneamiento",
+    "branch3": "Prestadores de servicios",
+    "branch4": "Municipios",
+    "branch5": "Astilleros e industria offshore",
+    "branch6": "Agricultura",
+    "branch7": "Silvicultura",
     "cleanersTitle": "Limpiadores de alta presión",
     "cleaner1": "Buscar limpiador de alta presión",
     "cleaner2": "Limpiadores de alta presión de segunda mano",
@@ -126,42 +142,39 @@
     "knowledge3": "Recomendaciones de expertos",
     "knowledge4": "Pregunte a nuestros expertos",
     "dynaJetTitle": "DYNAJET",
-    "dynaJet1":"Empresa",
-    "dynaJet2":"Llegada",
-    "dynaJet3":"Equipo de gestión",
-    "dynaJet4":"Puestos vacantes",
-    "dynaJet5":"Carrera",
-    "contactTitle":"Contacto y aspectos legales",
+    "dynaJet1": "Empresa",
+    "dynaJet2": "Llegada",
+    "dynaJet3": "Equipo de gestión",
+    "dynaJet4": "Puestos vacantes",
+    "dynaJet5": "Carrera",
+    "contactTitle": "Contacto y aspectos legales",
     "contact1": "Contacto",
     "contact2": "Pie de imprenta",
     "contact3": "CCG (condiciones generales de contratación)",
     "contact4": "Declaración de protección de datos",
     "contact5": "Facebook",
     "contact6": "YouTube"
-
   },
-  "form":{
-    "Country": "País",
-    "Enterprise": "Empresa",
-    "Name": "Nombre",
-    "Surname": "Apellido",
-    "City": "Ciudad",
+  "form": {
+    "Country": "Pays",
+    "Enterprise": "Société",
+    "Name": "Prénom",
+    "Surname": "Nom",
+    "City": "Ville",
     "Email": "E-mail",
     "Phone": "Teléfono",
-    "Question": "Para consultas de servicio técnico",
-    "SubmitButton": "Enviar",
+    "Question": "Pour toute demande de service, merci d’indiquer le numéro de série de votre machine.",
+    "SubmitButton": "Envoyer",
     "TopCountry": "SP",
-    "error" : "Rellenar el campo obligatorio"
+    "error": "Please fill the required red marked fields"
   },
-  "Head":{
+  "Head": {
     "title": "Los productos DYNAJET se utilizan para limpieza y saneamiento en todos los ramos — de forma rápida, eficiente y económica. ",
     "keywords": "DYNAJET",
     "description": "Los productos DYNAJET se utilizan para limpieza y saneamiento en todos los ramos — de forma rápida, eficiente y económica. "
-
   },
   "Modal": {
-    "ConfirmationMessageTitle" : "¡Muchas gracias! Su mensaje ha sido enviado.",
-    "ConfirmationMessageContent" : "Procesaremos su consulta y nos pondremos en contacto con usted lo antes posible."
+    "ConfirmationMessageTitle": "¡Muchas gracias! Su mensaje ha sido enviado.",
+    "ConfirmationMessageContent": "Procesaremos su consulta y nos pondremos en contacto con usted lo antes posible."
   }
-
 }

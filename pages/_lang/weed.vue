@@ -367,8 +367,7 @@
               src="~assets/images/uploads/DYNAJET-Unkrautvernichtung-01-web_1500x760_friedhof.jpg"
             />
             <div class="carousel-caption">
-              Éliminer les mauvaises herbes avec DYNAJET 350th et DYNAJET DUV
-              500
+            {{$t('carousel.option1')}}
             </div>
           </div>
           <div class="item">
@@ -377,8 +376,7 @@
               src="~assets/images/uploads/DYNAJET-Unkrautvernichtung-02-web_1500x760.jpg"
             />
             <div class="carousel-caption">
-              DYNAJET l’équipement de choc pour tous les travaux de nettoyage
-              des communes
+              {{$t('carousel.option2')}}
             </div>
           </div>
           <div class="item">
@@ -387,7 +385,7 @@
               src="~assets/images/uploads/DYNAJET-Unkrautvernichtung-04-web_1500x760.jpg"
             />
             <div class="carousel-caption">
-              DYNAJET DUV 500 désherbeur superpuissant
+               {{$t('carousel.option3')}}
             </div>
           </div>
           <div class="item">
@@ -396,7 +394,7 @@
               src="~assets/images/uploads/DYNAJET-Kaugummientfernung-01-web_1500x760.jpg"
             />
             <div class="carousel-caption">
-              Élimination des chewing-gums avec la buse spéciale DYNAJET
+              {{$t('carousel.option4')}}
             </div>
           </div>
           <div class="item">
@@ -405,7 +403,7 @@
               src="~assets/images/uploads/DYNAJET-Kaugummientfernung-05-web_1500x760.jpg"
             />
             <div class="carousel-caption">
-              DYNAJET pour les communes : éliminer rapidement les chewing-gums
+               {{$t('carousel.option5')}}
             </div>
           </div>
         </div>
@@ -436,26 +434,22 @@
     <!-- ANWENDUNGEN BLOCK -->
     <section class="container-fluid" id="anwendungen">
       <div class="container">
-        <p class="lead editContent">Autres applications<br /></p>
+        <p class="lead editContent"> {{$t('anwendungen.title')}}<br /></p>
         <p class="editContent">
-          Mobiles, prêts à l’emploi et extrêmement fiables – les nettoyeurs
-          haute pression et accessoires DYNAJET vous offre une solution
-          parfaitement adaptée à des usages divers :
+         {{$t('anwendungen.content')}}
         </p>
         <ul>
-          <li>Élimination de chewing-gums</li>
-          <li>Élimination de graffitis</li>
-          <li>Nettoyage de monuments, fontaines et cimetières</li>
+          <li>{{$t('anwendungen.option1')}}</li>
+          <li>{{$t('anwendungen.option2')}}</li>
+          <li>{{$t('anwendungen.option3')}}</li>
           <li>
-            Nettoyage de stations d’épuration, canalisations et machines
-            communales
+           {{$t('anwendungen.option4')}}
           </li>
           <li>
-            Nettoyage de zones piétonnières, centres commerciaux, restaurants
-            fast-food et piscines municipales
+            {{$t('anwendungen.option5')}}
           </li>
           <li>
-            Nettoyage de gares, arrêts de bus, parkings à étages et façades
+            {{$t('anwendungen.option6')}}
           </li>
         </ul>
         <p></p>
