@@ -6,8 +6,11 @@
     "anwendungen": "Autres applications",
     "kontakt": "Service & Contact"
   },
+  "pageTitle": {
+    "title": "Désherber avec DYNAJET"
+  },
   "externalLinks": {
-    "dynajetSite": "Sitio web de DYNAJET",
+    "dynajetSite": "Site DYNAJET",
     "construction": "Construcción",
     "renovation": "Saneamiento",
     "serviceProviders": "Prestadores de servicios",
@@ -17,49 +20,47 @@
     "agriculture": "Agricultura y silvicultura"
   },
   "Anwendung": {
-    "pageTitle1": "Limpiador de alta presión",
-    "pageTitle2": "de agua para profesionales",
-    "pageTitle3": "Los productos DYNAJET se utilizan para limpieza y saneamiento en todos los ramos —",
-    "pageTitle4": "de forma rápida, eficiente y económica.",
-    "pageTitle5": "Ramos y aplicaciones",
-    "content1": "Los limpiadores innovadores de alta presión de DYNAJET ofrecen soluciones sofisticadas técnicamente para casi todos los ramos, y sus aplicaciones se extienden desde la eliminación de chicle hasta el saneamiento de hormigón, pasando por la limpieza de máquinas de construcción, cumpliendo con las máximas expectativas de rentabilidad, eficiencia y compatibilidad medioambiental. Configuraciones específicas, un rango de funcionamiento de 300 a 3000 bar y múltiples accesorios ofrecen adicionalmente la máxima flexibilidad y fiabilidad.",
-    "branches": "DYNAJET ofrece sobre todo soluciones especiales para los ramos siguientes:"
-  },
-  "carousel": {
-    "1": "Limpieza de máquinas agrícolas y máquinas de construcción",
-    "2": "Limpieza de encofrado",
-    "3": "Eliminación de graffitis",
-    "4": "Limpieza de intercambiadores de calor",
-    "5": "Limpieza de máquinas agrícolas y máquinas de construcción",
-    "6": "Limpieza de barcos",
-    "7": "Saneamiento de hormigón",
-    "left": "Zurückblättern",
-    "right": "Vorblättern"
+    "pageTitle1": "Respectueux de l’environnement et hautement efficace –",
+    "pageTitle2": "Le désherbeur DYNAJET DUV 500 élimine les mauvaises herbes de manière rapide et durable sans utiliser de produits chimiques.",
+    "pageTitle3": "Dans l’Union Européenne, le recours aux herbicides et pesticides pour lutter contre les mauvaises herbes est proscrit dans les lieux publics.",
+    "pageTitle4": " Cet outil DYNAJET superpuissant est l’alternative parfaite pour venir à bout du problème : le simple usage de l’eau et de la chaleur permet de préserver l’environnement tout en éliminant les mauvaises herbes de manière particulièrement rapide et durable. Le désherbeur DYNAJET lutte contre la pousse d’herbes indésirables sur la chaussée, les parkings, les trottoirs ou les surfaces pavées, grâce à un mélange optimal d’eau et de chaleur. L’eau chauffée à une température comprise entre 90 °C et 100 °C pénètre en profondeur dans les racines des mauvaises herbes, qui meurent puis s’assèchent en peu de temps.",
+    "content1": " Visionnez notre film, vous verrez avec quelle facilité la remorque d’eau chaude",
+    "link": "DYNAJET 350th",
+    "content2": "et le",
+    "link2":"désherbeur DUV 500",
+    "content3": "permettent de lutter contre les mauvaises herbes :"
   },
 
   "produkte": {
-    "title1": "Productos",
-    "title1_2": "Tecnología punta con procesamiento perfecto para resultados excelentes con presiones de hasta 3.000 bar.",
-    "content1": " Los robustos grupos de presión máxima DYNAJET se desarrollan y fabrican en Alemania y se asocian con potencia alta, durabilidad, flexibilidad y rentabilidad. Déjese convencer por tiempos de preparación cortos, valores de consumo mínimos, fiabilidad extrema y seguridad. En función de la demanda, DYNAJET le suministra limpiadores de alta presión como carrito móvil con potentes motores de gasolina, diésel o eléctricos, como remolque compacto o como grupos fijos.",
-    "content2_1": "La variedad de",
-    "content2_2": "productos DYNAJET",
-    "content2_3": "en combinación con accesorios adecuados le ofrece sistemas especiales para numerosas áreas de utilización:",
-    "land": "Superficies y suelos",
-    "wall": "Techos y paredes",
-    "heat": "Tubos, canales e intercambiadores de calor",
-    "more": "Recipientes, depósitos y mucho más"
+    "title1": "Notre offre :",
+    "title1_2": "Les kits complets DYNAJET, tout de suite prêts à l’emploi !",
+    "content1": "Kit de base désherbeur DYNAJET",
+    "content2_1": " DYNAJET 350th : nettoyeur universel et mobile haute pression à eau froide et chaude jusqu’à 350 bar, comprend un tuyau à haute pression de 50 m garantissant un grand périmètre d’action",
+    "content2_2": "DYNAJET DUV 500: désherbeur à deux roues pour faciliter le travail et limiter les efforts",
+    "content2_4":"Plus d’informations sur la remorque d’eau chaude DYNAJET 350th",
+    "content2_3": "Demandez maintenant votre offre sans engagement !"
+
   },
-  "zubehoer": {
-    "title1": "Accesorios originales DYNJAET",
-    "title2": " Ya sean toberas, sistemas de radiación de material sólido o equipamientos de protección, en DYNAJET encontrará todo lo que necesite para un trabajo perfecto con limpiadores de alta presión. La gama de productos incluye múltiples accesorios, los cuales también son adecuados para todos los fabricantes habituales. Dependiendo del área de utilización, usted puede optimizar selectivamente la eficiencia de trabajo y la profundidad de limpieza. Junto a los kits de accesorios, mangueras, lanzas, pistolas y ropa de protección de alta presión, DYNAJET también ofrece accesorios especiales para aplicaciones como sistemas de chorro de agua-arena o para la limpieza de suelos, techos, paredes, tubos o intercambiadores de calor.",
-    "title3": " Los accesorios originales DYNAJET satisfacen altas normas de calidad y se adaptan perfectamente a numerosas aplicaciones."
+  "produkte_bilder": {
+    "title1": "Kit premium DYNAJET pour les communes",
+    "title2": "DYNAJET 350th et le désherbeur DYNAJET superpuissant – l’équipement de choc pour tous les travaux de nettoyage dans les communes.",
+    "option1":"DYNAJET 350th : nettoyeur universel et mobile haute pression à eau froide et chaude jusqu’à 350 bar, comprend un tuyau à haute pression de 50 m garantissant un grand périmètre d’action",
+    "option2":"DYNAJET DUV 500 : désherbeur à deux roues pour faciliter le travail et limiter les efforts",
+    "option3": "DFS 350 : nettoyage rapide et efficace de surfaces importantes",
+    "option4":"Buse spéciale chewing-gums : élimination rapide des chewing-gums",
+    "option5": "Lance de projection double : nettoyage et rinçage des surfaces en un seul passage",
+    "content1":"Demandez maintenant votre offre sans engagement !",
+    "content2": "Plus d’informations sur la remorque d’eau chaude DYNAJET 350th"
+
   },
+
   "Vorteile": {
-    "title1": "Ventajas de DYNAJET",
-    "ventaja1": "Seguridad máxima",
-    "ventaja2": "Tecnología potente",
-    "ventaja3": "Flexibilidad máxima",
-    "ventaja4": "Capacidad de carga absoluta"
+    "title1": "Avantages",
+    "ventaja1": "Gain de temps grâce aux dévidoirs de flexibles intégrés permettant un montage extrêmement rapide en seulement 60 secondes",
+    "ventaja2": "Nettoyage hautement efficace à l’eau chaude",
+    "ventaja3": "Préservation de l’environnement grâce à l’absence de tout additif chimique",
+    "ventaja4": "Nettoyage autonome sans arrivée d’eau grâce à un grand réservoir d’eau intégré",
+    "ventaja5": "Champs d’application variés avec un seul nettoyeur haute pression DYNAJET"
   },
   "gesamtkatalog": {
     "title": "Catálogo nº 6 de DYNAJET",

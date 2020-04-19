@@ -53,7 +53,7 @@
           </li>
           <li class="link-external">
             <a href="https://www.dynajet-france.fr/" target="_blank"
-              >Site DYNAJET</a
+              >{{$t('externalLinks.dynajetSite')}}</a
             >
           </li>
         </ul>
@@ -64,7 +64,7 @@
       <div class="section-intro container">
         <div class="col-xs-12 col-sm-8 col-md-6">
           <h1 class="page-title editContent" data-selector="h1" style="">
-            Désherber avec DYNAJET<br />
+            {{$t('pageTitle.title')}}<br />
           </h1>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-6">
@@ -88,45 +88,33 @@
       <div class="bg-custom container-fluid">
         <div class="container">
           <p class="kicker h1 editContent">
-            Respectueux de l’environnement et hautement efficace –
+            {{$t('Anwendung.pageTitle1')}}
           </p>
           <h2 class="nobg-icon-stop-uhr editContent">
-            Le désherbeur DYNAJET DUV 500 élimine les mauvaises herbes de
-            manière rapide et durable sans utiliser de produits chimiques.<br />
+           {{$t('Anwendung.pageTitle2')}}<br />
           </h2>
         </div>
       </div>
       <div class="container">
         <p class="lead editContent">
-          Dans l’Union Européenne, le recours aux herbicides et pesticides pour
-          lutter contre les mauvaises herbes est proscrit dans les lieux
-          publics.<br />
+          {{$t('Anwendung.pageTitle3')}}<br />
         </p>
         <p class="editContent">
-          Cet outil DYNAJET superpuissant est l’alternative parfaite pour venir
-          à bout du problème : le simple usage de l’eau et de la chaleur permet
-          de préserver l’environnement tout en éliminant les mauvaises herbes de
-          manière particulièrement rapide et durable. Le désherbeur DYNAJET
-          lutte contre la pousse d’herbes indésirables sur la chaussée, les
-          parkings, les trottoirs ou les surfaces pavées, grâce à un mélange
-          optimal d’eau et de chaleur. L’eau chauffée à une température comprise
-          entre 90 °C et 100 °C pénètre en profondeur dans les racines des
-          mauvaises herbes, qui meurent puis s’assèchent en peu de temps.<br />
+          {{$t('Anwendung.pageTitle4')}}<br />
           <br />
-          Visionnez notre film, vous verrez avec quelle facilité la remorque
-          d’eau chaude
+         {{$t('Anwendung.content1')}}
           <a
             href="https://www.dynajet-france.fr/hochdruckreiniger/1480010w?set_language=fr"
             target="_blank"
-            >DYNAJET 350th</a
+            > {{$t('Anwendung.link')}}</a
           >
-          et le
+          {{$t('Anwendung.content2')}}
           <a
             href="https://www.dynajet-france.fr/zubehoershop/547855w?set_language=fr"
             target="_blank"
-            >désherbeur DUV 500</a
+            > {{$t('Anwendung.link2')}}</a
           >
-          permettent de lutter contre les mauvaises herbes :<br />
+          {{$t('Anwendung.content3')}}<br />
           <br />
         </p>
       </div>
@@ -154,9 +142,9 @@
         <div class="icon-maschine-gross container">
           <h2 class="editContent">
             <strong
-              ><br />Notre offre :<br />
-              Les kits complets DYNAJET, tout de suite prêts à l’emploi
-              !</strong
+              ><br />{{$t('produkte.title1')}}<br />
+             {{$t('produkte.title1_2')}}
+              </strong
             >
           </h2>
         </div>
@@ -166,29 +154,26 @@
       <div class="bg-custom container-fluid">
         <div class="icon-plus container">
           <h2 class="editContent">
-            <strong>Kit de base désherbeur DYNAJET</strong><br />
+            <strong> {{$t('produkte.content1')}}</strong><br />
           </h2>
           <ul class="fs-large editContent">
             <li>
-              DYNAJET 350th : nettoyeur universel et mobile haute pression à eau
-              froide et chaude jusqu’à 350 bar, comprend un tuyau à haute
-              pression de 50 m garantissant un grand périmètre d’action
+             {{$t('produkte.content2_1')}}
             </li>
             <li>
-              DYNAJET DUV 500: désherbeur à deux roues pour faciliter le travail
-              et limiter les efforts
+               {{$t('produkte.content2_2')}}
             </li>
           </ul>
           <h4>
             <br />
             <a href="#kontakt" data-selector="nav a"
-              >Demandez maintenant votre offre sans engagement !</a
+              >{{$t('produkte.content2_3')}}</a
             >
             &gt;<br />
             <a
               href="https://www.dynajet-france.fr/hochdruckreiniger/1480010w?set_language=fr"
               target="_blank"
-              >Plus d’informations sur la remorque d’eau chaude DYNAJET 350th</a
+              >  {{$t('produkte.content2_4')}}</a
             >
             &gt;
           </h4>
@@ -234,44 +219,39 @@
       <div class="bg-custom container-fluid">
         <div class="icon-plus container">
           <h2 class="editContent">
-            <strong>Kit premium DYNAJET pour les communes<br /> </strong>
+            <strong>{{$t('produkte_bilder.title1')}}<br /> </strong>
           </h2>
           <h4>
-            DYNAJET 350th et le désherbeur DYNAJET superpuissant – l’équipement
-            de choc pour tous les travaux de nettoyage dans les communes.
+            {{$t('produkte_bilder.title2')}}
           </h4>
           <br />
           <ul class="fs-large editContent">
             <li>
-              DYNAJET 350th : nettoyeur universel et mobile haute pression à eau
-              froide et chaude jusqu’à 350 bar, comprend un tuyau à haute
-              pression de 50 m garantissant un grand périmètre d’action
+              {{$t('produkte_bilder.option1')}}
             </li>
             <li>
-              DYNAJET DUV 500 : désherbeur à deux roues pour faciliter le
-              travail et limiter les efforts
+              {{$t('produkte_bilder.option2')}}
             </li>
             <li>
-              DFS 350 : nettoyage rapide et efficace de surfaces importantes
+               {{$t('produkte_bilder.option3')}}
             </li>
             <li>
-              Buse spéciale chewing-gums : élimination rapide des chewing-gums
+              {{$t('produkte_bilder.option4')}}
             </li>
             <li>
-              Lance de projection double : nettoyage et rinçage des surfaces en
-              un seul passage
+              {{$t('produkte_bilder.option5')}}
             </li>
           </ul>
           <h4>
             <br />
             <a href="#kontakt" data-selector="nav a"
-              >Demandez maintenant votre offre sans engagement !</a
+              >{{$t('produkte_content1')}}</a
             >
             &gt;<br />
             <a
               target="_blank"
               href="https://www.dynajet-france.fr/hochdruckreiniger/1480010w?set_language=fr"
-              >Plus d’informations sur la remorque d’eau chaude DYNAJET 350th</a
+              >{{$t('produkte_bilder.content2')}}</a
             >
             &gt;
           </h4>
@@ -345,24 +325,20 @@
     <section class="bg-custom container-fluid" id="vorteile">
       <div class="bg-custom container-fluid">
         <div class="icon-plus container">
-          <h2 class="editContent">Avantages</h2>
+          <h2 class="editContent">{{$t('Vorteile.title1')}}</h2>
           <ul class="fs-large editContent">
             <li>
-              Gain de temps grâce aux dévidoirs de flexibles intégrés permettant
-              un montage extrêmement rapide en seulement 60 secondes
+              {{$t('Vorteile.ventaja1')}}
             </li>
-            <li>Nettoyage hautement efficace à l’eau chaude</li>
+            <li>{{$t('Vorteile.ventaja2')}}</li>
             <li>
-              Préservation de l’environnement grâce à l’absence de tout additif
-              chimique
+              {{$t('Vorteile.ventaja3')}}
             </li>
             <li>
-              Nettoyage autonome sans arrivée d’eau grâce à un grand réservoir
-              d’eau intégré
+              {{$t('Vorteile.ventaja4')}}
             </li>
             <li>
-              Champs d’application variés avec un seul nettoyeur haute pression
-              DYNAJET
+             {{$t('Vorteile.ventaja5')}}
             </li>
           </ul>
         </div>
