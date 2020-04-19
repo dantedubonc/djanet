@@ -3,6 +3,7 @@ import ru from './ru.json'
 import nl from './nl.json'
 import zh from './zh.json'
 import sv from './sv.json'
+import fr from './fr.json'
 
 const configurations = {
   es: {
@@ -46,7 +47,16 @@ const configurations = {
     },
     defaultLocale: 'nl',
     messages: {nl}
+  },
+  fr: {
+    locales: {
+      code: 'fr',
+      iso: 'fr-FR'
+    },
+    defaultLocale: 'fr',
+    messages: {fr}
   }
+
 }
 
 export default configurations[process.env.LOCALE]

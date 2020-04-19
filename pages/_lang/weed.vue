@@ -78,15 +78,8 @@
           /></a>
         </div>
       </div>
-      <div
-        class="section-header parallax-cust"
-        data-parallax="scroll"
-
-      >
-       <img
-              src="~assets/images/DYNAJET-Unkrautvernichtung-01-web_test.jpg"
-
-            />
+      <div class="section-header parallax-cust" data-parallax="scroll">
+        <img src="~assets/images/DYNAJET-Unkrautvernichtung-01-web_test.jpg" />
       </div>
     </section>
 
@@ -502,9 +495,8 @@
         <p>
           {{ $t('kontakt.content') }}
         </p>
-        <Form/>
+        <Form />
       </div>
-
     </section>
     <!-- Ende - Section Kontakt -->
   </div>

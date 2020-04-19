@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "cross-env LOCALE=es COMPILATION=NORMAL nuxt",
-    "dev:weed": "cross-env LOCALE=es COMPILATION=WEED nuxt",
+    "dev:weed": "cross-env LOCALE=fr COMPILATION=WEED nuxt",
     "build": "cross-env LOCALE=es  cross-env LOCALE=nl nuxt build",
     "start": "cross-env LOCALE=es  nuxt start",
     "generate": "nuxt generate",

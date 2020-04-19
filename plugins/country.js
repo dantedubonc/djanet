@@ -6,6 +6,6 @@ countries.registerLocale(require("i18n-iso-countries/langs/es.json"));
 countries.registerLocale(require("i18n-iso-countries/langs/ru.json"));
 countries.registerLocale(require("i18n-iso-countries/langs/zh.json"));
 countries.registerLocale(require("i18n-iso-countries/langs/sv.json"));
-
+countries.registerLocale(require("i18n-iso-countries/langs/fr.json"));
 
 Vue.prototype.$countries = countries;
