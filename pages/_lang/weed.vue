@@ -37,19 +37,19 @@
         >
           <li class="link-internal">
             <a href="#unkrautvernichtung"
-              >Élimination des mauvaises herbes<br />
+              >{{$t('internalLinks.unkrautvernichtung')}}<br />
               <br
             /></a>
           </li>
           <li class="link-internal">
-            <a href="#angebot">Offre<br /></a>
+            <a href="#angebot">{{$t('internalLinks.angebot')}}<br /></a>
           </li>
-          <li class="link-internal"><a href="#vorteile">Avantages</a></li>
+          <li class="link-internal"><a href="#vorteile">{{$t('internalLinks.vorteile')}}</a></li>
           <li class="link-internal">
-            <a href="#anwendungen">Autres applications</a>
+            <a href="#anwendungen">{{$t('internalLinks.anwendungen')}}</a>
           </li>
           <li class="link-internal">
-            <a href="#kontakt">Service & Contact</a>
+            <a href="#kontakt">{{$t('internalLinks.kontakt')}}</a>
           </li>
           <li class="link-external">
             <a href="https://www.dynajet-france.fr/" target="_blank"

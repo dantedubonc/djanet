@@ -3,7 +3,7 @@ import ru from './ru.json'
 import nl from './nl.json'
 import zh from './zh.json'
 import sv from './sv.json'
-import fr from './fr.json'
+import weed_fr from './weed_fr.json'
 
 const configurations = {
   es: {
@@ -48,13 +48,13 @@ const configurations = {
     defaultLocale: 'nl',
     messages: {nl}
   },
-  fr: {
+  weed_fr: {
     locales: {
       code: 'fr',
       iso: 'fr-FR'
     },
     defaultLocale: 'fr',
-    messages: {fr}
+    messages: {fr: weed_fr}
   }
 
 }
