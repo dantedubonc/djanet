@@ -10,7 +10,8 @@ const conf =  {
   mode: 'universal',
   env: {
     buildLocale: locale.defaultLocale,
-    API:process.env.API
+    API:process.env.API,
+    COMPILATION: process.env.COMPILATION
   },
   /*
    ** Headers of the page
