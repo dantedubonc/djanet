@@ -9,7 +9,8 @@ console.log(`Building for ${locale.defaultLocale}`)
 const conf =  {
   mode: 'universal',
   env: {
-    buildLocale: locale.defaultLocale
+    buildLocale: locale.defaultLocale,
+    API:process.env.API
   },
   /*
    ** Headers of the page
@@ -113,5 +114,4 @@ const conf =  {
   }
 }
 
-console.log(conf.i18n.vueI18n.messages)
 export default conf

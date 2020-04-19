@@ -36,7 +36,7 @@ const configurations = {
       code: 'zh',
       iso: 'zh-CN'
     },
-    defaultLocale: 'ru',
+    defaultLocale: 'zh',
     messages: {zh}
   },
   nl: {

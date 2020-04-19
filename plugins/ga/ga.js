@@ -1,14 +1,14 @@
 import UA from './UA'
 export default ({ app }) => {
-  const locale = 'nl' 
+  const locale = process.env.buildLocale
 
   /*
    ** Only run on client-side and only in production mode
    */
-  if (process.env.NODE_ENV !== 'production') return
-  /*
-   ** Include Google Analytics Script
-   */
+  if (process.env.NODE_ENV !== 'production')
+    return /*
+     ** Include Google Analytics Script
+     */
   ;(function(i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r
     ;(i[r] =
@@ -31,7 +31,7 @@ export default ({ app }) => {
   /*
    ** Set the current page
    */
-  
+
   ga('create', UA[locale], 'auto')
   /*
    ** Every time the route changes (fired on initialization too)
