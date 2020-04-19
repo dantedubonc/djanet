@@ -104,9 +104,9 @@
             v-model="$v.form.Question.$model"
             :state="validateState('Question')"
           ></b-form-textarea>
-         
-         
-        </b-form-group>        
+
+
+        </b-form-group>
         <b-button class="submitButton" type="submit" variant="primary">{{
           $t('form.SubmitButton')
         }}</b-button>
@@ -216,7 +216,7 @@ export default {
         }
         this.sendingData = true
 
-        await this.$axios.$post('https://djanetbackend.now.sh/', formData)
+        await this.$axios.$post(process.env.API, formData)
         this.sendingData = false
         this.$bvModal.show('confirmModal')
         this.resetForm()

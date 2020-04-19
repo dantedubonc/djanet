@@ -1,13 +1,15 @@
-import es from './locales/es.json'
-import ru from './locales/ru.json'
-import nl from './locales/nl.json'
-import zh from './locales/zh.json'
-import sv from './locales/sv.json'
+require('dotenv-flow').config()
 
-export default {
+import locale from './locales/localeConfiguration'
+
+
+console.log(`Building for ${locale.defaultLocale}`)
+
+
+const conf =  {
   mode: 'universal',
   env: {
-    buildLocale: 'sv'
+    buildLocale: locale.defaultLocale
   },
   /*
    ** Headers of the page
@@ -33,7 +35,7 @@ export default {
     }
   },
   router: {
-   middleware: 'i18n'
+    middleware: 'i18n'
   },
   /*
    ** Customize the progress-bar color
@@ -52,7 +54,6 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-
     '~/plugins/country.js',
     { src: '~/plugins/ga/ga.js', mode: 'client' },
     '~plugins/vue-js-modal.js'
@@ -69,7 +70,6 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-
     'nuxt-i18n',
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
@@ -86,44 +86,10 @@ export default {
   },
   i18n: {
     seo: true,
-    locales: [
-      // {
-      //   code: 'ru',
-      //   iso: 'ru-RU',
-
-      // },
-      //  {
-      //   code: 'es',
-      //   iso: 'es-ES',
-
-      // },
-
-      // {
-      //   code: 'nl',
-      //   iso: 'nl-NL',
-
-      // },
-
-      // {
-      //   code: 'zh',
-      //   iso: 'zh-CN',
-
-      // },
-      {
-        code: 'sv',
-        iso: 'sv'
-      }
-    ],
-    defaultLocale: 'sv',
+    locales: [locale.locales],
+    defaultLocale: locale.defaultLocale,
     vueI18n: {
-
-      messages: {
-        ru,
-        es,
-        nl,
-        zh,
-        sv
-      }
+      messages:locale.messages
     }
   },
   /*
@@ -132,7 +98,8 @@ export default {
    */
   axios: {
     proxyHeaders: false,
-    credentials: false
+    credentials: false,
+    baseURL: process.env.BASE_URL
   },
   /*
    ** Build configuration
@@ -145,3 +112,6 @@ export default {
     extend(config, ctx) {}
   }
 }
+
+console.log(conf.i18n.vueI18n.messages)
+export default conf
