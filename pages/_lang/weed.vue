@@ -245,7 +245,7 @@
           <h4>
             <br />
             <a href="#kontakt" data-selector="nav a"
-              >{{$t('produkte_content1')}}</a
+              >{{$t('produkte_bilder.content1')}}</a
             >
             &gt;<br />
             <a
