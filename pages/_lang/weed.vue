@@ -78,9 +78,10 @@
           /></a>
         </div>
       </div>
-      <div class="section-header parallax-cust" data-parallax="scroll">
+      <div class="para"></div>
+      <!-- <div class="section-header parallax-cust" data-parallax="scroll">
         <img style="width:100%" src="~assets/images/DYNAJET-Unkrautvernichtung-01-web_test.jpg" />
-      </div>
+      </div> -->
     </section>
 
     <section class="container-fluid" id="unkrautvernichtung">
@@ -481,3 +482,22 @@ export default {
   }
 }
 </script>
+<style scoped>
+.para {
+  /* The image used */
+  background-image: url("~assets/images/DYNAJET-Unkrautvernichtung-01-web_test.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.col-xs-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+</style>
