@@ -5,8 +5,6 @@ import compilation from './configurationCompilation'
 
 console.log(`Building for ${locale.defaultLocale}`)
 
-console.log(locale)
-
 
 const conf =  {
   mode: 'universal',
