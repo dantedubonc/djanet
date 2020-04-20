@@ -79,7 +79,7 @@
         </div>
       </div>
       <div class="section-header parallax-cust" data-parallax="scroll">
-        <img src="~assets/images/DYNAJET-Unkrautvernichtung-01-web_test.jpg" />
+        <img style="width:100%" src="~assets/images/DYNAJET-Unkrautvernichtung-01-web_test.jpg" />
       </div>
     </section>
 

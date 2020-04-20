@@ -1,7 +1,7 @@
 require('dotenv-flow').config()
 
 import locale from './locales/localeConfiguration'
-
+import compilation from './configurationCompilation'
 
 console.log(`Building for ${locale.defaultLocale}`)
 
@@ -48,12 +48,7 @@ const conf =  {
   /*
    ** Global CSS
    */
-  css: [
-    '~assets/css/main.css',
-    '~assets/css/main-formated.css',
-    '~assets/css/main-ohne-bootstrap.css',
-    '~assets/css/form.css'
-  ],
+  css: compilation[process.env.COMPILATION].css,
   /*
    ** Plugins to load before mounting the App
    */
