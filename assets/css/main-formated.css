@@ -7690,23 +7690,23 @@ blockquote:nth-child(even):after {
 
 #confirmModal {
     opacity: 1;
-   
+
 }
 
 #confirmModal  .modal-content{
     margin-top: 150px;
-   
+
 }
 
 #confirmModal  .modal-header{
     padding: 10px;
-   
+
 }
 
 
 #confirmModal  .modal-header .close{
     margin-top: -10px;
-   
+
 }
 .container.spy-navbar {
     display: block;
