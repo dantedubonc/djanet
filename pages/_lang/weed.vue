@@ -13,7 +13,7 @@
 
     <!-- NAV BAR BLOCK -->
 
-    <nav
+ <nav
       class="navbar navbar-expand-lg navbar-ligth custom-toggler navbar-fixed-top navbar-collapse justify-content-right"
     >
       <div class="container spy-navbar">
@@ -41,23 +41,23 @@
               /></a>
             </li>
 
-            <li class="nav-item pipe">
-              <a class="nav-link " href="#angebot"
+            <li class="nav-item ">
+              <a class="nav-link pipe " href="#angebot"
                 >{{ $t('internalLinks.angebot') }}<br
               /></a>
             </li>
-            <li class="nav-item pipe">
-              <a class="nav-link" href="#vorteile">{{
+            <li class="nav-item ">
+              <a class="nav-link pipe" href="#vorteile">{{
                 $t('internalLinks.vorteile')
               }}</a>
             </li>
-            <li class="nav-item pipe">
-              <a class="nav-link" href="#anwendungen">{{
+            <li class="nav-item  ">
+              <a class="nav-link pipe" href="#anwendungen">{{
                 $t('internalLinks.anwendungen')
               }}</a>
             </li>
-            <li class="nav-item pipe">
-              <a class="nav-link" href="#kontakt">{{
+            <li class="nav-item  ">
+              <a class="nav-link pipe" href="#kontakt">{{
                 $t('internalLinks.kontakt')
               }}</a>
             </li>
@@ -73,6 +73,8 @@
         </div>
       </div>
     </nav>
+
+
 
     <section class="container-fluid" id="start">
       <div class="section-intro container">
@@ -202,7 +204,7 @@
       <h2 class="editContent"></h2>
       <p class="editContent"></p>
       <div class="row">
-        <div class="col-xs-12 col-md-4">
+        <div >
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/hochdruckreiniger/1480010w?set_language=fr"
@@ -214,7 +216,7 @@
           /></a>
         </div>
 
-        <div class="col-xs-12 col-md-4">
+        <div>
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/zubehoershop/547855w?set_language=fr"
@@ -280,7 +282,7 @@
       <h2 class="editContent"></h2>
       <p class="editContent"></p>
       <div class="row">
-        <div class="col-xs-12 col-md-4">
+        <div >
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/zubehoershop/547855w?set_language=fr"
@@ -291,7 +293,7 @@
           /></a>
         </div>
 
-        <div class="col-xs-12 col-md-4">
+        <div >
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/hochdruckreiniger/1480010w?set_language=fr"
@@ -302,7 +304,7 @@
           /></a>
         </div>
 
-        <div class="col-xs-12 col-md-4">
+        <div >
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/zubehoershop/494302w?set_language=fr"
@@ -313,7 +315,7 @@
           /></a>
         </div>
 
-        <div class="col-xs-12 col-md-4 col-md-offset-2">
+        <div >
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/zubehoershop/461181w?set_language=fr"
@@ -324,7 +326,7 @@
           /></a>
         </div>
 
-        <div class="col-xs-12 col-md-4">
+        <div >
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/zubehoershop/427460w?set_language=fr"
@@ -525,10 +527,16 @@ export default {
 
 nav {
   background-color: white;
+
 }
 .dynajet-site-link {
   color: #0088bd;
 }
+
+/* .navbar-nav {
+padding-top: 25px;
+  padding-left: 52px;
+} */
 
 .nav-brand {
   margin-right: 60px;
