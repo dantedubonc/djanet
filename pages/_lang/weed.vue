@@ -13,7 +13,7 @@
 
     <!-- NAV BAR BLOCK -->
 
- <nav
+    <nav
       class="navbar navbar-expand-lg navbar-ligth custom-toggler navbar-fixed-top navbar-collapse justify-content-right"
     >
       <div class="container spy-navbar">
@@ -73,8 +73,6 @@
         </div>
       </div>
     </nav>
-
-
 
     <section class="container-fluid" id="start">
       <div class="section-intro container">
@@ -204,7 +202,7 @@
       <h2 class="editContent"></h2>
       <p class="editContent"></p>
       <div class="row">
-        <div >
+        <div>
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/hochdruckreiniger/1480010w?set_language=fr"
@@ -282,7 +280,7 @@
       <h2 class="editContent"></h2>
       <p class="editContent"></p>
       <div class="row">
-        <div >
+        <div>
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/zubehoershop/547855w?set_language=fr"
@@ -293,7 +291,7 @@
           /></a>
         </div>
 
-        <div >
+        <div>
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/hochdruckreiniger/1480010w?set_language=fr"
@@ -304,7 +302,7 @@
           /></a>
         </div>
 
-        <div >
+        <div>
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/zubehoershop/494302w?set_language=fr"
@@ -315,7 +313,7 @@
           /></a>
         </div>
 
-        <div >
+        <div>
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/zubehoershop/461181w?set_language=fr"
@@ -326,7 +324,7 @@
           /></a>
         </div>
 
-        <div >
+        <div>
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/zubehoershop/427460w?set_language=fr"
@@ -362,93 +360,43 @@
         </div>
       </div>
     </section>
-    <!-- SLIDESHOW -->
-    <div class="bg-custom container-fluid">
-      <div class="carousel slide" id="produkt-carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li
-            class="active"
-            data-target="#produkt-carousel"
-            data-slide-to="0"
-          ></li>
-          <li data-target="#produkt-carousel" data-slide-to="1"></li>
-          <li data-target="#produkt-carousel" data-slide-to="2"></li>
-          <li data-target="#produkt-carousel" data-slide-to="3"></li>
-          <li data-target="#produkt-carousel" data-slide-to="4"></li>
-        </ol>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img
-              alt="Schalungsreinigung Bild 1"
-              src="~assets/images/uploads/DYNAJET-Unkrautvernichtung-01-web_1500x760_friedhof.jpg"
-            />
-            <div class="carousel-caption">
-              {{ $t('carousel.option1') }}
-            </div>
-          </div>
-          <div class="item">
-            <img
-              alt="Schalungsreinigung Bild 2"
-              src="~assets/images/uploads/DYNAJET-Unkrautvernichtung-02-web_1500x760.jpg"
-            />
-            <div class="carousel-caption">
-              {{ $t('carousel.option2') }}
-            </div>
-          </div>
-          <div class="item">
-            <img
-              alt="Schalungsreinigung Bild 2"
-              src="~assets/images/uploads/DYNAJET-Unkrautvernichtung-04-web_1500x760.jpg"
-            />
-            <div class="carousel-caption">
-              {{ $t('carousel.option3') }}
-            </div>
-          </div>
-          <div class="item">
-            <img
-              alt="Schalungsreinigung Bild 2"
-              src="~assets/images/uploads/DYNAJET-Kaugummientfernung-01-web_1500x760.jpg"
-            />
-            <div class="carousel-caption">
-              {{ $t('carousel.option4') }}
-            </div>
-          </div>
-          <div class="item">
-            <img
-              alt="Schalungsreinigung Bild 2"
-              src="~assets/images/uploads/DYNAJET-Kaugummientfernung-05-web_1500x760.jpg"
-            />
-            <div class="carousel-caption">
-              {{ $t('carousel.option5') }}
-            </div>
-          </div>
-        </div>
-        <!-- Controls --><a
-          class="left carousel-control"
-          role="button"
-          href="#produkt-carousel"
-          data-slide="prev"
-          ><span
-            class="glyphicon glyphicon-chevron-left"
-            aria-hidden="true"
-          ></span>
-          <span class="sr-only">Zurückblättern</span></a
-        >
-        <a
-          class="right carousel-control"
-          role="button"
-          href="#produkt-carousel"
-          data-slide="next"
-          ><span
-            class="glyphicon glyphicon-chevron-right"
-            aria-hidden="true"
-          ></span>
-          <span class="sr-only">Vorblättern</span></a
-        >
-      </div>
-    </div>
+    <!-- Start New Carousel -->
+
+    <b-carousel
+      id="carousel-fade"
+      style="text-shadow: 1px 1px 2px #333;"
+      fade
+      background="#ababab"
+      indicators
+      controls
+      img-width="1024"
+      img-height="480"
+    >
+      <b-carousel-slide
+        :caption="$t('carousel.option1')"
+        img-src="~assets/images/uploads/DYNAJET-Unkrautvernichtung-01-web_1500x760_friedhof.jpg"
+      ></b-carousel-slide>
+      <b-carousel-slide
+        :caption="$t('carousel.option2')"
+        img-src="~assets/images/uploads/DYNAJET-Unkrautvernichtung-02-web_1500x760.jpg"
+      ></b-carousel-slide>
+      <b-carousel-slide
+        :caption="$t('carousel.option3')"
+        img-src="~assets/images/uploads/DYNAJET-Unkrautvernichtung-04-web_1500x760.jpg"
+      ></b-carousel-slide>
+      <b-carousel-slide
+        :caption="$t('carousel.option4')"
+        img-src="~assets/images/uploads/DYNAJET-Kaugummientfernung-01-web_1500x760.jpg"
+      ></b-carousel-slide>
+      <b-carousel-slide
+        :caption="$t('carousel.option5')"
+        img-src="~assets/images/uploads/DYNAJET-Kaugummientfernung-05-web_1500x760.jpg"
+      ></b-carousel-slide>
+    </b-carousel>
+
+    <!-- End New Carousel -->
+
+
     <!-- ANWENDUNGEN BLOCK -->
     <section class="container-fluid" id="anwendungen">
       <div class="container">
@@ -492,10 +440,14 @@
 
 <script>
 import Form from '~/components/Form.vue'
+import {BCarousel,  BCarouselSlide}  from 'bootstrap-vue'
+
 
 export default {
   components: {
-    Form
+    Form,
+    BCarousel,
+    BCarouselSlide
   }
 }
 </script>
@@ -527,7 +479,6 @@ export default {
 
 nav {
   background-color: white;
-
 }
 .dynajet-site-link {
   color: #0088bd;
@@ -540,18 +491,15 @@ padding-top: 25px;
 
 .nav-brand {
   margin-right: 60px;
-   visibility:hidden;
-
+  visibility: hidden;
 }
 .scrolled-true .navbar-brand {
   visibility: visible;
-
 }
 
 @media (min-width: 992px) {
   .navbar-brand {
     margin-left: -15px;
-
   }
 }
 

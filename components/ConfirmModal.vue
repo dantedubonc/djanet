@@ -9,9 +9,9 @@
       {{ $t('Modal.ConfirmationMessageTitle') }}
     </p>
     <p class="card-description">{{ $t('Modal.ConfirmationMessageContent') }}</p>
-      
+
     <div class="modal-footer">
-      <b-button class="btn btn-primary" @click="hideModal">Ok</b-button>      
+      <b-button class="btn btn-primary" @click="hideModal">Ok</b-button>
     </div>
   </b-modal>
 </template>
@@ -23,7 +23,7 @@ export default {
     BModal,
     BButton
   },
-  
+
   methods: {
     hideModal: function() {
          this.$refs['confirmModal'].hide()
@@ -31,3 +31,6 @@ export default {
   }
 }
 </script>
+<style scoped>
+
+</style>

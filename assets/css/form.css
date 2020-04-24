@@ -13,13 +13,13 @@
   opacity: 0.8;
 }
 .modal .modal-content .modal-header {
-  background-color: #0071ad;  
+  background-color: #0071ad;
 }
 
 .modal .modal-content .modal-body .modal-icon {
   width: 100px;
   margin-bottom: 10px;
- 
+
 }
 
 .modal .modal-content .modal-body .text-description {
@@ -49,4 +49,8 @@
     margin-top: 5px;
     border-radius: 2px;
     width: 95%;
+}
+
+#confirmModal {
+  opacity: 1;
 }
