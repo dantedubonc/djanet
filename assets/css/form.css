@@ -19,7 +19,6 @@
 .modal .modal-content .modal-body .modal-icon {
   width: 100px;
   margin-bottom: 10px;
-
 }
 
 .modal .modal-content .modal-body .text-description {
@@ -34,23 +33,62 @@
 }
 
 .submitButton {
-    color: white !important;
-    border-radius: 4px;
-    background-color: #006393;
+  color: white !important;
+  border-radius: 4px;
+  background-color: #006393;
 }
 
 .errorLabel {
-    padding: 7px;
-    background: red;
-    opacity: 0.7;
-    color: white !important;
-    font-weight: 800;
-    border: 1px solid white;
-    margin-top: 5px;
-    border-radius: 2px;
-    width: 95%;
+  padding: 7px;
+  background: red;
+  opacity: 0.7;
+  color: white !important;
+  font-weight: 800;
+  border: 1px solid white;
+  margin-top: 5px;
+  border-radius: 2px;
+  width: 95%;
 }
 
 #confirmModal {
   opacity: 1;
 }
+
+/* .carousel-control-prev-icon {
+  background-image: url('~assets/images/chevron-left-solid.svg') !important;
+  height: 150px !important;
+   width: 150px !important;
+  font-size: 100px !important;
+  /* width: 30px;
+  height: 30px; */
+  /* margin-top: -10px;
+  font-size: 30px;
+  left: 50%;
+  margin: 0 -.94em 0 0;
+}
+@media screen and (max-width:576px){
+  .carousel-control-prev-icon{
+    margin: 0px;
+  }
+}
+
+.carousel-control-next-icon {
+   background-image: url("~assets/images/chevron-right-solid.svg") !important;
+   height: 150px !important;
+   width: 150px !important;
+
+
+  font-size: 100px !important;
+  /* width: 30px;
+  height: 30px; */
+  /* margin-top: -10px;
+  font-size: 30px;
+  right: 50%;
+  margin: 0 -.60em 0 0;
+}
+@media screen and (max-width:576px){
+  .carousel-control-next-icon{
+    margin: 0px;
+  }
+} */
+
