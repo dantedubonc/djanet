@@ -161,6 +161,12 @@
     "Modal": {
       "ConfirmationMessageTitle" : "非常感谢！ 您的信息已发送。",
       "ConfirmationMessageContent" : "我们将处理您的询问并尽快与您联系。"
+    },
+    "Video":{
+      "Link": "https://www.youtube.com/embed/OhovjMjTltw"
+    },
+    "Catalog":{
+      "Link":"~assets/images/05_DYNAJET_Gesamtkatalog_Nummer_6.jpg"
     }
 
   }

@@ -161,6 +161,9 @@
   "Modal": {
     "ConfirmationMessageTitle" : "Heel hartelijk bedankt! Uw bericht is verzonden.",
     "ConfirmationMessageContent" : "We zullen uw aanvraag verwerken en zo snel mogelijk contact met u opnemen."
+  },
+  "Video":{
+    "Link": "https://www.youtube.com/embed/OhovjMjTltw"
   }
 
 }

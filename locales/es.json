@@ -161,6 +161,10 @@
   "Modal": {
     "ConfirmationMessageTitle" : "¡Muchas gracias! Su mensaje ha sido enviado.",
     "ConfirmationMessageContent" : "Procesaremos su consulta y nos pondremos en contacto con usted lo antes posible."
+  },
+  "Video":{
+    "Link": "https://www.youtube.com/embed/OhovjMjTltw"
   }
+
 
 }

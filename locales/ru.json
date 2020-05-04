@@ -156,9 +156,12 @@
     "title": "Очищение и санация аппаратами DYNAJET во всех отраслях – быстро, эффективно и экономично.",
     "keywords": "DYNAJET, DYNAJET Hogedrukreinigers, DYNAJET water hogedrukreinigers, DYNAJET Nederland, DYNAJET Holland, reinigen, renoveren, onkruid, Onkruidverdelging",
     "description": "Met DYNAJET Hogedrukreinigers reinigen en renoveren alle branches snel, efficiënt en zuinig."
-  },  
+  },
   "Modal": {
     "ConfirmationMessageTitle" : "Thank you your request was submitted",
     "ConfirmationMessageContent" : ""
+  },
+  "Video":{
+    "Link": "https://www.youtube.com/embed/OhovjMjTltw"
   }
 }

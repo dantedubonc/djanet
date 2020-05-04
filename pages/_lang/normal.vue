@@ -147,8 +147,8 @@
       </div>
       <div
         class="section-header parallax"
-        
-    
+
+
       ></div>
     </section>
 
@@ -343,6 +343,7 @@
 
     <!-- End test carousel -->
 
+
     <!-- Start - Section Produkte -->
     <section id="produkte" class="container-fluid">
       <div class="bg-custom-lighter container-fluid">
@@ -372,7 +373,7 @@
       </div>
       <div
         class="section-header parallax"
-     
+
       ></div>
     </section>
     <!-- Ende - Section Produkte-->
@@ -452,11 +453,12 @@
       </div>
     </section>
     <!-- Ende - Section Zubehör -->
+
     <!-- Start - Section Vorteile -->
     <section id="vorteile" class="">
       <div
         class="section-header parallax"
-       
+
       ></div>
       <!--div class="embed-responsive embed-responsive-16by9">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/5eKuMnpv-aQ" frameborder="0" allowfullscreen></iframe>
@@ -476,6 +478,14 @@
     </section>
     <!-- Ende - Section Vorteile  -->
 
+       <section class="bg-custom container-fluid" id="vorteile-video">
+        <div class="container">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" :src="$t('Video.Link')" allowfullscreen=""></iframe>
+        </div>
+        </div>
+    </section>
+
     <section id="gesamtkatalog" class="bg-custom-default container-fluid">
       <div class="container">
         <p class="editContent"></p>
@@ -488,7 +498,7 @@
               class="img-responsive"
               style="float:left;
 margin-top: 0px; margin-bottom:0px; margin-left: 0px; margin-right: 20px"
-              src="~assets/images/05_DYNAJET_Gesamtkatalog_Nummer_6.jpg"
+              :src="catalogLink()"
               alt="Gesamtkatalog Nummer 6"
           /></a>
         </p>
@@ -522,7 +532,7 @@ margin-top: 0px; margin-bottom:0px; margin-left: 0px; margin-right: 20px"
         </p>
         <Form/>
       </div>
-     
+
     </section>
     <!-- Ende - Section Kontakt -->
   </div>
@@ -530,10 +540,26 @@ margin-top: 0px; margin-bottom:0px; margin-left: 0px; margin-right: 20px"
 
 <script>
 import Form from '~/components/Form.vue'
+import es from '../../assets/images/CatalogProduct/es.jpg'
+import ru from '../../assets/images/CatalogProduct/ru.jpg'
+import sv from '../../assets/images/CatalogProduct/sv.jpg'
+import nl from '../../assets/images/CatalogProduct/nl.jpg'
+import zh from '../../assets/images/CatalogProduct/zh.jpg'
+
 
 export default {
   components: {
     Form
+  },
+
+  methods: {
+
+      catalogLink(){
+        const images = {es, ru, sv, nl, zh}
+
+
+        return images[this.$i18n.locale]
+      }
   }
 }
 </script>
