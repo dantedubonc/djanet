@@ -4,6 +4,8 @@ import nl from './nl.json'
 import zh from './zh.json'
 import sv from './sv.json'
 import weed_fr from './weed_fr.json'
+import weed_en from './weed_en.json'
+import weed_de from './weed_de.json'
 
 const configurations = {
   es: {
@@ -55,6 +57,22 @@ const configurations = {
     },
     defaultLocale: 'fr',
     messages: {fr: weed_fr}
+  },
+  weed_en: {
+    locales: {
+      code: 'en',
+      iso: 'en-US'
+    },
+    defaultLocale: 'en',
+    messages: {en: weed_en}
+  },
+  weed_de: {
+    locales: {
+      code: 'de',
+      iso: 'de-DE'
+    },
+    defaultLocale: 'de',
+    messages: {de: weed_de}
   }
 
 }

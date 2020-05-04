@@ -48,7 +48,7 @@
           <li class="link-external">
             <a
               target="_blank"
-              href="https://www.dyna-jet.com/welcome?set_language=en"
+              :href="$t('Links.Link1')"
               >{{ $t('externalLinks.dynajetSite') }}</a
             >
           </li>
@@ -137,7 +137,7 @@
             id="brand-logo"
             class="brand"
             target="_blank"
-            href="https://www.dyna-jet.com/welcome?set_language=en"
+            :href="$t('Links.Link2')"
             ><img
               class="img-responsive"
               src="~assets/images/dynajet.svg"
@@ -147,8 +147,8 @@
       </div>
       <div
         class="section-header parallax"
-        
-    
+
+
       ></div>
     </section>
 
@@ -177,7 +177,7 @@
         <p>
           <a
             target="_blank"
-            href="https://www.dyna-jet.com/sector-specific-solutions/construction"
+            :href="$t('Links.Link3')"
             >{{ $t('externalLinks.construction') }} ></a
           >
         </p>
@@ -185,7 +185,7 @@
         <p>
           <a
             target="_blank"
-            href="https://www.dyna-jet.com/sector-specific-solutions/renovation"
+            :href="$t('Links.Link4')"
             >{{ $t('externalLinks.renovation') }} ></a
           >
         </p>
@@ -193,7 +193,7 @@
         <p>
           <a
             target="_blank"
-            href="https://www.dyna-jet.com/sector-specific-solutions/service-providers"
+            :href="$t('Links.Link5')"
             >{{ $t('externalLinks.serviceProviders') }} ></a
           >
         </p>
@@ -201,7 +201,7 @@
         <p>
           <a
             target="_blank"
-            href="https://www.dyna-jet.com/sector-specific-solutions/local-authorities"
+            :href="$t('Links.Link6')"
             >{{ $t('externalLinks.localAuthorities') }} ></a
           >
         </p>
@@ -209,7 +209,7 @@
         <p>
           <a
             target="_blank"
-            href="https://www.dyna-jet.com/sector-specific-solutions/industry"
+            :href="$t('Links.Link7')"
             >{{ $t('externalLinks.industry') }} ></a
           >
         </p>
@@ -217,7 +217,7 @@
         <p>
           <a
             target="_blank"
-            href="https://www.dyna-jet.com/sector-specific-solutions/shipyards-and-offshore"
+            :href="$t('Links.Link8')"
             >{{ $t('externalLinks.shipyards') }} ></a
           >
         </p>
@@ -225,7 +225,7 @@
         <p>
           <a
             target="_blank"
-            href="https://www.dyna-jet.com/sector-specific-solutions/agriculture-and-forestry"
+            :href="$t('Links.Link9')"
             >{{ $t('externalLinks.agriculture') }} ></a
           >
         </p>
@@ -343,6 +343,7 @@
 
     <!-- End test carousel -->
 
+
     <!-- Start - Section Produkte -->
     <section id="produkte" class="container-fluid">
       <div class="bg-custom-lighter container-fluid">
@@ -357,7 +358,7 @@
           <p>
             {{ $t('produkte.content2_1') }}
             <a
-              href="https://www.dyna-jet.com/hochdruckreiniger#b_start=0"
+              :href="$t('Links.Link10')"
               target="_blank"
               ><strong>{{ $t('produkte.content2_2') }} </strong> </a
             >{{ $t('produkte.content2_3') }}<br />
@@ -372,7 +373,7 @@
       </div>
       <div
         class="section-header parallax"
-     
+
       ></div>
     </section>
     <!-- Ende - Section Produkte-->
@@ -452,11 +453,12 @@
       </div>
     </section>
     <!-- Ende - Section Zubehör -->
+
     <!-- Start - Section Vorteile -->
     <section id="vorteile" class="">
       <div
         class="section-header parallax"
-       
+
       ></div>
       <!--div class="embed-responsive embed-responsive-16by9">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/5eKuMnpv-aQ" frameborder="0" allowfullscreen></iframe>
@@ -476,19 +478,27 @@
     </section>
     <!-- Ende - Section Vorteile  -->
 
+       <section class="bg-custom container-fluid" id="vorteile-video">
+        <div class="container">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" :src="$t('Video.Link')" allowfullscreen=""></iframe>
+        </div>
+        </div>
+    </section>
+
     <section id="gesamtkatalog" class="bg-custom-default container-fluid">
       <div class="container">
         <p class="editContent"></p>
         <h2>{{ $t('gesamtkatalog.title') }}</h2>
         <p>
           <a
-            href="https://www.dynajet.de/info-center/datenblaetter-kataloge"
+            :href="$t('Links.Link11')"
             target="_blank"
             ><img
               class="img-responsive"
               style="float:left;
 margin-top: 0px; margin-bottom:0px; margin-left: 0px; margin-right: 20px"
-              src="~assets/images/05_DYNAJET_Gesamtkatalog_Nummer_6.jpg"
+              :src="catalogLink()"
               alt="Gesamtkatalog Nummer 6"
           /></a>
         </p>
@@ -499,7 +509,7 @@ margin-top: 0px; margin-bottom:0px; margin-left: 0px; margin-right: 20px"
         <p>{{ $t('gesamtkatalog.content2') }}</p>
         <p>
           <a
-            href="https://www.dyna-jet.com/info-center/datasheets-catalogues"
+            :href="$t('Links.Link12')"
             target="_blank"
             >{{ $t('gesamtkatalog.linkCatalog') }}</a
           >
@@ -522,7 +532,7 @@ margin-top: 0px; margin-bottom:0px; margin-left: 0px; margin-right: 20px"
         </p>
         <Form/>
       </div>
-     
+
     </section>
     <!-- Ende - Section Kontakt -->
   </div>
@@ -530,10 +540,26 @@ margin-top: 0px; margin-bottom:0px; margin-left: 0px; margin-right: 20px"
 
 <script>
 import Form from '~/components/Form.vue'
+import es from '../../assets/images/CatalogProduct/es.jpg'
+import ru from '../../assets/images/CatalogProduct/ru.jpg'
+import sv from '../../assets/images/CatalogProduct/sv.jpg'
+import nl from '../../assets/images/CatalogProduct/nl.jpg'
+import zh from '../../assets/images/CatalogProduct/zh.jpg'
+
 
 export default {
   components: {
     Form
+  },
+
+  methods: {
+
+      catalogLink(){
+        const images = {es, ru, sv, nl, zh}
+
+
+        return images[this.$i18n.locale]
+      }
   }
 }
 </script>

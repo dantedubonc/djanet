@@ -11,6 +11,8 @@
     "start": "cross-env LOCALE=es  nuxt start",
     "generate": "nuxt generate",
     "generate:weed:fr": "cross-env LOCALE=weed_fr NODE_ENV=production COMPILATION=WEED nuxt generate",
+    "generate:weed:en": "cross-env LOCALE=weed_en NODE_ENV=production COMPILATION=WEED nuxt generate",
+    "generate:weed:de": "cross-env LOCALE=weed_de NODE_ENV=production COMPILATION=WEED nuxt generate",
     "generate:ru": "cross-env LOCALE=ru NODE_ENV=production COMPILATION=NORMAL nuxt generate",
     "generate:es": "cross-env LOCALE=es NODE_ENV=production COMPILATION=NORMAL nuxt generate",
     "generate:nl": "cross-env LOCALE=nl NODE_ENV=production COMPILATION=NORMAL nuxt generate",

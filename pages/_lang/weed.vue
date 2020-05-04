@@ -13,50 +13,64 @@
 
     <!-- NAV BAR BLOCK -->
 
-    <nav class="header navbar navbar-fixed-top" role="navigation">
+    <nav
+      class="navbar navbar-expand-lg navbar-ligth custom-toggler navbar-fixed-top navbar-collapse justify-content-right"
+    >
       <div class="container spy-navbar">
-        <div class="navbar-header">
-          <button
-            class="navbar-toggle collapsed"
-            aria-expanded="false"
-            type="button"
-            data-toggle="collapse"
-            data-target="#main-top-nav"
-          >
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span> <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a title="zum Seitenanfang" class="navbar-brand text-hide" href="#top"
-            >DYNAJET</a
-          >
-        </div>
-        <ul
-          class="nav navbar-nav navbar-right collapse navbar-collapse"
-          id="main-top-nav"
+        <!-- Brand -->
+
+        <a class="navbar-brand" href="#"></a>
+        <!-- Toggler/collapsibe Button -->
+        <button
+          class="navbar-toggler"
+          style="color:#0088bd"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
         >
-          <li class="link-internal">
-            <a href="#unkrautvernichtung"
-              >{{$t('internalLinks.unkrautvernichtung')}}<br />
-              <br
-            /></a>
-          </li>
-          <li class="link-internal">
-            <a href="#angebot">{{$t('internalLinks.angebot')}}<br /></a>
-          </li>
-          <li class="link-internal"><a href="#vorteile">{{$t('internalLinks.vorteile')}}</a></li>
-          <li class="link-internal">
-            <a href="#anwendungen">{{$t('internalLinks.anwendungen')}}</a>
-          </li>
-          <li class="link-internal">
-            <a href="#kontakt">{{$t('internalLinks.kontakt')}}</a>
-          </li>
-          <li class="link-external">
-            <a href="https://www.dynajet-france.fr/" target="_blank"
-              >{{$t('externalLinks.dynajetSite')}}</a
-            >
-          </li>
-        </ul>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#unkrautvernichtung"
+                >{{ $t('internalLinks.unkrautvernichtung') }}<br />
+                <br
+              /></a>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link pipe " href="#angebot"
+                >{{ $t('internalLinks.angebot') }}<br
+              /></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link pipe" href="#vorteile">{{
+                $t('internalLinks.vorteile')
+              }}</a>
+            </li>
+            <li class="nav-item  ">
+              <a class="nav-link pipe" href="#anwendungen">{{
+                $t('internalLinks.anwendungen')
+              }}</a>
+            </li>
+            <li class="nav-item  ">
+              <a class="nav-link pipe" href="#kontakt">{{
+                $t('internalLinks.kontakt')
+              }}</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link dynajet-site-link"
+                href="https://www.dynajet-france.fr/"
+                target="_blank"
+                >{{ $t('externalLinks.dynajetSite') }}</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -64,7 +78,7 @@
       <div class="section-intro container">
         <div class="col-xs-12 col-sm-8 col-md-6">
           <h1 class="page-title editContent" data-selector="h1" style="">
-            {{$t('pageTitle.title')}}<br />
+            {{ $t('pageTitle.title') }}<br />
           </h1>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-6">
@@ -89,33 +103,33 @@
       <div class="bg-custom container-fluid">
         <div class="container">
           <p class="kicker h1 editContent">
-            {{$t('Anwendung.pageTitle1')}}
+            {{ $t('Anwendung.pageTitle1') }}
           </p>
           <h2 class="nobg-icon-stop-uhr editContent">
-           {{$t('Anwendung.pageTitle2')}}<br />
+            {{ $t('Anwendung.pageTitle2') }}<br />
           </h2>
         </div>
       </div>
       <div class="container">
-        <p class="lead editContent">
-          {{$t('Anwendung.pageTitle3')}}<br />
-        </p>
+        <p class="lead editContent">{{ $t('Anwendung.pageTitle3') }}<br /></p>
         <p class="editContent">
-          {{$t('Anwendung.pageTitle4')}}<br />
+          {{ $t('Anwendung.pageTitle4') }}<br />
           <br />
-         {{$t('Anwendung.content1')}}
+          {{ $t('Anwendung.content1') }}
           <a
             href="https://www.dynajet-france.fr/hochdruckreiniger/1480010w?set_language=fr"
             target="_blank"
-            > {{$t('Anwendung.link')}}</a
           >
-          {{$t('Anwendung.content2')}}
+            {{ $t('Anwendung.link') }}</a
+          >
+          {{ $t('Anwendung.content2') }}
           <a
             href="https://www.dynajet-france.fr/zubehoershop/547855w?set_language=fr"
             target="_blank"
-            > {{$t('Anwendung.link2')}}</a
           >
-          {{$t('Anwendung.content3')}}<br />
+            {{ $t('Anwendung.link2') }}</a
+          >
+          {{ $t('Anwendung.content3') }}<br />
           <br />
         </p>
       </div>
@@ -143,10 +157,9 @@
         <div class="icon-maschine-gross container">
           <h2 class="editContent">
             <strong
-              ><br />{{$t('produkte.title1')}}<br />
-             {{$t('produkte.title1_2')}}
-              </strong
-            >
+              ><br />{{ $t('produkte.title1') }}<br />
+              {{ $t('produkte.title1_2') }}
+            </strong>
           </h2>
         </div>
       </div>
@@ -155,26 +168,28 @@
       <div class="bg-custom container-fluid">
         <div class="icon-plus container">
           <h2 class="editContent">
-            <strong> {{$t('produkte.content1')}}</strong><br />
+            <strong> {{ $t('produkte.content1') }}</strong
+            ><br />
           </h2>
           <ul class="fs-large editContent">
             <li>
-             {{$t('produkte.content2_1')}}
+              {{ $t('produkte.content2_1') }}
             </li>
             <li>
-               {{$t('produkte.content2_2')}}
+              {{ $t('produkte.content2_2') }}
             </li>
           </ul>
           <h4>
             <br />
-            <a href="#kontakt" data-selector="nav a"
-              >{{$t('produkte.content2_3')}}</a
-            >
+            <a href="#kontakt" data-selector="nav a">{{
+              $t('produkte.content2_3')
+            }}</a>
             &gt;<br />
             <a
               href="https://www.dynajet-france.fr/hochdruckreiniger/1480010w?set_language=fr"
               target="_blank"
-              >  {{$t('produkte.content2_4')}}</a
+            >
+              {{ $t('produkte.content2_4') }}</a
             >
             &gt;
           </h4>
@@ -187,7 +202,7 @@
       <h2 class="editContent"></h2>
       <p class="editContent"></p>
       <div class="row">
-        <div class="col-xs-12 col-md-4">
+        <div>
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/hochdruckreiniger/1480010w?set_language=fr"
@@ -199,7 +214,7 @@
           /></a>
         </div>
 
-        <div class="col-xs-12 col-md-4">
+        <div>
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/zubehoershop/547855w?set_language=fr"
@@ -220,39 +235,39 @@
       <div class="bg-custom container-fluid">
         <div class="icon-plus container">
           <h2 class="editContent">
-            <strong>{{$t('produkte_bilder.title1')}}<br /> </strong>
+            <strong>{{ $t('produkte_bilder.title1') }}<br /> </strong>
           </h2>
           <h4>
-            {{$t('produkte_bilder.title2')}}
+            {{ $t('produkte_bilder.title2') }}
           </h4>
           <br />
           <ul class="fs-large editContent">
             <li>
-              {{$t('produkte_bilder.option1')}}
+              {{ $t('produkte_bilder.option1') }}
             </li>
             <li>
-              {{$t('produkte_bilder.option2')}}
+              {{ $t('produkte_bilder.option2') }}
             </li>
             <li>
-               {{$t('produkte_bilder.option3')}}
+              {{ $t('produkte_bilder.option3') }}
             </li>
             <li>
-              {{$t('produkte_bilder.option4')}}
+              {{ $t('produkte_bilder.option4') }}
             </li>
             <li>
-              {{$t('produkte_bilder.option5')}}
+              {{ $t('produkte_bilder.option5') }}
             </li>
           </ul>
           <h4>
             <br />
-            <a href="#kontakt" data-selector="nav a"
-              >{{$t('produkte_bilder.content1')}}</a
-            >
+            <a href="#kontakt" data-selector="nav a">{{
+              $t('produkte_bilder.content1')
+            }}</a>
             &gt;<br />
             <a
               target="_blank"
               href="https://www.dynajet-france.fr/hochdruckreiniger/1480010w?set_language=fr"
-              >{{$t('produkte_bilder.content2')}}</a
+              >{{ $t('produkte_bilder.content2') }}</a
             >
             &gt;
           </h4>
@@ -265,7 +280,7 @@
       <h2 class="editContent"></h2>
       <p class="editContent"></p>
       <div class="row">
-        <div class="col-xs-12 col-md-4">
+        <div>
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/zubehoershop/547855w?set_language=fr"
@@ -276,7 +291,7 @@
           /></a>
         </div>
 
-        <div class="col-xs-12 col-md-4">
+        <div>
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/hochdruckreiniger/1480010w?set_language=fr"
@@ -287,7 +302,7 @@
           /></a>
         </div>
 
-        <div class="col-xs-12 col-md-4">
+        <div>
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/zubehoershop/494302w?set_language=fr"
@@ -298,7 +313,7 @@
           /></a>
         </div>
 
-        <div class="col-xs-12 col-md-4 col-md-offset-2">
+        <div>
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/zubehoershop/461181w?set_language=fr"
@@ -309,7 +324,7 @@
           /></a>
         </div>
 
-        <div class="col-xs-12 col-md-4">
+        <div>
           <a
             target="_blank"
             href="https://www.dynajet-france.fr/zubehoershop/427460w?set_language=fr"
@@ -326,131 +341,81 @@
     <section class="bg-custom container-fluid" id="vorteile">
       <div class="bg-custom container-fluid">
         <div class="icon-plus container">
-          <h2 class="editContent">{{$t('Vorteile.title1')}}</h2>
+          <h2 class="editContent">{{ $t('Vorteile.title1') }}</h2>
           <ul class="fs-large editContent">
             <li>
-              {{$t('Vorteile.ventaja1')}}
+              {{ $t('Vorteile.ventaja1') }}
             </li>
-            <li>{{$t('Vorteile.ventaja2')}}</li>
+            <li>{{ $t('Vorteile.ventaja2') }}</li>
             <li>
-              {{$t('Vorteile.ventaja3')}}
-            </li>
-            <li>
-              {{$t('Vorteile.ventaja4')}}
+              {{ $t('Vorteile.ventaja3') }}
             </li>
             <li>
-             {{$t('Vorteile.ventaja5')}}
+              {{ $t('Vorteile.ventaja4') }}
+            </li>
+            <li>
+              {{ $t('Vorteile.ventaja5') }}
             </li>
           </ul>
         </div>
       </div>
     </section>
-    <!-- SLIDESHOW -->
-    <div class="bg-custom container-fluid">
-      <div class="carousel slide" id="produkt-carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li
-            class="active"
-            data-target="#produkt-carousel"
-            data-slide-to="0"
-          ></li>
-          <li data-target="#produkt-carousel" data-slide-to="1"></li>
-          <li data-target="#produkt-carousel" data-slide-to="2"></li>
-          <li data-target="#produkt-carousel" data-slide-to="3"></li>
-          <li data-target="#produkt-carousel" data-slide-to="4"></li>
-        </ol>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img
-              alt="Schalungsreinigung Bild 1"
-              src="~assets/images/uploads/DYNAJET-Unkrautvernichtung-01-web_1500x760_friedhof.jpg"
-            />
-            <div class="carousel-caption">
-            {{$t('carousel.option1')}}
-            </div>
-          </div>
-          <div class="item">
-            <img
-              alt="Schalungsreinigung Bild 2"
-              src="~assets/images/uploads/DYNAJET-Unkrautvernichtung-02-web_1500x760.jpg"
-            />
-            <div class="carousel-caption">
-              {{$t('carousel.option2')}}
-            </div>
-          </div>
-          <div class="item">
-            <img
-              alt="Schalungsreinigung Bild 2"
-              src="~assets/images/uploads/DYNAJET-Unkrautvernichtung-04-web_1500x760.jpg"
-            />
-            <div class="carousel-caption">
-               {{$t('carousel.option3')}}
-            </div>
-          </div>
-          <div class="item">
-            <img
-              alt="Schalungsreinigung Bild 2"
-              src="~assets/images/uploads/DYNAJET-Kaugummientfernung-01-web_1500x760.jpg"
-            />
-            <div class="carousel-caption">
-              {{$t('carousel.option4')}}
-            </div>
-          </div>
-          <div class="item">
-            <img
-              alt="Schalungsreinigung Bild 2"
-              src="~assets/images/uploads/DYNAJET-Kaugummientfernung-05-web_1500x760.jpg"
-            />
-            <div class="carousel-caption">
-               {{$t('carousel.option5')}}
-            </div>
-          </div>
-        </div>
-        <!-- Controls --><a
-          class="left carousel-control"
-          role="button"
-          href="#produkt-carousel"
-          data-slide="prev"
-          ><span
-            class="glyphicon glyphicon-chevron-left"
-            aria-hidden="true"
-          ></span>
-          <span class="sr-only">Zurückblättern</span></a
-        >
-        <a
-          class="right carousel-control"
-          role="button"
-          href="#produkt-carousel"
-          data-slide="next"
-          ><span
-            class="glyphicon glyphicon-chevron-right"
-            aria-hidden="true"
-          ></span>
-          <span class="sr-only">Vorblättern</span></a
-        >
-      </div>
-    </div>
+    <!-- Start New Carousel -->
+
+    <b-carousel
+      id="carousel-fade"
+      style="text-shadow: 1px 1px 2px #333;"
+      fade
+      background="#ababab"
+      indicators
+      controls
+      img-width="1024"
+      img-height="480"
+    >
+      <b-carousel-slide
+        :caption="$t('carousel.option1')"
+        img-src="~assets/images/uploads/DYNAJET-Unkrautvernichtung-01-web_1500x760_friedhof.jpg"
+      ></b-carousel-slide>
+      <b-carousel-slide
+        :caption="$t('carousel.option2')"
+        img-src="~assets/images/uploads/DYNAJET-Unkrautvernichtung-02-web_1500x760.jpg"
+      ></b-carousel-slide>
+      <b-carousel-slide
+        :caption="$t('carousel.option3')"
+        img-src="~assets/images/uploads/DYNAJET-Unkrautvernichtung-04-web_1500x760.jpg"
+      ></b-carousel-slide>
+      <b-carousel-slide
+        :caption="$t('carousel.option4')"
+        img-src="~assets/images/uploads/DYNAJET-Kaugummientfernung-01-web_1500x760.jpg"
+      ></b-carousel-slide>
+      <b-carousel-slide
+        :caption="$t('carousel.option5')"
+        img-src="~assets/images/uploads/DYNAJET-Kaugummientfernung-05-web_1500x760.jpg"
+      ></b-carousel-slide>
+    </b-carousel>
+
+    <!-- End New Carousel -->
+
+
     <!-- ANWENDUNGEN BLOCK -->
     <section class="container-fluid" id="anwendungen">
       <div class="container">
-        <p class="lead editContent"> {{$t('anwendungen.title')}}<br /></p>
+        <p class="lead editContent">{{ $t('anwendungen.title') }}<br /></p>
         <p class="editContent">
-         {{$t('anwendungen.content')}}
+          {{ $t('anwendungen.content') }}
         </p>
         <ul>
-          <li>{{$t('anwendungen.option1')}}</li>
-          <li>{{$t('anwendungen.option2')}}</li>
-          <li>{{$t('anwendungen.option3')}}</li>
+          <li>{{ $t('anwendungen.option1') }}</li>
+          <li>{{ $t('anwendungen.option2') }}</li>
+          <li>{{ $t('anwendungen.option3') }}</li>
           <li>
-           {{$t('anwendungen.option4')}}
+            {{ $t('anwendungen.option4') }}
           </li>
           <li>
-            {{$t('anwendungen.option5')}}
+            {{ $t('anwendungen.option5') }}
           </li>
           <li>
-            {{$t('anwendungen.option6')}}
+            {{ $t('anwendungen.option6') }}
           </li>
         </ul>
         <p></p>
@@ -475,17 +440,71 @@
 
 <script>
 import Form from '~/components/Form.vue'
+import {BCarousel,  BCarouselSlide}  from 'bootstrap-vue'
+
 
 export default {
   components: {
-    Form
+    Form,
+    BCarousel,
+    BCarouselSlide
   }
 }
 </script>
 <style scoped>
+
+
+
+@media (min-width: 992px) {
+  .pipe:before {
+    content: '|';
+    position: inherit;
+    top: 16px;
+    margin-left: -16px;
+    margin-right: 13px;
+    color: #0088bd;
+  }
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: transparent;
+}
+.nav-link {
+  color: #777;
+}
+.nav-item {
+  padding: 10px 15px;
+}
+
+nav {
+  background-color: white;
+}
+.dynajet-site-link {
+  color: #0088bd;
+}
+
+/* .navbar-nav {
+padding-top: 25px;
+  padding-left: 52px;
+} */
+
+.nav-brand {
+  margin-right: 60px;
+  visibility: hidden;
+}
+.scrolled-true .navbar-brand {
+  visibility: visible;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    margin-left: -15px;
+  }
+}
+
 .para {
   /* The image used */
-  background-image: url("~assets/images/DYNAJET-Unkrautvernichtung-01-web_test.jpg");
+  background-image: url('~assets/images/DYNAJET-Unkrautvernichtung-01-web_test.jpg');
 
   /* Set a specific height */
   min-height: 500px;
@@ -499,5 +518,43 @@ export default {
 .col-xs-12 {
   flex: 0 0 100%;
   max-width: 100%;
+}
+
+#confirmModal {
+  opacity: 1;
+}
+
+#confirmModal .modal-content {
+  margin-top: 150px;
+}
+
+#confirmModal .modal-header {
+  padding: 10px;
+}
+
+#confirmModal .modal-header .close {
+  margin-top: -10px;
+}
+
+/* .container.spy-navbar {
+    display: block;
+} */
+/* @media(min-width:992px){
+    .container.spy-navbar{
+        max-width: fit-content
+    }
+} */
+
+/* @media screen and (min-width: 992px){
+  .navbar-header{
+    display: none;
+  } */
+
+@media (max-width: 768px) {
+  body,
+  html {
+    max-width: 100%;
+    min-width: 100%;
+  }
 }
 </style>
