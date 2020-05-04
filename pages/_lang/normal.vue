@@ -48,7 +48,7 @@
           <li class="link-external">
             <a
               target="_blank"
-              href="https://www.dyna-jet.com/welcome?set_language=en"
+              :href="$t('Links.Link1')"
               >{{ $t('externalLinks.dynajetSite') }}</a
             >
           </li>
@@ -137,7 +137,7 @@
             id="brand-logo"
             class="brand"
             target="_blank"
-            href="https://www.dyna-jet.com/welcome?set_language=en"
+            :href="$t('Links.Link2')"
             ><img
               class="img-responsive"
               src="~assets/images/dynajet.svg"
@@ -177,7 +177,7 @@
         <p>
           <a
             target="_blank"
-            href="https://www.dyna-jet.com/sector-specific-solutions/construction"
+            :href="$t('Links.Link3')"
             >{{ $t('externalLinks.construction') }} ></a
           >
         </p>
@@ -185,7 +185,7 @@
         <p>
           <a
             target="_blank"
-            href="https://www.dyna-jet.com/sector-specific-solutions/renovation"
+            :href="$t('Links.Link4')"
             >{{ $t('externalLinks.renovation') }} ></a
           >
         </p>
@@ -193,7 +193,7 @@
         <p>
           <a
             target="_blank"
-            href="https://www.dyna-jet.com/sector-specific-solutions/service-providers"
+            :href="$t('Links.Link5')"
             >{{ $t('externalLinks.serviceProviders') }} ></a
           >
         </p>
@@ -201,7 +201,7 @@
         <p>
           <a
             target="_blank"
-            href="https://www.dyna-jet.com/sector-specific-solutions/local-authorities"
+            :href="$t('Links.Link6')"
             >{{ $t('externalLinks.localAuthorities') }} ></a
           >
         </p>
@@ -209,7 +209,7 @@
         <p>
           <a
             target="_blank"
-            href="https://www.dyna-jet.com/sector-specific-solutions/industry"
+            :href="$t('Links.Link7')"
             >{{ $t('externalLinks.industry') }} ></a
           >
         </p>
@@ -217,7 +217,7 @@
         <p>
           <a
             target="_blank"
-            href="https://www.dyna-jet.com/sector-specific-solutions/shipyards-and-offshore"
+            :href="$t('Links.Link8')"
             >{{ $t('externalLinks.shipyards') }} ></a
           >
         </p>
@@ -225,7 +225,7 @@
         <p>
           <a
             target="_blank"
-            href="https://www.dyna-jet.com/sector-specific-solutions/agriculture-and-forestry"
+            :href="$t('Links.Link9')"
             >{{ $t('externalLinks.agriculture') }} ></a
           >
         </p>
@@ -358,7 +358,7 @@
           <p>
             {{ $t('produkte.content2_1') }}
             <a
-              href="https://www.dyna-jet.com/hochdruckreiniger#b_start=0"
+              :href="$t('Links.Link10')"
               target="_blank"
               ><strong>{{ $t('produkte.content2_2') }} </strong> </a
             >{{ $t('produkte.content2_3') }}<br />
@@ -492,7 +492,7 @@
         <h2>{{ $t('gesamtkatalog.title') }}</h2>
         <p>
           <a
-            href="https://www.dynajet.de/info-center/datenblaetter-kataloge"
+            :href="$t('Links.Link11')"
             target="_blank"
             ><img
               class="img-responsive"
@@ -509,7 +509,7 @@ margin-top: 0px; margin-bottom:0px; margin-left: 0px; margin-right: 20px"
         <p>{{ $t('gesamtkatalog.content2') }}</p>
         <p>
           <a
-            href="https://www.dyna-jet.com/info-center/datasheets-catalogues"
+            :href="$t('Links.Link12')"
             target="_blank"
             >{{ $t('gesamtkatalog.linkCatalog') }}</a
           >
