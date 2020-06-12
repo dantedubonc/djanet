@@ -5,7 +5,7 @@
   "author": "dantedubon",
   "private": true,
   "scripts": {
-    "dev": "cross-env LOCALE=es COMPILATION=NORMAL nuxt",
+    "dev": "cross-env LOCALE=nl COMPILATION=NORMAL nuxt",
     "dev:weed": "cross-env LOCALE=weed_fr COMPILATION=WEED nuxt",
     "build": "cross-env LOCALE=es  cross-env LOCALE=nl nuxt build",
     "start": "cross-env LOCALE=es  nuxt start",

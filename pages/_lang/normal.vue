@@ -152,6 +152,8 @@
       ></div>
     </section>
 
+
+
     <section id="anwendung" class="container-fluid">
       <!-- start - Section Anwendung -->
       <div class="bg-custom container-fluid">
@@ -454,6 +456,8 @@
     </section>
     <!-- Ende - Section Zubehör -->
 
+
+
     <!-- Start - Section Vorteile -->
     <section id="vorteile" class="">
       <div
@@ -477,6 +481,45 @@
       </div>
     </section>
     <!-- Ende - Section Vorteile  -->
+ <!--ONLY NL -->
+    <section v-if="$i18n.locale === 'nl'" class="container-fluid" id="unkrautvernichtung">
+      <!-- start - Section Anwendung -->
+      <div class="bg-custom container-fluid">
+        <div class="container">
+          <p class="kicker h1 editContent">
+            {{ $t('onkruidbestrijding.pageTitle1') }}
+          </p>
+          <h2 class="nobg-icon-stop-uhr editContent">
+            {{ $t('onkruidbestrijding.pageTitle2') }}<br />
+          </h2>
+        </div>
+      </div>
+      <div class="container">
+        <p class="lead editContent">{{ $t('onkruidbestrijding.pageTitle3') }}<br /></p>
+        <p class="editContent">
+          {{ $t('onkruidbestrijding.pageTitle4') }}<br />
+          <br />
+          {{ $t('onkruidbestrijding.content1') }}
+          <a
+            :href="$t('onkruidbestrijding.Link1')"
+            target="_blank"
+          >
+            {{ $t('onkruidbestrijding.Link4') }}</a
+          >
+          {{ $t('onkruidbestrijding.content2') }}
+          <a
+            :href="$t('onkruidbestrijding.Link2')"
+            target="_blank"
+          >
+            {{ $t('onkruidbestrijding.Link3') }}</a
+          >
+          {{ $t('onkruidbestrijding.content3') }}<br />
+          <br />
+        </p>
+      </div>
+    </section>
+    <!--Ende ONLY NL -->
+
 
        <section class="bg-custom container-fluid" id="vorteile-video">
         <div class="container">
@@ -521,6 +564,8 @@ margin-top: 0px; margin-bottom:0px; margin-left: 0px; margin-right: 20px"
         <!--mark>Damit sparen Sie von Anfang an Zeit und Geld, da nur einwandfrei gereinigte Verschalungen gute und wirtschaftliche Ergebnisse sichern.</mark-->
       </div>
     </section>
+
+
     <!-- Start - Section Service & Kontakt -->
     <section id="kontakt" class="bg-custom container-fluid">
       <div class="container">
