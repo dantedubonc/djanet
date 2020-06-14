@@ -489,32 +489,29 @@
           <p class="kicker h1 editContent">
             {{ $t('onkruidbestrijding.pageTitle1') }}
           </p>
-          <h2 class="nobg-icon-stop-uhr editContent">
+          <!--h2 class="nobg-icon-stop-uhr editContent">
             {{ $t('onkruidbestrijding.pageTitle2') }}<br />
-          </h2>
+          </h2-->
         </div>
       </div>
       <div class="container">
         <p class="lead editContent">{{ $t('onkruidbestrijding.pageTitle3') }}<br /></p>
         <p class="editContent">
-          {{ $t('onkruidbestrijding.pageTitle4') }}<br />
-          <br />
+
           {{ $t('onkruidbestrijding.content1') }}
+          <br /><br />
+          {{ $t('onkruidbestrijding.content2') }}
+          <br /><br />
+          {{ $t('onkruidbestrijding.content3') }}
+          <br /><br />
+          <a href="#kontakt">{{ $t('onkruidbestrijding.content4') }} &rang;</a
+          ><br />    
           <a
             :href="$t('onkruidbestrijding.Link1')"
             target="_blank"
+          >{{ $t('onkruidbestrijding.content5') }} &rang;</a
           >
-            {{ $t('onkruidbestrijding.Link4') }}</a
-          >
-          {{ $t('onkruidbestrijding.content2') }}
-          <a
-            :href="$t('onkruidbestrijding.Link2')"
-            target="_blank"
-          >
-            {{ $t('onkruidbestrijding.Link3') }}</a
-          >
-          {{ $t('onkruidbestrijding.content3') }}<br />
-          <br />
+
         </p>
       </div>
     </section>
