@@ -42,6 +42,9 @@
           <li class="link-internal">
             <a href="#vorteile">{{ $t('internalLinks.vorteile') }}</a>
           </li>
+           <li v-if="$i18n.locale === 'nl'" class="link-internal">
+            <a href="#Onkruidbestrijding">{{ $t('internalLinks.Onkruidbestrijding') }}</a>
+          </li>
           <li class="link-internal">
             <a href="#kontakt">{{ $t('internalLinks.kontakt') }}</a>
           </li>
@@ -482,7 +485,7 @@
     </section>
     <!-- Ende - Section Vorteile  -->
  <!--ONLY NL -->
-    <section v-if="$i18n.locale === 'nl'" class="container-fluid" id="unkrautvernichtung">
+    <section v-if="$i18n.locale === 'nl'" class="container-fluid" id="Onkruidbestrijding">
       <!-- start - Section Anwendung -->
       <div class="bg-custom container-fluid">
         <div class="container">
@@ -505,7 +508,7 @@
           {{ $t('onkruidbestrijding.content3') }}
           <br /><br />
           <a href="#kontakt">{{ $t('onkruidbestrijding.content4') }} &rang;</a
-          ><br />    
+          ><br />
           <a
             :href="$t('onkruidbestrijding.Link1')"
             target="_blank"
